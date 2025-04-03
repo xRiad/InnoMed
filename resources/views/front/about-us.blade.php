@@ -7,7 +7,7 @@
 			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
 		/>
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>InnoMed</title>
+		<title>About Us 02 - Glowing - Bootstrap 5 HTML Templates</title>
 		<link rel="icon" href="{{ asset('assets/front/images/others/favicon.ico') }}" />
 
 		<link
@@ -29,14 +29,13 @@
 		/>
 		<link
 			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css') }}"
 		/>
 		<link
 			href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="{{ asset('assets/front/css/theme.css') }}" />
-		<link rel="stylesheet" href="{{ asset('assets/front/css/style.css') }}" />
 	</head>
 
 	<body>
@@ -44,12 +43,10 @@
 			id="header"
 			class="header header-sticky header-sticky-smart disable-transition-all z-index-5"
 		>
-			<div class="topbar bg-section-10">
-				<div class="container-xxl container">
-					<p
-						class="mb-0 text-body-emphasis text-center p-4 fs-15px fw-bold ls-1 text-uppercase"
-					>
-						Free shipping on all U.S orders $50+
+			<div class="topbar bg-primary">
+				<div class="container-wide container">
+					<p class="mb-0 text-white text-center p-4 fs-6 fw-semibold">
+						Free shipping on all U.S. orders $50+
 					</p>
 				</div>
 			</div>
@@ -100,6 +97,7 @@
 								height="26"
 								alt="Glowing - Bootstrap 5 HTML Templates"
 						/></a>
+
 						<div
 							class="icons-actions d-flex justify-content-end w-xl-50 fs-28px text-body-emphasis"
 						>
@@ -460,705 +458,109 @@
 				</div>
 			</div>
 		</header>
+
 		<main id="content" class="wrapper layout-page">
-			<section>
-				<div
-					class="slick-slider hero hero-header-04 slick-slider-dots-inside container container-xxl mx-auto"
-					data-slick-options="{&#34;arrows&#34;:false,&#34;autoplay&#34;:true,&#34;cssEase&#34;:&#34;ease-in-out&#34;,&#34;dots&#34;:true,&#34;fade&#34;:true,&#34;infinite&#34;:true,&#34;slidesToShow&#34;:1,&#34;speed&#34;:600}"
-				>
-					<div class="vh-100 d-flex align-items-center py-xl-21 px-0">
-						<div
-							class="z-index-2 container container-xxl py-21 pt-xl-10 pb-xl-11 ps-lg-19 ps-6"
-						>
-							<div class="hero-content text-start">
-								<div data-animate="fadeInDown">
-									<h1 class="mb-7 hero-title fs-3 fs-lg-1">
-										Reveal The<br />Beauty of Skin
-									</h1>
-									<p
-										class="hero-desc fs-18px mb-11 text-body-calculate"
-									>
-										Made using clean, non-toxic ingredients,
-										our products are designed for everyone.
-									</p>
-									<p
-										class="fs-5 fw-semibold text-body-emphasis mb-7"
-									>
-										Starting at $7.99
-									</p>
-								</div>
-								<a
-									href="#"
-									data-animate="fadeInUp"
-									class="btn btn-dark rounded btn-hover-bg-primary btn-hover-border-primary"
-								>
-									Shop Now
-								</a>
-							</div>
-						</div>
-						<div
-							class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100 light-mode-img"
-							data-bg-src="{{ asset('assets/front/images/hero-slider/hero-slider-02.jpg') }}"
-						></div>
-						<div
-							class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100"
-							data-bg-src="{{ asset('assets/front/images/hero-slider/hero-slider-white-02-2.jpg') }}"
-						></div>
-					</div>
-
-					<div class="vh-100 d-flex align-items-center py-xl-21 px-0">
-						<div
-							class="z-index-2 container container-xxl py-21 pt-xl-10 pb-xl-11 ps-lg-19 ps-6"
-						>
-							<div class="hero-content text-start">
-								<div data-animate="fadeInDown">
-									<h1 class="mb-7 hero-title fs-3 fs-lg-1">
-										Reveal The<br />Beauty of Skin
-									</h1>
-									<p
-										class="hero-desc fs-18px mb-11 text-body-calculate"
-									>
-										Made using clean, non-toxic ingredients,
-										our products are designed for everyone.
-									</p>
-									<p
-										class="fs-5 fw-semibold text-body-emphasis mb-7"
-									>
-										Starting at $7.99
-									</p>
-								</div>
-								<a
-									href="#"
-									data-animate="fadeInUp"
-									class="btn btn-dark rounded btn-hover-bg-primary btn-hover-border-primary"
-								>
-									Shop Now
-								</a>
-							</div>
-						</div>
-						<div
-							class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100 light-mode-img"
-							data-bg-src="{{ asset('assets/front/images/hero-slider/hero-slider-08.jpg') }}"
-						></div>
-						<div
-							class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100"
-							data-bg-src="{{ asset('assets/front/images/hero-slider/hero-slider-white-08.jpg') }}"
-						></div>
-					</div>
-
-					<div class="vh-100 d-flex align-items-center py-xl-21 px-0">
-						<div
-							class="z-index-2 container container-xxl py-21 pt-xl-10 pb-xl-11 ps-lg-19 ps-6"
-						>
-							<div class="hero-content text-start">
-								<div data-animate="fadeInDown">
-									<h1 class="mb-7 hero-title fs-3 fs-lg-1">
-										Reveal The<br />Beauty of Skin
-									</h1>
-									<p
-										class="hero-desc fs-18px mb-11 text-body-calculate"
-									>
-										Made using clean, non-toxic ingredients,
-										our products are designed for everyone.
-									</p>
-									<p
-										class="fs-5 fw-semibold text-body-emphasis mb-7"
-									>
-										Starting at $7.99
-									</p>
-								</div>
-								<a
-									href="#"
-									data-animate="fadeInUp"
-									class="btn btn-dark rounded btn-hover-bg-primary btn-hover-border-primary"
-								>
-									Shop Now
-								</a>
-							</div>
-						</div>
-						<div
-							class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100 light-mode-img"
-							data-bg-src="{{ asset('assets/front/images/hero-slider/hero-slider-09.jpg') }}"
-						></div>
-						<div
-							class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100"
-							data-bg-src="{{ asset('assets/front/images/hero-slider/hero-slider-white-09.jpg') }}"
-						></div>
-					</div>
-				</div>
-			</section>
-
-			<section id="with_client_logo_2">
-				<div class="container-xxl">
-					<div class="bg-body-tertiary">
-						<div class="container mt-16 mb-16 pt-12 pb-14 py-lg-17">
-							<div class="row mt-4 mb-15" data-animate="fadeInUp">
-								<div
-									class="col-lg-9 offset-lg-1 col-xl-8 offset-xl-2"
-								>
-									<div
-										class="slick-slider main"
-										data-slick-options='{"slidesToShow": 1,"dots":false,"arrows":false, "asNavFor": "#with_client_logo_2 .thumb"}'
-									>
-										<div class="text-center">
-											<h4 class="mb-0">
-												"Millions of combinations,
-												meaning you get a totally unique
-												piece of furniture exactly the
-												way you want it."
-											</h4>
-										</div>
-										<div class="text-center">
-											<h4 class="mb-0">
-												"Great tags, Millie has got used
-												to it, nothing like the old tin
-												tags of years gone by. Light
-												weight and great colours
-												available."
-											</h4>
-										</div>
-										<div class="text-center">
-											<h4 class="mb-0">
-												"Amazing product. The results
-												are so transformative in texture
-												and my face feels plump and
-												healthy. Highly recommend!"
-											</h4>
-										</div>
-										<div class="text-center">
-											<h4 class="mb-0">
-												"Millions of combinations,
-												meaning you get a totally unique
-												piece of furniture exactly the
-												way you want it."
-											</h4>
-										</div>
-										<div class="text-center">
-											<h4 class="mb-0">
-												"Great tags, Millie has got used
-												to it, nothing like the old tin
-												tags of years gone by. Light
-												weight and great colours
-												available."
-											</h4>
-										</div>
-										<div class="text-center">
-											<h4 class="mb-0">
-												"Millions of combinations,
-												meaning you get a totally unique
-												piece of furniture exactly the
-												way you want it."
-											</h4>
-										</div>
-										<div class="text-center">
-											<h4 class="mb-0">
-												"Millions of combinations,
-												meaning you get a totally unique
-												piece of furniture exactly the
-												way you want it."
-											</h4>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div
-								class="slick-slider thumb"
-								data-slick-options='{"slidesToShow": 6,"focusOnSelect": true,"arrows": false, "dots": false, "asNavFor": "#with_client_logo_2 .main", "responsive":[{"breakpoint":992,"settings":{"dots":true,"slidesToShow":4}},{"breakpoint":768,"settings":{"dots":true,"slidesToShow":3}},{"breakpoint":576,"settings":{"dots":true,"slidesToShow":2}}] }'
-							>
-								<div
-									class="client-logo-item"
-									data-animate="fadeInUp"
-								>
-									<img
-										class="lazy-image w-auto mx-auto opacity-30 light-mode-img"
-										src="#"
-										data-src="{{ asset('assets/front/images/client-logo/client-logo-01.png') }}"
-										width="150"
-										height="82"
-										alt="goodness"
-									/>
-									<img
-										class="lazy-image dark-mode-img w-auto mx-auto opacity-30"
-										src="#"
-										data-src="{{ asset('assets/front/images/client-logo/client-logo-white-01.png') }}"
-										width="150"
-										height="82"
-										alt="goodness"
-									/>
-								</div>
-								<div
-									class="client-logo-item"
-									data-animate="fadeInUp"
-								>
-									<img
-										class="lazy-image w-auto mx-auto opacity-30 light-mode-img"
-										src="#"
-										data-src="{{ asset('assets/front/images/client-logo/client-logo-02.png') }}"
-										width="150"
-										height="82"
-										alt="grandgolden"
-									/>
-									<img
-										class="lazy-image dark-mode-img w-auto mx-auto opacity-30"
-										src="#"
-										data-src="{{ asset('assets/front/images/client-logo/client-logo-white-02.png') }}"
-										width="150"
-										height="82"
-										alt="grandgolden"
-									/>
-								</div>
-								<div
-									class="client-logo-item"
-									data-animate="fadeInUp"
-								>
-									<img
-										class="lazy-image w-auto mx-auto opacity-30 light-mode-img"
-										src="#"
-										data-src="{{ asset('assets/front/images/client-logo/client-logo-03.png') }}"
-										width="150"
-										height="82"
-										alt="parker"
-									/>
-									<img
-										class="lazy-image dark-mode-img w-auto mx-auto opacity-30"
-										src="#"
-										data-src="{{ asset('assets/front/images/client-logo/client-logo-white-03.png') }}"
-										width="150"
-										height="82"
-										alt="parker"
-									/>
-								</div>
-								<div
-									class="client-logo-item"
-									data-animate="fadeInUp"
-								>
-									<img
-										class="lazy-image w-auto mx-auto opacity-30 light-mode-img"
-										src="#"
-										data-src="{{ asset('assets/front/images/client-logo/client-logo-04.png') }}"
-										width="150"
-										height="82"
-										alt="thebeast"
-									/>
-									<img
-										class="lazy-image dark-mode-img w-auto mx-auto opacity-30"
-										src="#"
-										data-src="{{ asset('assets/front/images/client-logo/client-logo-white-04.png') }}"
-										width="150"
-										height="82"
-										alt="thebeast"
-									/>
-								</div>
-								<div
-									class="client-logo-item"
-									data-animate="fadeInUp"
-								>
-									<img
-										class="lazy-image w-auto mx-auto opacity-30 light-mode-img"
-										src="#"
-										data-src="{{ asset('assets/front/images/client-logo/client-logo-05.png') }}"
-										width="150"
-										height="82"
-										alt="hayden"
-									/>
-									<img
-										class="lazy-image dark-mode-img w-auto mx-auto opacity-30"
-										src="#"
-										data-src="{{ asset('assets/front/images/client-logo/client-logo-white-05.png') }}"
-										width="150"
-										height="82"
-										alt="hayden"
-									/>
-								</div>
-								<div
-									class="client-logo-item"
-									data-animate="fadeInUp"
-								>
-									<img
-										class="lazy-image w-auto mx-auto opacity-30 light-mode-img"
-										src="#"
-										data-src="{{ asset('assets/front/images/client-logo/client-logo-06.png') }}"
-										width="150"
-										height="82"
-										alt="goodmood"
-									/>
-									<img
-										class="lazy-image dark-mode-img w-auto mx-auto opacity-30"
-										src="#"
-										data-src="{{ asset('assets/front/images/client-logo/client-logo-white-06.png') }}"
-										width="150"
-										height="82"
-										alt="goodmood"
-									/>
-								</div>
-								<div
-									class="client-logo-item"
-									data-animate="fadeInUp"
-								>
-									<img
-										class="lazy-image w-auto mx-auto opacity-30 light-mode-img"
-										src="#"
-										data-src="{{ asset('assets/front/images/client-logo/client-logo-01.png') }}"
-										width="150"
-										height="82"
-										alt="goodness"
-									/>
-									<img
-										class="lazy-image dark-mode-img w-auto mx-auto opacity-30"
-										src="#"
-										data-src="{{ asset('assets/front/images/client-logo/client-logo-white-01.png') }}"
-										width="150"
-										height="82"
-										alt="goodness"
-									/>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="pt-10">
+			<section class="pb-14 py-lg-18">
 				<div class="container container-xxl">
-					<div class="row justify-content-center gx-30px gy-30px">
-						<div
-							class="slick-slider"
-							data-slick-options="{&#34;arrows&#34;:true,&#34;autoplay&#34;:true,&#34;infinite&#34;:true,&#34;dots&#34;:false,&#34;responsive&#34;:[{&#34;breakpoint&#34;:1560,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true,&#34;slidesToShow&#34;:3}},{&#34;breakpoint&#34;:1200,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true,&#34;slidesToShow&#34;:3}},{&#34;breakpoint&#34;:992,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true,&#34;slidesToShow&#34;:2}},{&#34;breakpoint&#34;:576,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true,&#34;slidesToShow&#34;:1}}],&#34;slidesToShow&#34;:5}"
-							data-animate="fadeInUp"
-						>
-							<div
-								class="col-12 col-lg-4"
-								data-animate="fadeInUp"
-							>
-								<div
-									class="card border-0 rounded-0 banner-03 hover-zoom-in hover-shine"
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="card border-0 hover-zoom-in">
+								<div class="image-box-4">
+									<img
+										class="lazy-image img-fluid lazy-image"
+										src="#"
+										data-src="{{ asset('assets/front/images/background/bg-about-02.jpg') }}"
+										width="960"
+										height="640"
+										alt=""
+									/>
+								</div>
+								<div class=""></div>
+							</div>
+						</div>
+						<div class="col-lg-6 px-xxl-18 mt-12 mt-lg-0">
+							<h2 class="mb-8">About Glowing</h2>
+							<p>
+								Complexion-perfecting natural foundation
+								enriched with antioxidant-packed superfruits,
+								vitamins, and other skin-nourishing nutrients.
+								Creamy liquid formula sets with a pristine matte
+								finish for soft, velvety smooth skin. Made using
+								clean, non-toxic ingredients, our products are
+								designed for everyone...
+							</p>
+							<p class="mb-xl-16">
+								If I fell in love with a woman for an artistic
+								reason, or from the point of view of my work, I
+								think it would rob her of something. We live in
+								an era of globalization and the era of the
+								woman. Never in the history of the world have
+								women
+								<span class="text-body-emphasis"
+									>been more in control of their
+									destiny.</span
 								>
-									<img
-										class="lazy-image card-img object-fit-cover light-mode-img"
-										src="#"
-										data-src="{{ asset('assets/front/images/banner/banner-08.jpg') }}"
-										width="450"
-										height="450"
-										alt="Summer Collection"
-									/>
-									<img
-										class="lazy-image dark-mode-img card-img object-fit-cover"
-										src="#"
-										data-src="{{ asset('assets/front/images/banner/banner-white-08.jpg') }}"
-										width="450"
-										height="450"
-										alt="Summer Collection"
-									/>
-									<div
-										class="card-img-overlay d-inline-flex flex-column px-11 pt-11 pb-11"
-									>
-										<h3 class="card-title fw-semibold mb-5">
-											Summer Collection
-										</h3>
-										<p
-											class="card-text fs-18px fw-semibold text-body-emphasis"
-										>
-											Starting at $17.99
-										</p>
-										<div class="mt-auto">
-											<a
-												href="#"
-												class="btn btn-link text-decoration-none p-0 fs-6 fw-semibold"
-												>Shop Now<svg class="icon">
-													<use
-														xlink:href="#icon-arrow-right"
-													></use>
-												</svg>
-											</a>
+							</p>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="d-flex align-items-start">
+										<div class="d-none">
+											<svg class="icon fs-2">
+												<use xlink:href="#"></use>
+											</svg>
+										</div>
+										<div>
+											<h3 class="fs-5 mb-6">Message</h3>
+											<div class="fs-6">
+												<p class="mb-6 fs-15px">
+													Send us a text & an
+													ambassador will respond when
+													available.
+												</p>
+												<p
+													class="m-0 fs-6 fw-bold text-primary"
+												>
+													1-814-251-9966
+												</p>
+											</div>
 										</div>
 									</div>
 								</div>
-							</div>
-							<div
-								class="col-12 col-lg-4"
-								data-animate="fadeInUp"
-							>
-								<div
-									class="card border-0 rounded-0 banner-03 hover-zoom-in hover-shine"
-								>
-									<img
-										class="lazy-image card-img object-fit-cover light-mode-img"
-										src="#"
-										data-src="{{ asset('assets/front/images/banner/banner-06.jpg') }}"
-										width="450"
-										height="450"
-										alt="What’s New?"
-									/>
-									<img
-										class="lazy-image dark-mode-img card-img object-fit-cover"
-										src="#"
-										data-src="{{ asset('assets/front/images/banner/banner-white-06.jpg') }}"
-										width="450"
-										height="450"
-										alt="What’s New?"
-									/>
-									<div
-										class="card-img-overlay d-inline-flex flex-column px-11 pt-11 pb-11"
-									>
-										<h3 class="card-title fw-semibold mb-5">
-											What’s New?
-										</h3>
-										<p
-											class="card-text fs-18px fw-semibold text-body-emphasis"
-										>
-											Get the glow
-										</p>
-										<div class="mt-auto">
-											<a
-												href="#"
-												class="btn btn-link text-decoration-none p-0 fs-6 fw-semibold"
-												>Discover Now<svg class="icon">
-													<use
-														xlink:href="#icon-arrow-right"
-													></use>
-												</svg>
-											</a>
+								<div class="col-md-6 pt-9 pt-md-0">
+									<div class="d-flex align-items-start">
+										<div class="d-none">
+											<svg class="icon fs-2">
+												<use xlink:href="#"></use>
+											</svg>
 										</div>
-									</div>
-								</div>
-							</div>
-							<div
-								class="col-12 col-lg-4"
-								data-animate="fadeInUp"
-							>
-								<div
-									class="card border-0 rounded-0 banner-03 hover-zoom-in hover-shine"
-								>
-									<img
-										class="lazy-image card-img object-fit-cover light-mode-img"
-										src="#"
-										data-src="{{ asset('assets/front/images/banner/banner-07.jpg') }}"
-										width="450"
-										height="450"
-										alt="Buy 1 Get 1"
-									/>
-									<img
-										class="lazy-image dark-mode-img card-img object-fit-cover"
-										src="#"
-										data-src="{{ asset('assets/front/images/banner/banner-white-07.jpg') }}"
-										width="450"
-										height="450"
-										alt="Buy 1 Get 1"
-									/>
-									<div
-										class="card-img-overlay d-inline-flex flex-column px-11 pt-11 pb-11"
-									>
-										<h3 class="card-title fw-semibold mb-5">
-											Buy 1 Get 1
-										</h3>
-										<p
-											class="card-text fs-18px fw-semibold text-body-emphasis"
-										>
-											Starting at $7.99
-										</p>
-										<div class="mt-auto">
-											<a
-												href="#"
-												class="btn btn-link text-decoration-none p-0 fs-6 fw-semibold"
-												>Discover Now<svg class="icon">
-													<use
-														xlink:href="#icon-arrow-right"
-													></use>
-												</svg>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div
-								class="col-12 col-lg-4"
-								data-animate="fadeInUp"
-							>
-								<div
-									class="card border-0 rounded-0 banner-03 hover-zoom-in hover-shine"
-								>
-									<img
-										class="lazy-image card-img object-fit-cover light-mode-img"
-										src="#"
-										data-src="{{ asset('assets/front/images/banner/banner-06.jpg') }}"
-										width="450"
-										height="450"
-										alt="What’s New?"
-									/>
-									<img
-										class="lazy-image dark-mode-img card-img object-fit-cover"
-										src="#"
-										data-src="{{ asset('assets/front/images/banner/banner-white-06.jpg') }}"
-										width="450"
-										height="450"
-										alt="What’s New?"
-									/>
-									<div
-										class="card-img-overlay d-inline-flex flex-column px-11 pt-11 pb-11"
-									>
-										<h3 class="card-title fw-semibold mb-5">
-											What’s New?
-										</h3>
-										<p
-											class="card-text fs-18px fw-semibold text-body-emphasis"
-										>
-											Get the glow
-										</p>
-										<div class="mt-auto">
-											<a
-												href="#"
-												class="btn btn-link text-decoration-none p-0 fs-6 fw-semibold"
-												>Discover Now<svg class="icon">
-													<use
-														xlink:href="#icon-arrow-right"
-													></use>
-												</svg>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div
-								class="col-12 col-lg-4"
-								data-animate="fadeInUp"
-							>
-								<div
-									class="card border-0 rounded-0 banner-03 hover-zoom-in hover-shine"
-								>
-									<img
-										class="lazy-image card-img object-fit-cover light-mode-img"
-										src="#"
-										data-src="{{ asset('assets/front/images/banner/banner-07.jpg') }}"
-										width="450"
-										height="450"
-										alt="Buy 1 Get 1"
-									/>
-									<img
-										class="lazy-image dark-mode-img card-img object-fit-cover"
-										src="#"
-										data-src="{{ asset('assets/front/images/banner/banner-white-07.jpg') }}"
-										width="450"
-										height="450"
-										alt="Buy 1 Get 1"
-									/>
-									<div
-										class="card-img-overlay d-inline-flex flex-column px-11 pt-11 pb-11"
-									>
-										<h3 class="card-title fw-semibold mb-5">
-											Buy 1 Get 1
-										</h3>
-										<p
-											class="card-text fs-18px fw-semibold text-body-emphasis"
-										>
-											Starting at $7.99
-										</p>
-										<div class="mt-auto">
-											<a
-												href="#"
-												class="btn btn-link text-decoration-none p-0 fs-6 fw-semibold"
-												>Discover Now<svg class="icon">
-													<use
-														xlink:href="#icon-arrow-right"
-													></use>
-												</svg>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div
-								class="col-12 col-lg-4"
-								data-animate="fadeInUp"
-							>
-								<div
-									class="card border-0 rounded-0 banner-03 hover-zoom-in hover-shine"
-								>
-									<img
-										class="lazy-image card-img object-fit-cover light-mode-img"
-										src="#"
-										data-src="{{ asset('assets/front/images/banner/banner-06.jpg') }}"
-										width="450"
-										height="450"
-										alt="What’s New?"
-									/>
-									<img
-										class="lazy-image dark-mode-img card-img object-fit-cover"
-										src="#"
-										data-src="{{ asset('assets/front/images/banner/banner-white-06.jpg') }}"
-										width="450"
-										height="450"
-										alt="What’s New?"
-									/>
-									<div
-										class="card-img-overlay d-inline-flex flex-column px-11 pt-11 pb-11"
-									>
-										<h3 class="card-title fw-semibold mb-5">
-											What’s New?
-										</h3>
-										<p
-											class="card-text fs-18px fw-semibold text-body-emphasis"
-										>
-											Get the glow
-										</p>
-										<div class="mt-auto">
-											<a
-												href="#"
-												class="btn btn-link text-decoration-none p-0 fs-6 fw-semibold"
-												>Discover Now<svg class="icon">
-													<use
-														xlink:href="#icon-arrow-right"
-													></use>
-												</svg>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div
-								class="col-12 col-lg-4"
-								data-animate="fadeInUp"
-							>
-								<div
-									class="card border-0 rounded-0 banner-03 hover-zoom-in hover-shine"
-								>
-									<img
-										class="lazy-image card-img object-fit-cover light-mode-img"
-										src="#"
-										data-src="{{ asset('assets/front/images/banner/banner-07.jpg') }}"
-										width="450"
-										height="450"
-										alt="Buy 1 Get 1"
-									/>
-									<img
-										class="lazy-image dark-mode-img card-img object-fit-cover"
-										src="#"
-										data-src="{{ asset('assets/front/images/banner/banner-white-07.jpg') }}"
-										width="450"
-										height="450"
-										alt="Buy 1 Get 1"
-									/>
-									<div
-										class="card-img-overlay d-inline-flex flex-column px-11 pt-11 pb-11"
-									>
-										<h3 class="card-title fw-semibold mb-5">
-											Buy 1 Get 1
-										</h3>
-										<p
-											class="card-text fs-18px fw-semibold text-body-emphasis"
-										>
-											Starting at $7.99
-										</p>
-										<div class="mt-auto">
-											<a
-												href="#"
-												class="btn btn-link text-decoration-none p-0 fs-6 fw-semibold"
-												>Discover Now<svg class="icon">
-													<use
-														xlink:href="#icon-arrow-right"
-													></use>
-												</svg>
-											</a>
+										<div>
+											<h3 class="fs-5 mb-6">
+												Store Hours
+											</h3>
+											<div class="fs-6">
+												<dl class="d-flex mb-0">
+													<dt
+														class="pe-3 fs-6 text-body-emphasis fw-500"
+														style="width: 110px"
+													>
+														Mon – Fri:
+													</dt>
+													<dd class="mb-0">
+														08:30 – 20:00
+													</dd>
+												</dl>
+												<dl class="d-flex mb-0">
+													<dt
+														class="pe-3 fs-6 text-body-emphasis fw-500"
+														style="width: 110px"
+													>
+														Sat & Sun:
+													</dt>
+													<dd class="mb-0">
+														09:30 – 21:30
+													</dd>
+												</dl>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -1167,1579 +569,24 @@
 					</div>
 				</div>
 			</section>
-
-			<section id="our_best_seller_2">
-				<div
-					class="container container-xxl container container-xxl pt-14 pt-lg-18"
-				>
-					<div class="row align-items-center mb-9 mt-3">
-						<div class="col-sm-8" data-animate="fadeInUp">
-							<h2 class="h3 mb-0">Our Bestsellers</h2>
-						</div>
-						<div
-							class="col-sm-4 text-sm-end"
-							data-animate="fadeInUp"
-						>
-							<a
-								href="#"
-								class="btn btn-link p-0 text-body-emphasis text-decoration-none fw-semibold text-primary-hover"
-								>Shop All Products
-								<svg class="icon">
-									<use xlink:href="#icon-arrow-right"></use>
-								</svg>
-							</a>
-						</div>
-					</div>
-					<div
-						class="slick-slider"
-						data-slick-options="{&#34;arrows&#34;:true,&#34;dots&#34;:false,&#34;responsive&#34;:[{&#34;breakpoint&#34;:1560,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true,&#34;slidesToShow&#34;:5}},{&#34;breakpoint&#34;:1200,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true,&#34;slidesToShow&#34;:3}},{&#34;breakpoint&#34;:992,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true,&#34;slidesToShow&#34;:2}},{&#34;breakpoint&#34;:576,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true,&#34;slidesToShow&#34;:1}}],&#34;slidesToShow&#34;:5}"
-						data-animate="fadeInUp"
-					>
-						<div>
-							<div
-								class="card card-product grid-1 bg-transparent border-0"
-								data-animate="fadeInUp"
-							>
-								<figure
-									class="card-img-top position-relative mb-7 overflow-hidden"
-								>
-									<a
-										href="./shop/product-details-v5.html"
-										class="hover-zoom-in d-block"
-										title="Shield Conditioner"
-									>
-										<img
-											src="#"
-											data-src="{{ asset('assets/front/images/products/product-01-330x440.jpg') }}"
-											class="img-fluid lazy-image w-100"
-											alt="Shield Conditioner"
-											width="330"
-											height="440"
-										/>
-									</a>
-
-									<div
-										class="position-absolute product-flash z-index-2"
-									>
-										<span
-											class="badge badge-product-flash on-sale bg-primary"
-											>-25%</span
-										>
-									</div>
-									<div
-										class="position-absolute d-flex z-index-2 product-actions horizontal"
-									>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm add_to_cart"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Cart"
-										>
-											<svg
-												class="icon icon-shopping-bag-open-light"
-											>
-												<use
-													xlink:href="#icon-shopping-bag-open-light"
-												></use>
-											</svg> </a
-										><a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Quick View"
-										>
-											<span
-												data-bs-toggle="modal"
-												data-bs-target="#quickViewModal"
-												class="d-flex align-items-center justify-content-center"
-											>
-												<svg
-													class="icon icon-eye-light"
-												>
-													<use
-														xlink:href="#icon-eye-light"
-													></use>
-												</svg>
-											</span>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Wishlist"
-										>
-											<svg class="icon icon-star-light">
-												<use
-													xlink:href="#icon-star-light"
-												></use>
-											</svg>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare"
-											href="./shop/compare.html"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Compare"
-										>
-											<svg
-												class="icon icon-arrows-left-right-light"
-											>
-												<use
-													xlink:href="#icon-arrows-left-right-light"
-												></use>
-											</svg>
-										</a>
-									</div>
-								</figure>
-								<div class="card-body text-center p-0">
-									<span
-										class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
-									>
-										<del
-											class="text-body fw-500 me-4 fs-13px"
-											>$40.00</del
-										>
-										<ins class="text-decoration-none"
-											>$30.00</ins
-										></span
-									>
-
-									<h4
-										class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
-									>
-										<a
-											class="text-decoration-none text-reset"
-											href="./shop/product-details-v5.html"
-											>Shield Conditioner</a
-										>
-									</h4>
-								</div>
-							</div>
-						</div>
-						<div>
-							<div
-								class="card card-product grid-1 bg-transparent border-0"
-								data-animate="fadeInUp"
-							>
-								<figure
-									class="card-img-top position-relative mb-7 overflow-hidden"
-								>
-									<a
-										href="./shop/product-details-v5.html"
-										class="hover-zoom-in d-block"
-										title="Perfecting Facial Oil"
-									>
-										<img
-											src="#"
-											data-src="{{ asset('assets/front/images/products/product-02-330x440.jpg') }}"
-											class="img-fluid lazy-image w-100"
-											alt="Perfecting Facial Oil"
-											width="330"
-											height="440"
-										/>
-									</a>
-
-									<div
-										class="position-absolute d-flex z-index-2 product-actions horizontal"
-									>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm add_to_cart"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Cart"
-										>
-											<svg
-												class="icon icon-shopping-bag-open-light"
-											>
-												<use
-													xlink:href="#icon-shopping-bag-open-light"
-												></use>
-											</svg> </a
-										><a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Quick View"
-										>
-											<span
-												data-bs-toggle="modal"
-												data-bs-target="#quickViewModal"
-												class="d-flex align-items-center justify-content-center"
-											>
-												<svg
-													class="icon icon-eye-light"
-												>
-													<use
-														xlink:href="#icon-eye-light"
-													></use>
-												</svg>
-											</span>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Wishlist"
-										>
-											<svg class="icon icon-star-light">
-												<use
-													xlink:href="#icon-star-light"
-												></use>
-											</svg>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare"
-											href="./shop/compare.html"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Compare"
-										>
-											<svg
-												class="icon icon-arrows-left-right-light"
-											>
-												<use
-													xlink:href="#icon-arrows-left-right-light"
-												></use>
-											</svg>
-										</a>
-									</div>
-								</figure>
-								<div class="card-body text-center p-0">
-									<span
-										class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
-										>$20.00</span
-									>
-
-									<h4
-										class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
-									>
-										<a
-											class="text-decoration-none text-reset"
-											href="./shop/product-details-v5.html"
-											>Perfecting Facial Oil</a
-										>
-									</h4>
-								</div>
-							</div>
-						</div>
-						<div>
-							<div
-								class="card card-product grid-1 bg-transparent border-0"
-								data-animate="fadeInUp"
-							>
-								<figure
-									class="card-img-top position-relative mb-7 overflow-hidden"
-								>
-									<a
-										href="./shop/product-details-v5.html"
-										class="hover-zoom-in d-block"
-										title="Enriched Hand &amp; Body Wash"
-									>
-										<img
-											src="#"
-											data-src="{{ asset('assets/front/images/products/product-03-330x440.jpg') }}"
-											class="img-fluid lazy-image w-100"
-											alt="Enriched Hand &amp; Body Wash"
-											width="330"
-											height="440"
-										/>
-									</a>
-
-									<div
-										class="position-absolute product-flash z-index-2"
-									>
-										<span
-											class="badge badge-product-flash on-new"
-											>New</span
-										>
-									</div>
-									<div
-										class="position-absolute d-flex z-index-2 product-actions horizontal"
-									>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm add_to_cart"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Cart"
-										>
-											<svg
-												class="icon icon-shopping-bag-open-light"
-											>
-												<use
-													xlink:href="#icon-shopping-bag-open-light"
-												></use>
-											</svg> </a
-										><a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Quick View"
-										>
-											<span
-												data-bs-toggle="modal"
-												data-bs-target="#quickViewModal"
-												class="d-flex align-items-center justify-content-center"
-											>
-												<svg
-													class="icon icon-eye-light"
-												>
-													<use
-														xlink:href="#icon-eye-light"
-													></use>
-												</svg>
-											</span>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Wishlist"
-										>
-											<svg class="icon icon-star-light">
-												<use
-													xlink:href="#icon-star-light"
-												></use>
-											</svg>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare"
-											href="./shop/compare.html"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Compare"
-										>
-											<svg
-												class="icon icon-arrows-left-right-light"
-											>
-												<use
-													xlink:href="#icon-arrows-left-right-light"
-												></use>
-											</svg>
-										</a>
-									</div>
-								</figure>
-								<div class="card-body text-center p-0">
-									<span
-										class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
-										>$29.00</span
-									>
-
-									<h4
-										class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
-									>
-										<a
-											class="text-decoration-none text-reset"
-											href="./shop/product-details-v5.html"
-											>Enriched Hand &amp; Body Wash</a
-										>
-									</h4>
-								</div>
-							</div>
-						</div>
-						<div>
-							<div
-								class="card card-product grid-1 bg-transparent border-0"
-								data-animate="fadeInUp"
-							>
-								<figure
-									class="card-img-top position-relative mb-7 overflow-hidden"
-								>
-									<a
-										href="./shop/product-details-v5.html"
-										class="hover-zoom-in d-block"
-										title="Shield Shampoo"
-									>
-										<img
-											src="#"
-											data-src="{{ asset('assets/front/images/products/product-04-330x440.jpg') }}"
-											class="img-fluid lazy-image w-100"
-											alt="Shield Shampoo"
-											width="330"
-											height="440"
-										/>
-									</a>
-
-									<div
-										class="position-absolute product-flash z-index-2"
-									>
-										<span
-											class="badge badge-product-flash on-sale bg-primary"
-											>-24%</span
-										>
-									</div>
-									<div
-										class="position-absolute d-flex z-index-2 product-actions horizontal"
-									>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm add_to_cart"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Cart"
-										>
-											<svg
-												class="icon icon-shopping-bag-open-light"
-											>
-												<use
-													xlink:href="#icon-shopping-bag-open-light"
-												></use>
-											</svg> </a
-										><a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Quick View"
-										>
-											<span
-												data-bs-toggle="modal"
-												data-bs-target="#quickViewModal"
-												class="d-flex align-items-center justify-content-center"
-											>
-												<svg
-													class="icon icon-eye-light"
-												>
-													<use
-														xlink:href="#icon-eye-light"
-													></use>
-												</svg>
-											</span>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Wishlist"
-										>
-											<svg class="icon icon-star-light">
-												<use
-													xlink:href="#icon-star-light"
-												></use>
-											</svg>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare"
-											href="./shop/compare.html"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Compare"
-										>
-											<svg
-												class="icon icon-arrows-left-right-light"
-											>
-												<use
-													xlink:href="#icon-arrows-left-right-light"
-												></use>
-											</svg>
-										</a>
-									</div>
-								</figure>
-								<div class="card-body text-center p-0">
-									<span
-										class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
-									>
-										<del
-											class="text-body fw-500 me-4 fs-13px"
-											>$25.00</del
-										>
-										<ins class="text-decoration-none"
-											>$19.00</ins
-										></span
-									>
-
-									<h4
-										class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
-									>
-										<a
-											class="text-decoration-none text-reset"
-											href="./shop/product-details-v5.html"
-											>Shield Shampoo</a
-										>
-									</h4>
-								</div>
-							</div>
-						</div>
-						<div>
-							<div
-								class="card card-product grid-1 bg-transparent border-0"
-								data-animate="fadeInUp"
-							>
-								<figure
-									class="card-img-top position-relative mb-7 overflow-hidden"
-								>
-									<a
-										href="./shop/product-details-v5.html"
-										class="hover-zoom-in d-block"
-										title="Enriched Hand Wash"
-									>
-										<img
-											src="#"
-											data-src="{{ asset('assets/front/images/products/product-05-330x440.jpg') }}"
-											class="img-fluid lazy-image w-100"
-											alt="Enriched Hand Wash"
-											width="330"
-											height="440"
-										/>
-									</a>
-
-									<div
-										class="position-absolute product-flash z-index-2"
-									>
-										<span
-											class="badge badge-product-flash on-sale bg-primary"
-											>-26%</span
-										>
-									</div>
-									<div
-										class="position-absolute d-flex z-index-2 product-actions horizontal"
-									>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm add_to_cart"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Cart"
-										>
-											<svg
-												class="icon icon-shopping-bag-open-light"
-											>
-												<use
-													xlink:href="#icon-shopping-bag-open-light"
-												></use>
-											</svg> </a
-										><a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Quick View"
-										>
-											<span
-												data-bs-toggle="modal"
-												data-bs-target="#quickViewModal"
-												class="d-flex align-items-center justify-content-center"
-											>
-												<svg
-													class="icon icon-eye-light"
-												>
-													<use
-														xlink:href="#icon-eye-light"
-													></use>
-												</svg>
-											</span>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Wishlist"
-										>
-											<svg class="icon icon-star-light">
-												<use
-													xlink:href="#icon-star-light"
-												></use>
-											</svg>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare"
-											href="./shop/compare.html"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Compare"
-										>
-											<svg
-												class="icon icon-arrows-left-right-light"
-											>
-												<use
-													xlink:href="#icon-arrows-left-right-light"
-												></use>
-											</svg>
-										</a>
-									</div>
-								</figure>
-								<div class="card-body text-center p-0">
-									<span
-										class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
-									>
-										<del
-											class="text-body fw-500 me-4 fs-13px"
-											>$39.00</del
-										>
-										<ins class="text-decoration-none"
-											>$29.00</ins
-										></span
-									>
-
-									<h4
-										class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
-									>
-										<a
-											class="text-decoration-none text-reset"
-											href="./shop/product-details-v5.html"
-											>Enriched Hand Wash</a
-										>
-									</h4>
-								</div>
-							</div>
-						</div>
-						<div>
-							<div
-								class="card card-product grid-1 bg-transparent border-0"
-								data-animate="fadeInUp"
-							>
-								<figure
-									class="card-img-top position-relative mb-7 overflow-hidden"
-								>
-									<a
-										href="./shop/product-details-v5.html"
-										class="hover-zoom-in d-block"
-										title="Enriched Duo"
-									>
-										<img
-											src="#"
-											data-src="{{ asset('assets/front/images/products/product-06-330x440.jpg') }}"
-											class="img-fluid lazy-image w-100"
-											alt="Enriched Duo"
-											width="330"
-											height="440"
-										/>
-									</a>
-
-									<div
-										class="position-absolute d-flex z-index-2 product-actions horizontal"
-									>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm add_to_cart"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Cart"
-										>
-											<svg
-												class="icon icon-shopping-bag-open-light"
-											>
-												<use
-													xlink:href="#icon-shopping-bag-open-light"
-												></use>
-											</svg> </a
-										><a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Quick View"
-										>
-											<span
-												data-bs-toggle="modal"
-												data-bs-target="#quickViewModal"
-												class="d-flex align-items-center justify-content-center"
-											>
-												<svg
-													class="icon icon-eye-light"
-												>
-													<use
-														xlink:href="#icon-eye-light"
-													></use>
-												</svg>
-											</span>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Wishlist"
-										>
-											<svg class="icon icon-star-light">
-												<use
-													xlink:href="#icon-star-light"
-												></use>
-											</svg>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare"
-											href="./shop/compare.html"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Compare"
-										>
-											<svg
-												class="icon icon-arrows-left-right-light"
-											>
-												<use
-													xlink:href="#icon-arrows-left-right-light"
-												></use>
-											</svg>
-										</a>
-									</div>
-								</figure>
-								<div class="card-body text-center p-0">
-									<span
-										class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
-										>$29.00</span
-									>
-
-									<h4
-										class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
-									>
-										<a
-											class="text-decoration-none text-reset"
-											href="./shop/product-details-v5.html"
-											>Enriched Duo</a
-										>
-									</h4>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section id="under_25">
-				<div
-					class="container container-xxl pt-14 pt-lg-17 pb-16 pb-lg-20 mt-3"
-				>
-					<div class="row align-items-center mb-9 mt-3">
-						<div class="col-sm-8" data-animate="fadeInUp">
-							<h2 class="h3 mb-0">Under $25</h2>
-						</div>
-						<div
-							class="col-sm-4 text-sm-end"
-							data-animate="fadeInUp"
-						>
-							<a
-								href="#"
-								class="btn btn-link p-0 text-body-emphasis text-decoration-none fw-semibold text-primary-hover"
-								>Shop All Products
-								<svg class="icon">
-									<use
-										xlink:href="#icon-arrow-right"
-									></use></svg
-							></a>
-						</div>
-					</div>
-					<div
-						class="slick-slider"
-						data-slick-options="{&#34;arrows&#34;:true,&#34;dots&#34;:false,&#34;responsive&#34;:[{&#34;breakpoint&#34;:1560,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true,&#34;slidesToShow&#34;:5}},{&#34;breakpoint&#34;:1200,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true,&#34;slidesToShow&#34;:3}},{&#34;breakpoint&#34;:992,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true,&#34;slidesToShow&#34;:2}},{&#34;breakpoint&#34;:576,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true,&#34;slidesToShow&#34;:1}}],&#34;slidesToShow&#34;:5}"
-						data-animate="fadeInUp"
-					>
-						<div>
-							<div
-								class="card card-product grid-1 bg-transparent border-0"
-								data-animate="fadeInUp"
-							>
-								<figure
-									class="card-img-top position-relative mb-7 overflow-hidden"
-								>
-									<a
-										href="./shop/product-details-v5.html"
-										class="hover-zoom-in d-block"
-										title="Shield Spray"
-									>
-										<img
-											src="#"
-											data-src="{{ asset('assets/front/images/products/product-07-270x360.jpg') }}"
-											class="img-fluid lazy-image w-100"
-											alt="Shield Spray"
-											width="330"
-											height="440"
-										/>
-									</a>
-
-									<div
-										class="position-absolute d-flex z-index-2 product-actions horizontal"
-									>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm add_to_cart"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Cart"
-										>
-											<svg
-												class="icon icon-shopping-bag-open-light"
-											>
-												<use
-													xlink:href="#icon-shopping-bag-open-light"
-												></use>
-											</svg> </a
-										><a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Quick View"
-										>
-											<span
-												data-bs-toggle="modal"
-												data-bs-target="#quickViewModal"
-												class="d-flex align-items-center justify-content-center"
-											>
-												<svg
-													class="icon icon-eye-light"
-												>
-													<use
-														xlink:href="#icon-eye-light"
-													></use>
-												</svg>
-											</span>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Wishlist"
-										>
-											<svg class="icon icon-star-light">
-												<use
-													xlink:href="#icon-star-light"
-												></use>
-											</svg>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare"
-											href="./shop/compare.html"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Compare"
-										>
-											<svg
-												class="icon icon-arrows-left-right-light"
-											>
-												<use
-													xlink:href="#icon-arrows-left-right-light"
-												></use>
-											</svg>
-										</a>
-									</div>
-								</figure>
-								<div class="card-body text-center p-0">
-									<span
-										class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
-										>$29.00</span
-									>
-
-									<h4
-										class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
-									>
-										<a
-											class="text-decoration-none text-reset"
-											href="./shop/product-details-v5.html"
-											>Shield Spray</a
-										>
-									</h4>
-								</div>
-							</div>
-						</div>
-						<div>
-							<div
-								class="card card-product grid-1 bg-transparent border-0"
-								data-animate="fadeInUp"
-							>
-								<figure
-									class="card-img-top position-relative mb-7 overflow-hidden"
-								>
-									<a
-										href="./shop/product-details-v5.html"
-										class="hover-zoom-in d-block"
-										title="Vital Eye Cream"
-									>
-										<img
-											src="#"
-											data-src="{{ asset('assets/front/images/products/product-11-270x360.jpg') }}"
-											class="img-fluid lazy-image w-100"
-											alt="Vital Eye Cream"
-											width="330"
-											height="440"
-										/>
-									</a>
-
-									<div
-										class="position-absolute product-flash z-index-2"
-									>
-										<span
-											class="badge badge-product-flash on-sale bg-primary"
-											>-26%</span
-										>
-									</div>
-									<div
-										class="position-absolute d-flex z-index-2 product-actions horizontal"
-									>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm add_to_cart"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Cart"
-										>
-											<svg
-												class="icon icon-shopping-bag-open-light"
-											>
-												<use
-													xlink:href="#icon-shopping-bag-open-light"
-												></use>
-											</svg> </a
-										><a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Quick View"
-										>
-											<span
-												data-bs-toggle="modal"
-												data-bs-target="#quickViewModal"
-												class="d-flex align-items-center justify-content-center"
-											>
-												<svg
-													class="icon icon-eye-light"
-												>
-													<use
-														xlink:href="#icon-eye-light"
-													></use>
-												</svg>
-											</span>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Wishlist"
-										>
-											<svg class="icon icon-star-light">
-												<use
-													xlink:href="#icon-star-light"
-												></use>
-											</svg>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare"
-											href="./shop/compare.html"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Compare"
-										>
-											<svg
-												class="icon icon-arrows-left-right-light"
-											>
-												<use
-													xlink:href="#icon-arrows-left-right-light"
-												></use>
-											</svg>
-										</a>
-									</div>
-								</figure>
-								<div class="card-body text-center p-0">
-									<span
-										class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
-									>
-										<del
-											class="text-body fw-500 me-4 fs-13px"
-											>$39.00</del
-										>
-										<ins class="text-decoration-none"
-											>$29.00</ins
-										></span
-									>
-
-									<h4
-										class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
-									>
-										<a
-											class="text-decoration-none text-reset"
-											href="./shop/product-details-v5.html"
-											>Vital Eye Cream</a
-										>
-									</h4>
-								</div>
-							</div>
-						</div>
-						<div>
-							<div
-								class="card card-product grid-1 bg-transparent border-0"
-								data-animate="fadeInUp"
-							>
-								<figure
-									class="card-img-top position-relative mb-7 overflow-hidden"
-								>
-									<a
-										href="./shop/product-details-v5.html"
-										class="hover-zoom-in d-block"
-										title="Supreme Moisture Mask"
-									>
-										<img
-											src="#"
-											data-src="{{ asset('assets/front/images/products/product-08-270x360.jpg') }}"
-											class="img-fluid lazy-image w-100"
-											alt="Supreme Moisture Mask"
-											width="330"
-											height="440"
-										/>
-									</a>
-
-									<div
-										class="position-absolute product-flash z-index-2"
-									>
-										<span
-											class="badge badge-product-flash on-sale bg-primary"
-											>-26%</span
-										>
-									</div>
-									<div
-										class="position-absolute d-flex z-index-2 product-actions horizontal"
-									>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm add_to_cart"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Cart"
-										>
-											<svg
-												class="icon icon-shopping-bag-open-light"
-											>
-												<use
-													xlink:href="#icon-shopping-bag-open-light"
-												></use>
-											</svg> </a
-										><a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Quick View"
-										>
-											<span
-												data-bs-toggle="modal"
-												data-bs-target="#quickViewModal"
-												class="d-flex align-items-center justify-content-center"
-											>
-												<svg
-													class="icon icon-eye-light"
-												>
-													<use
-														xlink:href="#icon-eye-light"
-													></use>
-												</svg>
-											</span>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Wishlist"
-										>
-											<svg class="icon icon-star-light">
-												<use
-													xlink:href="#icon-star-light"
-												></use>
-											</svg>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare"
-											href="./shop/compare.html"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Compare"
-										>
-											<svg
-												class="icon icon-arrows-left-right-light"
-											>
-												<use
-													xlink:href="#icon-arrows-left-right-light"
-												></use>
-											</svg>
-										</a>
-									</div>
-								</figure>
-								<div class="card-body text-center p-0">
-									<span
-										class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
-									>
-										<del
-											class="text-body fw-500 me-4 fs-13px"
-											>$39.00</del
-										>
-										<ins class="text-decoration-none"
-											>$29.00</ins
-										></span
-									>
-
-									<h4
-										class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
-									>
-										<a
-											class="text-decoration-none text-reset"
-											href="./shop/product-details-v5.html"
-											>Supreme Moisture Mask</a
-										>
-									</h4>
-								</div>
-							</div>
-						</div>
-						<div>
-							<div
-								class="card card-product grid-1 bg-transparent border-0"
-								data-animate="fadeInUp"
-							>
-								<figure
-									class="card-img-top position-relative mb-7 overflow-hidden"
-								>
-									<a
-										href="./shop/product-details-v5.html"
-										class="hover-zoom-in d-block"
-										title="Supreme Polishing Treatment"
-									>
-										<img
-											src="#"
-											data-src="{{ asset('assets/front/images/products/product-06-270x360.jpg') }}"
-											class="img-fluid lazy-image w-100"
-											alt="Supreme Polishing Treatment"
-											width="330"
-											height="440"
-										/>
-									</a>
-
-									<div
-										class="position-absolute d-flex z-index-2 product-actions horizontal"
-									>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm add_to_cart"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Cart"
-										>
-											<svg
-												class="icon icon-shopping-bag-open-light"
-											>
-												<use
-													xlink:href="#icon-shopping-bag-open-light"
-												></use>
-											</svg> </a
-										><a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Quick View"
-										>
-											<span
-												data-bs-toggle="modal"
-												data-bs-target="#quickViewModal"
-												class="d-flex align-items-center justify-content-center"
-											>
-												<svg
-													class="icon icon-eye-light"
-												>
-													<use
-														xlink:href="#icon-eye-light"
-													></use>
-												</svg>
-											</span>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Wishlist"
-										>
-											<svg class="icon icon-star-light">
-												<use
-													xlink:href="#icon-star-light"
-												></use>
-											</svg>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare"
-											href="./shop/compare.html"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Compare"
-										>
-											<svg
-												class="icon icon-arrows-left-right-light"
-											>
-												<use
-													xlink:href="#icon-arrows-left-right-light"
-												></use>
-											</svg>
-										</a>
-									</div>
-								</figure>
-								<div class="card-body text-center p-0">
-									<span
-										class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
-										>$29.00</span
-									>
-
-									<h4
-										class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
-									>
-										<a
-											class="text-decoration-none text-reset"
-											href="./shop/product-details-v5.html"
-											>Supreme Polishing Treatment</a
-										>
-									</h4>
-								</div>
-							</div>
-						</div>
-						<div>
-							<div
-								class="card card-product grid-1 bg-transparent border-0"
-								data-animate="fadeInUp"
-							>
-								<figure
-									class="card-img-top position-relative mb-7 overflow-hidden"
-								>
-									<a
-										href="./shop/product-details-v5.html"
-										class="hover-zoom-in d-block"
-										title="Scalp Moisturizing Cream"
-									>
-										<img
-											src="#"
-											data-src="{{ asset('assets/front/images/products/product-09-270x360.jpg') }}"
-											class="img-fluid lazy-image w-100"
-											alt="Scalp Moisturizing Cream"
-											width="330"
-											height="440"
-										/>
-									</a>
-
-									<div
-										class="position-absolute d-flex z-index-2 product-actions horizontal"
-									>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm add_to_cart"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Cart"
-										>
-											<svg
-												class="icon icon-shopping-bag-open-light"
-											>
-												<use
-													xlink:href="#icon-shopping-bag-open-light"
-												></use>
-											</svg> </a
-										><a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Quick View"
-										>
-											<span
-												data-bs-toggle="modal"
-												data-bs-target="#quickViewModal"
-												class="d-flex align-items-center justify-content-center"
-											>
-												<svg
-													class="icon icon-eye-light"
-												>
-													<use
-														xlink:href="#icon-eye-light"
-													></use>
-												</svg>
-											</span>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Wishlist"
-										>
-											<svg class="icon icon-star-light">
-												<use
-													xlink:href="#icon-star-light"
-												></use>
-											</svg>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare"
-											href="./shop/compare.html"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Compare"
-										>
-											<svg
-												class="icon icon-arrows-left-right-light"
-											>
-												<use
-													xlink:href="#icon-arrows-left-right-light"
-												></use>
-											</svg>
-										</a>
-									</div>
-								</figure>
-								<div class="card-body text-center p-0">
-									<span
-										class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
-										>$29.00</span
-									>
-
-									<h4
-										class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
-									>
-										<a
-											class="text-decoration-none text-reset"
-											href="./shop/product-details-v5.html"
-											>Scalp Moisturizing Cream</a
-										>
-									</h4>
-								</div>
-							</div>
-						</div>
-						<div>
-							<div
-								class="card card-product grid-1 bg-transparent border-0"
-								data-animate="fadeInUp"
-							>
-								<figure
-									class="card-img-top position-relative mb-7 overflow-hidden"
-								>
-									<a
-										href="./shop/product-details-v5.html"
-										class="hover-zoom-in d-block"
-										title="Natural Coconut Cleansing Oil"
-									>
-										<img
-											src="#"
-											data-src="{{ asset('assets/front/images/products/product-12-270x360.jpg') }}"
-											class="img-fluid lazy-image w-100"
-											alt="Natural Coconut Cleansing Oil"
-											width="330"
-											height="440"
-										/>
-									</a>
-
-									<div
-										class="position-absolute product-flash z-index-2"
-									>
-										<span
-											class="badge badge-product-flash on-sale bg-primary"
-											>-26%</span
-										>
-									</div>
-									<div
-										class="position-absolute d-flex z-index-2 product-actions horizontal"
-									>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm add_to_cart"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Cart"
-										>
-											<svg
-												class="icon icon-shopping-bag-open-light"
-											>
-												<use
-													xlink:href="#icon-shopping-bag-open-light"
-												></use>
-											</svg> </a
-										><a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Quick View"
-										>
-											<span
-												data-bs-toggle="modal"
-												data-bs-target="#quickViewModal"
-												class="d-flex align-items-center justify-content-center"
-											>
-												<svg
-													class="icon icon-eye-light"
-												>
-													<use
-														xlink:href="#icon-eye-light"
-													></use>
-												</svg>
-											</span>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist"
-											href="#"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Add To Wishlist"
-										>
-											<svg class="icon icon-star-light">
-												<use
-													xlink:href="#icon-star-light"
-												></use>
-											</svg>
-										</a>
-										<a
-											class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare"
-											href="./shop/compare.html"
-											data-bs-toggle="tooltip"
-											data-bs-placement="top"
-											data-bs-title="Compare"
-										>
-											<svg
-												class="icon icon-arrows-left-right-light"
-											>
-												<use
-													xlink:href="#icon-arrows-left-right-light"
-												></use>
-											</svg>
-										</a>
-									</div>
-								</figure>
-								<div class="card-body text-center p-0">
-									<span
-										class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
-									>
-										<del
-											class="text-body fw-500 me-4 fs-13px"
-											>$39.00</del
-										>
-										<ins class="text-decoration-none"
-											>$29.00</ins
-										></span
-									>
-
-									<h4
-										class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
-									>
-										<a
-											class="text-decoration-none text-reset"
-											href="./shop/product-details-v5.html"
-											>Natural Coconut Cleansing Oil</a
-										>
-									</h4>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
 			<section>
 				<div class="container container-xxl">
-					<div class="row gx-30px gy-30px">
-						<div
-							class="col-12 col-lg-8 col-md-7"
-							data-animate="fadeInUp"
-						>
-							<div
-								class="card border-0 rounded-0 banner-06 hover-zoom-in hover-shine"
-							>
-								<img
-									class="lazy-image w-100 card-img object-fit-cover light-mode-img"
-									src="#"
-									data-src="{{ asset('assets/front/images/banner/banner-10.jpg') }}"
-									width="930"
-									height="420"
-									alt="Discover Our Autumn Skincare"
-								/>
-								<img
-									class="lazy-image dark-mode-img w-100 card-img object-fit-cover"
-									src="#"
-									data-src="{{ asset('assets/front/images/banner/banner-white-10.jpg') }}"
-									width="930"
-									height="420"
-									alt="Discover Our Autumn Skincare"
-								/>
-								<div class="card-img-overlay p-md-12 m-2 p-9">
-									<h5
-										class="card-subtitle ls-1 mb-4 fw-semibold fs-15px text-body-emphasis fw-bold pb-3"
-									>
-										NEW COLLECTION
-									</h5>
-									<h3
-										class="card-title card-title lh-45px fs-3 font-primary mw-lg-60 pe-xl-25 pe-lg-10 pe-md-0 pe-sm-20"
-									>
-										Discover Our Autumn Skincare
-									</h3>
-									<div class="mt-7">
-										<a href="#" class="btn btn-white"
-											>Explore More</a
-										>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div
-							class="col-12 col-lg-4 col-md-5"
-							data-animate="fadeInUp"
-						>
-							<div
-								class="card border-0 rounded-0 banner-01 hover-zoom-in hover-shine"
-							>
-								<img
-									class="lazy-image object-fit-cover card-img light-mode-img"
-									src="#"
-									data-src="{{ asset('assets/front/images/banner/banner-09.jpg') }}"
-									width="690"
-									height="420"
-									alt="25% off Everything"
-								/>
-								<img
-									class="lazy-image dark-mode-img object-fit-cover card-img"
-									src="#"
-									data-src="{{ asset('assets/front/images/banner/banner-white-09.jpg') }}"
-									width="690"
-									height="420"
-									alt="25% off Everything"
-								/>
-								<div
-									class="card-img-overlay d-inline-flex flex-column p-md-12 m-md-2 p-8"
-								>
-									<h3 class="card-title lh-45px fs-3">
-										25% off Everything
-									</h3>
-									<p
-										class="card-text fs-15px text-body-emphasis mw-xl-60"
-									>
-										Makeup with extended range in colors for
-										every human.
-									</p>
-									<div class="mt-7">
-										<a href="#" class="btn btn-white"
-											>Shop Sale</a
-										>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section>
-				<div
-					class="container container-xxl pt-lg-20 pt-15 pb-lg-18 pb-16"
-				>
-					<div class="mb-md-15 mb-11">
-						<div class="text-center" data-animate="fadeInUp">
-							<h2>Why Shop with Glowing?</h2>
-						</div>
+					<div class="text-center pb-11 pb-lg-14">
+						<h2 class="fs-3 w-lg-40 w-auto mx-auto pb-7">
+							We strive to live with compassion, kindness and
+							empathy
+						</h2>
+						<p class="mw-lg-50 mx-auto">
+							A lot of so-called stretch denim pants out there are
+							just glorified sweatpants – they get baggy and lose
+							their shape. Not cool. Our tightly knitted fabric
+							holds its form after repeated wear. Plus, Aldays
+							dress up or down, no prob. So you can wear them all
+							day. Get it?
+						</p>
 					</div>
 					<div class="row gy-30px">
-						<div class="col-md-4" data-animate="fadeInUp">
+						<div class="col-md-4">
 							<div class="">
 								<div class="d-flex justify-content-center">
 									<img
@@ -2769,7 +616,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4" data-animate="fadeInUp">
+						<div class="col-md-4">
 							<div class="">
 								<div class="d-flex justify-content-center">
 									<img
@@ -2801,7 +648,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4" data-animate="fadeInUp">
+						<div class="col-md-4">
 							<div class="">
 								<div class="d-flex justify-content-center">
 									<img
@@ -2836,257 +683,351 @@
 					</div>
 				</div>
 			</section>
-
-			<section class="pb-lg-17 pb-16">
+			<section class="pt-lg-20 pt-15">
 				<div class="container container-xxl">
-					<div class="row align-items-center">
-						<div class="col-lg-3 col-5" data-animate="fadeInUp">
-							<img
-								class="lazy-image img-fluid light-mode-img"
-								src="#"
-								data-src="{{ asset('assets/front/images/Countdown/Countdown-03.jpg') }}"
-								width="305"
-								height="408"
-								alt="Countdown-01"
-							/>
-							<img
-								class="lazy-image dark-mode-img img-fluid"
-								src="#"
-								data-src="{{ asset('assets/front/images/Countdown/Countdown-white-03.jpg') }}"
-								width="305"
-								height="408"
-								alt="Countdown-01"
-							/>
-						</div>
-						<div class="col-lg-4 col-7" data-animate="fadeInUp">
-							<img
-								class="lazy-image img-fluid light-mode-img"
-								src="#"
-								data-src="{{ asset('assets/front/images/Countdown/Countdown-04.jpg') }}"
-								width="450"
-								height="625"
-								alt="Countdown-01"
-							/>
-							<img
-								class="lazy-image dark-mode-img img-fluid"
-								src="#"
-								data-src="{{ asset('assets/front/images/Countdown/Countdown-white-04.jpg') }}"
-								width="450"
-								height="625"
-								alt="Countdown-01"
-							/>
-						</div>
-						<div
-							class="col-lg-5 col-12 pt-lg-0 pt-14 ps-xxl-21"
-							data-animate="fadeInUp"
-						>
-							<div class="text-left">
-								<p
-									class="fs-15px mb-6 ls-1 text-body-emphasis fw-semibold"
-								>
-									SPECIAL OFFER
-									<span
-										class="badge bg-primary fs-15px py-3 px-4 ms-4"
-										>-20%</span
-									>
-								</p>
-								<h2 class="mb-6">Mountain Pine Bath Oil</h2>
-								<p
-									class="fs-18px me-md-25 me-lg-0 me-xl-10 mb-7"
-								>
-									Made using clean, non-toxic ingredients, our
-									products are designed for everyone.
-								</p>
-							</div>
-
+					<div class="row gy-30px">
+						<div class="col-lg-6">
 							<div
-								class="d-flex countdown ms-n4 ms-md-n7"
-								data-countdown="true"
-								data-countdown-end="Jan 27, 2024 18:24:25"
+								class="card border-0 rounded-0 banner-06 hover-zoom-in hover-shine"
 							>
-								<div
-									class="countdown-item text-center px-md-7 px-4 fs-42px"
-								>
-									<span
-										class="day fw-semibold text-primary font-primary"
-									></span>
-								</div>
-
-								<div
-									class="separate fw-semibold fs-42px text-primary"
-								>
-									:
-								</div>
-
-								<div
-									class="countdown-item text-center px-md-7 px-4 fs-42px"
-								>
-									<span
-										class="hour fw-semibold text-primary font-primary"
-									></span>
-								</div>
-
-								<div
-									class="separate fw-semibold fs-42px text-primary"
-								>
-									:
-								</div>
-
-								<div
-									class="countdown-item text-center px-md-7 px-4 fs-42px"
-								>
-									<span
-										class="minute fw-semibold text-primary font-primary"
-									></span>
-								</div>
-
-								<div
-									class="separate fw-semibold fs-42px text-primary"
-								>
-									:
-								</div>
-
-								<div
-									class="countdown-item text-center px-md-7 px-4 fs-42px"
-								>
-									<span
-										class="second fw-semibold text-primary font-primary"
-									></span>
+								<img
+									class="lazy-image w-100 card-img object-fit-cover lazy-image"
+									src="#"
+									data-src="{{ asset('assets/front/images/banner/banner-14.jpg') }}"
+									width="690"
+									height="450"
+									alt=""
+								/>
+								<div class="card-img-overlay">
+									<div
+										class="position-absolute top-50 end-0 translate-middle-y px-md-0 px-12"
+									>
+										<div class="mt-7"></div>
+									</div>
 								</div>
 							</div>
-
-							<a
-								href="#"
-								class="mt-11 btn btn-dark btn-hover-border-primary btn-hover-bg-primary shadow"
-								>Get Only $39,00</a
+						</div>
+						<div class="col-lg-6">
+							<div
+								class="card border-0 rounded-0 banner-06 hover-zoom-in hover-shine"
 							>
+								<img
+									class="lazy-image w-100 card-img object-fit-cover lazy-image"
+									src="#"
+									data-src="{{ asset('assets/front/images/banner/banner-13.jpg') }}"
+									width="690"
+									height="450"
+									alt=""
+								/>
+								<div class="card-img-overlay">
+									<div
+										class="position-absolute top-50 end-0 translate-middle-y px-md-0 px-12"
+									>
+										<div class="mt-7"></div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-
-			<section class="pt-14 pt-lg-16 pb-8 pb-md-12 pb-lg-16">
+			<section class="py-lg-18 pt-15 pb-16">
 				<div class="container container-xxl">
-					<div class="mb-11">
-						<div class="text-center" data-animate="fadeInUp">
-							<h2 class="mb-6">More to Discover</h2>
-						</div>
+					<div class="text-center mb-13">
+						<h3 class="fs-3 mx-auto mb-9" style="max-width: 483px">
+							We pride ourselves on have a team of highly skilled
+						</h3>
+						<p class="mx-auto" style="max-width: 608px">
+							Not cool. Our tightly knitted fabric holds its form
+							after repeated wear. Plus, Aldays dress up or down,
+							no prob. So you can wear them all day. Get it?
+						</p>
 					</div>
-					<div class="row">
-						<div
-							class="col-md-4 mb-9 mb-md-0"
-							data-animate="fadeInUp"
-						>
-							<div class="card border-0 hover-zoom-in">
-								<div class="image-box-4">
+					<div
+						class="slick-slider"
+						data-slick-options='{"slidesToShow": 4,"dots":false,"arrows":false,"responsive":[{"breakpoint": 1200,"settings": {"slidesToShow": 3,"arrows":false,"dots":true}},{"breakpoint": 768,"settings": {"slidesToShow": 2,"arrows":false,"dots":true}},{"breakpoint": 576,"settings": {"slidesToShow": 1,"arrows":false,"dots":true}}]}'
+					>
+						<div>
+							<div class="card border-0 hover-change-image">
+								<div class="position-relative overflow-hidden">
 									<img
-										class="lazy-image img-fluid lazy-image"
+										class="card-img img-fluid lazy-image"
 										src="#"
-										data-src="{{ asset('assets/front/images/image-box/image-box-21.jpg') }}"
-										width="960"
-										height="640"
-										alt=""
+										data-src="{{ asset('assets/front/images/others/our-team-01.jpg') }}"
+										width="330"
+										height="437"
+										alt="Slava Fedutik"
 									/>
-								</div>
-								<div
-									class="card-body text-body-emphasis text-center pt-9 mt-2"
-								>
-									<h5
-										class="card-titletext-decoration-none fs-4 d-block fw-semibold"
+									<div
+										class="card-img-overlay border-0 d-flex flex-column p-0 justify-content-end align-items-center"
 									>
-										<a
-											class="color-inherit text-decoration-none"
-											href="#"
-											>Find a Store</a
+										<ul
+											class="list-inline text-center bg-body-tertiary w-100 hover-image hover-bottom-to-top m-0 px-7 py-5"
 										>
-									</h5>
-									<a
-										href="#"
-										title="Shop now"
-										class="btn btn-link fw-semibold text-body-emphasis"
-										>Our Store
-										<i
-											class="far fa-arrow-right fs-14px ps-2 ms-1"
-										></i
-									></a>
+											<li class="list-inline-item mx-6">
+												<a
+													href="#"
+													class="fs-18px"
+													tabindex="0"
+													><i
+														class="fab fa-twitter"
+													></i
+												></a>
+											</li>
+											<li class="list-inline-item mx-6">
+												<a
+													href="#"
+													class="fs-18px"
+													tabindex="0"
+													><i
+														class="fab fa-facebook"
+													></i
+												></a>
+											</li>
+											<li class="list-inline-item mx-6">
+												<a
+													href="#"
+													class="fs-18px"
+													tabindex="0"
+													><i
+														class="fab fa-instagram"
+													></i
+												></a>
+											</li>
+											<li class="list-inline-item mx-6">
+												<a
+													href="#"
+													class="fs-18px"
+													tabindex="0"
+													><i
+														class="fab fa-youtube"
+													></i
+												></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="card-body px-0 py-7 text-center">
+									<h4 class="">
+										<a href="#" class="text-decoration-none"
+											>Slava Fedutik</a
+										>
+									</h4>
+									<p class="card-text">
+										Founder, Chief Creative
+									</p>
 								</div>
 							</div>
 						</div>
-						<div
-							class="col-md-4 mb-9 mb-md-0"
-							data-animate="fadeInUp"
-						>
-							<div class="card border-0 hover-zoom-in">
-								<div class="image-box-4">
+						<div>
+							<div class="card border-0 hover-change-image">
+								<div class="position-relative overflow-hidden">
 									<img
-										class="lazy-image img-fluid lazy-image"
+										class="card-img img-fluid lazy-image"
 										src="#"
-										data-src="{{ asset('assets/front/images/image-box/image-box-13.jpg') }}"
-										width="960"
-										height="640"
-										alt=""
+										data-src="{{ asset('assets/front/images/others/our-team-02.jpg') }}"
+										width="330"
+										height="437"
+										alt="Jennifer C."
 									/>
-								</div>
-								<div
-									class="card-body text-body-emphasis text-center pt-9 mt-2"
-								>
-									<h5
-										class="card-titletext-decoration-none fs-4 d-block fw-semibold"
+									<div
+										class="card-img-overlay border-0 d-flex flex-column p-0 justify-content-end align-items-center"
 									>
-										<a
-											class="color-inherit text-decoration-none"
-											href="#"
-											>From Our Blog</a
+										<ul
+											class="list-inline text-center bg-body-tertiary w-100 hover-image hover-bottom-to-top m-0 px-7 py-5"
 										>
-									</h5>
-									<a
-										href="#"
-										title="Shop now"
-										class="btn btn-link fw-semibold text-body-emphasis"
-										>Read more
-										<i
-											class="far fa-arrow-right fs-14px ps-2 ms-1"
-										></i
-									></a>
+											<li class="list-inline-item mx-6">
+												<a
+													href="#"
+													class="fs-18px"
+													tabindex="0"
+													><i
+														class="fab fa-twitter"
+													></i
+												></a>
+											</li>
+											<li class="list-inline-item mx-6">
+												<a
+													href="#"
+													class="fs-18px"
+													tabindex="0"
+													><i
+														class="fab fa-facebook"
+													></i
+												></a>
+											</li>
+											<li class="list-inline-item mx-6">
+												<a
+													href="#"
+													class="fs-18px"
+													tabindex="0"
+													><i
+														class="fab fa-instagram"
+													></i
+												></a>
+											</li>
+											<li class="list-inline-item mx-6">
+												<a
+													href="#"
+													class="fs-18px"
+													tabindex="0"
+													><i
+														class="fab fa-youtube"
+													></i
+												></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="card-body px-0 py-7 text-center">
+									<h4 class="">
+										<a href="#" class="text-decoration-none"
+											>Jennifer C.</a
+										>
+									</h4>
+									<p class="card-text">Founder, CEO</p>
 								</div>
 							</div>
 						</div>
-						<div
-							class="col-md-4 mb-9 mb-md-0"
-							data-animate="fadeInUp"
-						>
-							<div class="card border-0 hover-zoom-in">
-								<div class="image-box-4">
+						<div>
+							<div class="card border-0 hover-change-image">
+								<div class="position-relative overflow-hidden">
 									<img
-										class="lazy-image img-fluid lazy-image"
+										class="card-img img-fluid lazy-image"
 										src="#"
-										data-src="{{ asset('assets/front/images/image-box/image-box-14.jpg') }}"
-										width="960"
-										height="640"
-										alt=""
+										data-src="{{ asset('assets/front/images/others/our-team-03.jpg') }}"
+										width="330"
+										height="437"
+										alt="Valeriia Nadopta"
 									/>
-								</div>
-								<div
-									class="card-body text-body-emphasis text-center pt-9 mt-2"
-								>
-									<h5
-										class="card-titletext-decoration-none fs-4 d-block fw-semibold"
+									<div
+										class="card-img-overlay border-0 d-flex flex-column p-0 justify-content-end align-items-center"
 									>
-										<a
-											class="color-inherit text-decoration-none"
-											href="#"
-											>Our Story</a
+										<ul
+											class="list-inline text-center bg-body-tertiary w-100 hover-image hover-bottom-to-top m-0 px-7 py-5"
 										>
-									</h5>
-									<a
-										href="#"
-										title="Shop now"
-										class="btn btn-link fw-semibold text-body-emphasis"
-										>View More
-										<i
-											class="far fa-arrow-right fs-14px ps-2 ms-1"
-										></i
-									></a>
+											<li class="list-inline-item mx-6">
+												<a
+													href="#"
+													class="fs-18px"
+													tabindex="0"
+													><i
+														class="fab fa-twitter"
+													></i
+												></a>
+											</li>
+											<li class="list-inline-item mx-6">
+												<a
+													href="#"
+													class="fs-18px"
+													tabindex="0"
+													><i
+														class="fab fa-facebook"
+													></i
+												></a>
+											</li>
+											<li class="list-inline-item mx-6">
+												<a
+													href="#"
+													class="fs-18px"
+													tabindex="0"
+													><i
+														class="fab fa-instagram"
+													></i
+												></a>
+											</li>
+											<li class="list-inline-item mx-6">
+												<a
+													href="#"
+													class="fs-18px"
+													tabindex="0"
+													><i
+														class="fab fa-youtube"
+													></i
+												></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="card-body px-0 py-7 text-center">
+									<h4 class="">
+										<a href="#" class="text-decoration-none"
+											>Valeriia Nadopta</a
+										>
+									</h4>
+									<p class="card-text">Founder, C0O</p>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="card border-0 hover-change-image">
+								<div class="position-relative overflow-hidden">
+									<img
+										class="card-img img-fluid lazy-image"
+										src="#"
+										data-src="{{ asset('assets/front/images/others/our-team-04.jpg') }}"
+										width="330"
+										height="437"
+										alt="John Henry"
+									/>
+									<div
+										class="card-img-overlay border-0 d-flex flex-column p-0 justify-content-end align-items-center"
+									>
+										<ul
+											class="list-inline text-center bg-body-tertiary w-100 hover-image hover-bottom-to-top m-0 px-7 py-5"
+										>
+											<li class="list-inline-item mx-6">
+												<a
+													href="#"
+													class="fs-18px"
+													tabindex="0"
+													><i
+														class="fab fa-twitter"
+													></i
+												></a>
+											</li>
+											<li class="list-inline-item mx-6">
+												<a
+													href="#"
+													class="fs-18px"
+													tabindex="0"
+													><i
+														class="fab fa-facebook"
+													></i
+												></a>
+											</li>
+											<li class="list-inline-item mx-6">
+												<a
+													href="#"
+													class="fs-18px"
+													tabindex="0"
+													><i
+														class="fab fa-instagram"
+													></i
+												></a>
+											</li>
+											<li class="list-inline-item mx-6">
+												<a
+													href="#"
+													class="fs-18px"
+													tabindex="0"
+													><i
+														class="fab fa-youtube"
+													></i
+												></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="card-body px-0 py-7 text-center">
+									<h4 class="">
+										<a href="#" class="text-decoration-none"
+											>John Henry</a
+										>
+									</h4>
+									<p class="card-text">
+										Founder, Chief Creative
+									</p>
 								</div>
 							</div>
 						</div>
@@ -4933,13 +2874,13 @@
 					>
 				</div>
 				<a
-					href="./shop/checkout.html"
+					href="../shop/checkout.html"
 					class="btn btn-dark w-100 mb-7"
 					title="Check Out"
 					>Check Out</a
 				>
 				<a
-					href="./shop/shopping-cart.html"
+					href="../shop/shopping-cart.html"
 					class="btn btn-outline-dark w-100"
 					title="View shopping cart"
 					>View shopping cart</a
@@ -5115,15 +3056,9 @@
 							<input
 								name="password"
 								type="password"
-								class="form-control border-1 mb-5"
+								class="form-control border-1"
 								placeholder="Password"
 								required
-							/>
-							<input
-								name="address"
-								type="text"
-								class="form-control border-1"
-								placeholder="Address"
 							/>
 							<div class="d-flex align-items-center mt-8 mb-7">
 								<div class="form-check">
@@ -5348,13 +3283,119 @@
 								</p>
 								<h1 class="mb-4 pb-2 fs-4">
 									<a
-										href="./shop/product-details-v5.html"
+										href="./shop/product-details-v1.html"
 										title="Natural Coconut Cleansing Oil"
 									>
 										Natural Coconut Cleansing Oil
 									</a>
 								</h1>
-
+								<div
+									class="d-flex align-items-center fs-15px mb-6"
+								>
+									<p
+										class="mb-0 fw-semibold text-body-emphasis"
+									>
+										4.86
+									</p>
+									<div
+										class="d-flex align-items-center fs-12px justify-content-center mb-0 px-6 rating-result"
+									>
+										<div class="rating">
+											<div class="empty-stars">
+												<span class="star">
+													<svg class="icon star-o">
+														<use
+															xlink:href="#star-o"
+														></use>
+													</svg>
+												</span>
+												<span class="star">
+													<svg class="icon star-o">
+														<use
+															xlink:href="#star-o"
+														></use>
+													</svg>
+												</span>
+												<span class="star">
+													<svg class="icon star-o">
+														<use
+															xlink:href="#star-o"
+														></use>
+													</svg>
+												</span>
+												<span class="star">
+													<svg class="icon star-o">
+														<use
+															xlink:href="#star-o"
+														></use>
+													</svg>
+												</span>
+												<span class="star">
+													<svg class="icon star-o">
+														<use
+															xlink:href="#star-o"
+														></use>
+													</svg>
+												</span>
+											</div>
+											<div
+												class="filled-stars"
+												style="width: 100%"
+											>
+												<span class="star">
+													<svg
+														class="icon star text-primary"
+													>
+														<use
+															xlink:href="#star"
+														></use>
+													</svg>
+												</span>
+												<span class="star">
+													<svg
+														class="icon star text-primary"
+													>
+														<use
+															xlink:href="#star"
+														></use>
+													</svg>
+												</span>
+												<span class="star">
+													<svg
+														class="icon star text-primary"
+													>
+														<use
+															xlink:href="#star"
+														></use>
+													</svg>
+												</span>
+												<span class="star">
+													<svg
+														class="icon star text-primary"
+													>
+														<use
+															xlink:href="#star"
+														></use>
+													</svg>
+												</span>
+												<span class="star">
+													<svg
+														class="icon star text-primary"
+													>
+														<use
+															xlink:href="#star"
+														></use>
+													</svg>
+												</span>
+											</div>
+										</div>
+									</div>
+									<a
+										href="#"
+										class="border-start ps-6 text-body"
+										>Read 2947 reviews</a
+									>
+								</div>
 								<p class="fs-15px">
 									Niacinamide and Vitamin C are two anti-aging
 									superstars but not usually formulated
@@ -5440,7 +3481,7 @@
 										<svg class="icon fs-28px me-2 pe-4">
 											<use
 												xlink:href="#icon-delivery-1"
-											></use></svg
+											></use></svg>
 										>Get it between:
 									</span>
 									Feb 3 - Feb 14,2021
@@ -5450,7 +3491,7 @@
 										<svg class="icon fs-28px me-2 pe-4">
 											<use
 												xlink:href="#icon-Package"
-											></use></svg
+											></use></svg>
 										>Free Shipping & Returns:
 									</span>
 									On all orders over $200
