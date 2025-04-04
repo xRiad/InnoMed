@@ -116,7 +116,7 @@
                     <div class="px-5 d-none d-xl-inline-block">
                         <a
                             class="lh-1 color-inherit text-decoration-none"
-                            href="./shop/compare.html"
+                            href="{{ route('product.compare') }}"
                         >
                             <svg
                                 class="icon icon-arrows-left-right-light"
@@ -356,7 +356,7 @@
                         >
                             <a
                                 class="nav-link d-flex justify-content-between position-relative py-xl-0 px-xl-0 fw-semibold ls-1 fs-6 fs-xl-15px text-body-emphasis"
-                                href="./index.html"
+                                href="{{ route('home') }}"
                                 id="menu-item-home"
                                 aria-haspopup="true"
                                 aria-expanded="false"
@@ -368,7 +368,7 @@
                         >
                             <a
                                 class="nav-link d-flex justify-content-between position-relative py-xl-0 px-xl-0 fw-semibold ls-1 fs-6 fs-xl-15px text-body-emphasis"
-                                href="./shop/shop-layout-v2.html"
+                                href="{{ route('products') }}"
                                 id="menu-item-shop"
                                 aria-haspopup="true"
                                 aria-expanded="false"
@@ -380,7 +380,7 @@
                         >
                             <a
                                 class="nav-link d-flex justify-content-between position-relative py-xl-0 px-xl-0 fw-semibold ls-1 fs-6 fs-xl-15px text-body-emphasis"
-                                href="./blog/list.html"
+                                href="{{ route('blogs') }}"
                                 id="menu-item-pages"
                                 aria-haspopup="true"
                                 aria-expanded="false"
@@ -392,7 +392,7 @@
                         >
                             <a
                                 class="nav-link d-flex justify-content-between position-relative py-xl-0 px-xl-0 fw-semibold ls-1 fs-6 fs-xl-15px text-body-emphasis"
-                                href="./about-us-02.html"
+                                href="{{ route('about-us') }}"
                                 id="menu-item-blocks"
                                 aria-haspopup="false"
                                 aria-expanded="false"
@@ -404,7 +404,7 @@
                         >
                             <a
                                 class="nav-link d-flex justify-content-between position-relative py-xl-0 px-xl-0 fw-semibold ls-1 fs-6 fs-xl-15px text-body-emphasis"
-                                href="./contact-us-01.html"
+                                href="{{ route('contact-us') }}"
                                 id="menu-item-docs"
                                 aria-haspopup="true"
                                 aria-expanded="false"

@@ -1,240 +1,1981 @@
 @extends('front.layouts.app')
 
 @section('title')
-    Contact Us 01 - Glowing - Bootstrap 5 HTML Templates
+Shop Layout V2 - Glowing - Bootstrap 5 HTML Templates
 @endsection
 
 @section('content-primary')
 <main id="content" class="wrapper layout-page">
-    <section>
-        <div class="bg-body-secondary py-5">
-            <nav aria-label="breadcrumb">
-                <ol
-                    class="breadcrumb breadcrumb-site py-0 d-flex justify-content-center"
-                >
-                    <li class="breadcrumb-item">
-                        <a
-                            class="text-decoration-none text-body"
-                            href="#"
-                            >Home</a
+    <section class="page-title z-index-2 position-relative">
+        <div class="bg-body-secondary">
+            <div class="container">
+                <nav class="py-4 lh-30px" aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center py-1">
+                        <li class="breadcrumb-item">
+                            <a href="../index.html">Home</a>
+                        </li>
+                        <li
+                            class="breadcrumb-item active"
+                            aria-current="page"
                         >
-                    </li>
-                    <li
-                        class="breadcrumb-item active pl-0 d-flex align-items-center"
-                        aria-current="page"
-                    >
-                        Contact Us
-                    </li>
-                </ol>
-            </nav>
-        </div>
-        <div class="container pt-13">
-            <div class="text-center">
-                <div class="text-center">
-                    <h2 class="fs-36px mb-9">Keep In Touch with Us</h2>
-                    <p
-                        class="fs-18px mb-14 w-lg-60 w-xl-50 mx-md-12 mx-lg-auto"
-                    >
-                        We’re talking about clean beauty gift sets, of
-                        course – and we’ve got a bouquet of beauties for
-                        yourself or someone you love.
-                    </p>
-                </div>
+                            Məhsullar
+                        </li>
+                    </ol>
+                </nav>
             </div>
-            <div class="row">
-                <div class="col-md-4 mb-12 mb-md-0">
-                    <div class="d-flex align-items-start">
-                        <div class="pe-lg-9 pe-8 text-primary">
-                            <svg class="icon fs-2">
-                                <use xlink:href="#icon-box-07"></use>
-                            </svg>
-                        </div>
-                        <div>
-                            <h3 class="fs-5 mb-6">Address</h3>
-                            <div class="fs-6">
-                                <p class="mb-2 pb-4 fs-6">
-                                    3245 Abbot Kinney BLVD – <br />
-                                    PH Venice, CA 124
-                                </p>
-                                <p>
-                                    76 East Houston Street <br />
-                                    PH Venice, CA 124
-                                </p>
-                            </div>
-                            <a
-                                href="#"
-                                class="text-decoration-none border-bottom border-currentColor fw-semibold fs-6"
-                                >Get Direction</a
-                            >
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-12 mb-md-0">
-                    <div class="d-flex align-items-start">
-                        <div class="pe-lg-9 pe-8 text-primary">
-                            <svg class="icon fs-2">
-                                <use xlink:href="#icon-box-05"></use>
-                            </svg>
-                        </div>
-                        <div>
-                            <h3 class="fs-5 mb-6">Contact</h3>
-                            <div class="fs-6">
-                                <p class="mb-3 fs-6">
-                                    Mobile:<span
-                                        class="text-body-emphasis"
-                                    >
-                                        068 26589 996</span
-                                    >
-                                </p>
-                                <p class="mb-3 fs-6">
-                                    Hotline:<span
-                                        class="text-body-emphasis"
-                                    >
-                                        1900 26886</span
-                                    >
-                                </p>
-                                <p class="mb-0 fs-6">
-                                    E-mail: hello@grace.com
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-12 mb-md-0">
-                    <div class="d-flex align-items-start">
-                        <div class="pe-lg-9 pe-8 text-primary">
-                            <svg class="icon fs-2">
-                                <use xlink:href="#icon-box-06"></use>
-                            </svg>
-                        </div>
-                        <div>
-                            <h3 class="fs-5 mb-6">Hour of operation</h3>
-                            <div class="fs-6">
-                                <dl class="d-flex mb-0">
-                                    <dt
-                                        class="pe-3 fs-6 text-body-emphasis fw-500"
-                                        style="width: 110px"
-                                    >
-                                        Mon – Fri:
-                                    </dt>
-                                    <dd class="mb-0">08:30 – 20:00</dd>
-                                </dl>
-                                <dl class="d-flex mb-0">
-                                    <dt
-                                        class="pe-3 fs-6 text-body-emphasis fw-500"
-                                        style="width: 110px"
-                                    >
-                                        Sat & Sun:
-                                    </dt>
-                                    <dd class="mb-0">09:30 – 21:30</dd>
-                                </dl>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        </div>
+        <div class="text-center py-13">
+            <div class="container">
+                <h2 class="mb-0">Məhsullar</h2>
             </div>
         </div>
     </section>
-
-    <section class="pt-9 pt-md-16 pt-lg-18">
-        <div class="container">
-            <div
-                id="map"
-                class="mapbox-gl map-point-animate map-box-has-effect"
-                style="height: 530px"
-                data-mapbox-access-token="pk.eyJ1IjoiZzVvbmxpbmUiLCJhIjoiY2t1bWY4NzBiMWNycDMzbzZwMnI5ZThpaiJ9.ZifefVtp4anluFUbAMxAXg"
-                data-mapbox-options="{&#34;center&#34;:[-106.53671888774004,35.12362056187368],&#34;setLngLat&#34;:[-106.53671888774004,35.12362056187368],&#34;style&#34;:&#34;mapbox://styles/mapbox/light-v10&#34;,&#34;zoom&#34;:5}"
-                data-mapbox-marker="[{&#34;backgroundImage&#34;:&#34;/assets/images/others/marker.png') }}&#34;,&#34;backgroundRepeat&#34;:&#34;no-repeat&#34;,&#34;className&#34;:&#34;marker&#34;,&#34;height&#34;:&#34;70px&#34;,&#34;position&#34;:[-102.53671888774004,38.12362056187368],&#34;width&#34;:&#34;70px&#34;},{&#34;backgroundImage&#34;:&#34;/assets/images/others/marker.png') }}&#34;,&#34;backgroundRepeat&#34;:&#34;no-repeat&#34;,&#34;className&#34;:&#34;marker&#34;,&#34;height&#34;:&#34;70px&#34;,&#34;position&#34;:[-109.03671888774004,33.02362056187368],&#34;width&#34;:&#34;70px&#34;}]"
-            ></div>
-        </div>
-    </section>
-
-    <section
-        class="pt-15 pb-16 pt-lg-17 pb-lg-18 mx-auto"
-        style="max-width: 750px"
-    >
-        <div class="container text-center">
-            <h2 class="mb-10 fs-3">Sent A Message</h2>
-            <form class="contact-form" method="post" action="#">
-                <div class="row mb-8 mb-md-10">
-                    <div class="col-md-6 col-12 mb-8 mb-md-0">
-                        <input
-                            type="text"
-                            class="form-control input-focus"
-                            placeholder="Name"
-                        />
-                    </div>
-                    <div class="col-md-6 col-12">
-                        <input
-                            type="email"
-                            class="form-control input-focus"
-                            placeholder="Email"
-                        />
-                    </div>
-                </div>
-                <textarea
-                    class="form-control mb-6 input-focus"
-                    placeholder="Messenger"
-                    rows="7"
-                ></textarea>
-                <div class="form-check mb-9 text-start">
-                    <input
-                        class="form-check-input rounded-0"
-                        type="checkbox"
-                        value=""
-                        id="flexCheckDefault"
-                    />
-                    <label
-                        class="form-check-label"
-                        for="flexCheckDefault"
-                    >
-                        Save my name, email in this browse for the next
-                        time I comment
-                    </label>
-                </div>
-                <a
-                    href="#"
-                    data-bs-toggle="modal"
-                    data-bs-target="#submitMessageModal"
-                    type="submit"
-                    class="btn btn-dark btn-hover-bg-primary btn-hover-border-primary px-11"
-                >
-                    Submit
-                </a>
-            </form>
-        </div>
+    <section class="container container-xxl">
         <div
-            class="modal"
-            id="submitMessageModal"
-            tabindex="-1"
-            aria-labelledby="submitMessageModal"
-            aria-hidden="true"
+            class="tool-bar mb-11 align-items-center justify-content-between d-lg-flex"
         >
-            <div
-                class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-            >
-                <div class="modal-content">
-                    <div class="p-5 text-center border-0">
-                        <button
-                            type="button"
-                            class="btn-close position-absolute end-5 top-5"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                        ></button>
-                        <h5
-                            class="modal-title w-100 d-flex justify-content-center align-items-center gap-5"
-                            id="signInModalLabel"
-                        >
-                            <i class="fa-solid fa-check"></i>
-                            <span
-                                >The message is successfully sent!</span
-                            >
-                        </h5>
-                    </div>
-                </div>
+            <div class="tool-bar-left mb-6 mb-lg-0 fs-18px">
+                We found
+                <span class="text-body-emphasis fw-semibold">95</span>
+                products available for you
+            </div>
+            <div class="tool-bar-right align-items-center d-flex">
+                <ul
+                    class="list-unstyled d-flex align-items-center list-inline mb-0 ms-auto"
+                >
+                    <li class="list-inline-item me-0">
+                        <select class="form-select" name="orderby">
+                            <option selected="selected">
+                                Default sorting
+                            </option>
+                            <option value="popularity">
+                                Sort by popularity
+                            </option>
+                            <option value="rating">
+                                Sort by average rating
+                            </option>
+                            <option value="date">Sort by latest</option>
+                            <option value="price">
+                                Sort by price: low to high
+                            </option>
+                            <option value="price-desc">
+                                Sort by price: high to low
+                            </option>
+                        </select>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
+    <div class="container container-xxl pb-16 pb-lg-18">
+        <div class="row">
+            <div class="col-lg-9 order-lg-1">
+                <div class="row gy-11">
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div
+                            class="card card-product grid-2 bg-transparent border-0"
+                            data-animate="fadeInUp"
+                        >
+                            <figure
+                                class="card-img-top position-relative mb-7 overflow-hidden"
+                            >
+                                <a
+                                    href="{{ route('product.detail', ['id' => '1']) }}"
+                                    class="hover-zoom-in d-block"
+                                    title="Shield Conditioner"
+                                >
+                                    <img
+                                        src="#"
+                                        data-src="{{ asset('assets/front/images/products/product-01-330x440.jpg') }}"
+                                        class="img-fluid lazy-image w-100"
+                                        alt="Shield Conditioner"
+                                        width="330"
+                                        height="440"
+                                    />
+                                </a>
+
+                                <div
+                                    class="position-absolute product-flash z-index-2"
+                                >
+                                    <span
+                                        class="badge badge-product-flash on-sale bg-primary"
+                                        >-25%</span
+                                    >
+                                </div>
+                                <div
+                                    class="position-absolute d-flex z-index-2 product-actions vertical"
+                                >
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Quick View"
+                                    >
+                                        <span
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#quickViewModal"
+                                            class="d-flex align-items-center justify-content-center"
+                                        >
+                                            <svg
+                                                class="icon icon-eye-light"
+                                            >
+                                                <use
+                                                    xlink:href="#icon-eye-light"
+                                                ></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Add To Wishlist"
+                                    >
+                                        <svg
+                                            class="icon icon-star-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-star-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare sm"
+                                        href="../shop/compare.html"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Compare"
+                                    >
+                                        <svg
+                                            class="icon icon-arrows-left-right-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-arrows-left-right-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <a
+                                    href="#"
+                                    class="btn btn-add-to-cart btn-dark btn-hover-bg-primary btn-hover-border-primary position-absolute z-index-2 text-nowrap btn-sm px-6 py-3 lh-2"
+                                    >Add To Cart</a
+                                >
+                            </figure>
+                            <div class="card-body text-center p-0">
+                                <span
+                                    class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
+                                >
+                                    <del
+                                        class="text-body fw-500 me-4 fs-13px"
+                                        >$40.00</del
+                                    >
+                                    <ins class="text-decoration-none"
+                                        >$30.00</ins
+                                    ></span
+                                >
+
+                                <h4
+                                    class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
+                                >
+                                    <a
+                                        class="text-decoration-none text-reset"
+                                        href="{{ route('product.detail', ['id' => '1']) }}"
+                                        >Shield Conditioner</a
+                                    >
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div
+                            class="card card-product grid-2 bg-transparent border-0"
+                            data-animate="fadeInUp"
+                        >
+                            <figure
+                                class="card-img-top position-relative mb-7 overflow-hidden"
+                            >
+                                <a
+                                    href="../shop/product-details-v5.html"
+                                    class="hover-zoom-in d-block"
+                                    title="Perfecting Facial Oil"
+                                >
+                                    <img
+                                        src="#"
+                                        data-src="{{ asset('assets/front/images/products/product-02-330x440.jpg') }}"
+                                        class="img-fluid lazy-image w-100"
+                                        alt="Perfecting Facial Oil"
+                                        width="330"
+                                        height="440"
+                                    />
+                                </a>
+
+                                <div
+                                    class="position-absolute d-flex z-index-2 product-actions vertical"
+                                >
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Quick View"
+                                    >
+                                        <span
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#quickViewModal"
+                                            class="d-flex align-items-center justify-content-center"
+                                        >
+                                            <svg
+                                                class="icon icon-eye-light"
+                                            >
+                                                <use
+                                                    xlink:href="#icon-eye-light"
+                                                ></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Add To Wishlist"
+                                    >
+                                        <svg
+                                            class="icon icon-star-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-star-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare sm"
+                                        href="../shop/compare.html"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Compare"
+                                    >
+                                        <svg
+                                            class="icon icon-arrows-left-right-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-arrows-left-right-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <a
+                                    href="#"
+                                    class="btn btn-add-to-cart btn-dark btn-hover-bg-primary btn-hover-border-primary position-absolute z-index-2 text-nowrap btn-sm px-6 py-3 lh-2"
+                                    >Add To Cart</a
+                                >
+                            </figure>
+                            <div class="card-body text-center p-0">
+                                <span
+                                    class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
+                                    >$20.00</span
+                                >
+
+                                <h4
+                                    class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
+                                >
+                                    <a
+                                        class="text-decoration-none text-reset"
+                                        href="../shop/product-details-v1.html"
+                                        >Perfecting Facial Oil</a
+                                    >
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div
+                            class="card card-product grid-2 bg-transparent border-0"
+                            data-animate="fadeInUp"
+                        >
+                            <figure
+                                class="card-img-top position-relative mb-7 overflow-hidden"
+                            >
+                                <a
+                                    href="../shop/product-details-v5.html"
+                                    class="hover-zoom-in d-block"
+                                    title="Enriched Hand &amp; Body Wash"
+                                >
+                                    <img
+                                        src="#"
+                                        data-src="{{ asset('assets/front/images/products/product-03-330x440.jpg') }}"
+                                        class="img-fluid lazy-image w-100"
+                                        alt="Enriched Hand &amp; Body Wash"
+                                        width="330"
+                                        height="440"
+                                    />
+                                </a>
+
+                                <div
+                                    class="position-absolute product-flash z-index-2"
+                                >
+                                    <span
+                                        class="badge badge-product-flash on-new"
+                                        >New</span
+                                    >
+                                </div>
+                                <div
+                                    class="position-absolute d-flex z-index-2 product-actions vertical"
+                                >
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Quick View"
+                                    >
+                                        <span
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#quickViewModal"
+                                            class="d-flex align-items-center justify-content-center"
+                                        >
+                                            <svg
+                                                class="icon icon-eye-light"
+                                            >
+                                                <use
+                                                    xlink:href="#icon-eye-light"
+                                                ></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Add To Wishlist"
+                                    >
+                                        <svg
+                                            class="icon icon-star-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-star-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare sm"
+                                        href="../shop/compare.html"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Compare"
+                                    >
+                                        <svg
+                                            class="icon icon-arrows-left-right-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-arrows-left-right-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <a
+                                    href="#"
+                                    class="btn btn-add-to-cart btn-dark btn-hover-bg-primary btn-hover-border-primary position-absolute z-index-2 text-nowrap btn-sm px-6 py-3 lh-2"
+                                    >Add To Cart</a
+                                >
+                            </figure>
+                            <div class="card-body text-center p-0">
+                                <span
+                                    class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
+                                    >$29.00</span
+                                >
+
+                                <h4
+                                    class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
+                                >
+                                    <a
+                                        class="text-decoration-none text-reset"
+                                        href="../shop/product-details-v1.html"
+                                        >Enriched Hand &amp; Body
+                                        Wash</a
+                                    >
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div
+                            class="card card-product grid-2 bg-transparent border-0"
+                            data-animate="fadeInUp"
+                        >
+                            <figure
+                                class="card-img-top position-relative mb-7 overflow-hidden"
+                            >
+                                <a
+                                    href="../shop/product-details-v5.html"
+                                    class="hover-zoom-in d-block"
+                                    title="Shield Shampoo"
+                                >
+                                    <img
+                                        src="#"
+                                        data-src="{{ asset('assets/front/images/products/product-04-330x440.jpg') }}"
+                                        class="img-fluid lazy-image w-100"
+                                        alt="Shield Shampoo"
+                                        width="330"
+                                        height="440"
+                                    />
+                                </a>
+
+                                <div
+                                    class="position-absolute product-flash z-index-2"
+                                >
+                                    <span
+                                        class="badge badge-product-flash on-sale bg-primary"
+                                        >-24%</span
+                                    >
+                                </div>
+                                <div
+                                    class="position-absolute d-flex z-index-2 product-actions vertical"
+                                >
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Quick View"
+                                    >
+                                        <span
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#quickViewModal"
+                                            class="d-flex align-items-center justify-content-center"
+                                        >
+                                            <svg
+                                                class="icon icon-eye-light"
+                                            >
+                                                <use
+                                                    xlink:href="#icon-eye-light"
+                                                ></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Add To Wishlist"
+                                    >
+                                        <svg
+                                            class="icon icon-star-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-star-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare sm"
+                                        href="../shop/compare.html"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Compare"
+                                    >
+                                        <svg
+                                            class="icon icon-arrows-left-right-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-arrows-left-right-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <a
+                                    href="#"
+                                    class="btn btn-add-to-cart btn-dark btn-hover-bg-primary btn-hover-border-primary position-absolute z-index-2 text-nowrap btn-sm px-6 py-3 lh-2"
+                                    >Add To Cart</a
+                                >
+                            </figure>
+                            <div class="card-body text-center p-0">
+                                <span
+                                    class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
+                                >
+                                    <del
+                                        class="text-body fw-500 me-4 fs-13px"
+                                        >$25.00</del
+                                    >
+                                    <ins class="text-decoration-none"
+                                        >$19.00</ins
+                                    ></span
+                                >
+
+                                <h4
+                                    class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
+                                >
+                                    <a
+                                        class="text-decoration-none text-reset"
+                                        href="../shop/product-details-v1.html"
+                                        >Shield Shampoo</a
+                                    >
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div
+                            class="card card-product grid-2 bg-transparent border-0"
+                            data-animate="fadeInUp"
+                        >
+                            <figure
+                                class="card-img-top position-relative mb-7 overflow-hidden"
+                            >
+                                <a
+                                    href="../shop/product-details-v5.html"
+                                    class="hover-zoom-in d-block"
+                                    title="Enriched Hand Wash"
+                                >
+                                    <img
+                                        src="#"
+                                        data-src="{{ asset('assets/front/images/products/product-05-330x440.jpg') }}"
+                                        class="img-fluid lazy-image w-100"
+                                        alt="Enriched Hand Wash"
+                                        width="330"
+                                        height="440"
+                                    />
+                                </a>
+
+                                <div
+                                    class="position-absolute product-flash z-index-2"
+                                >
+                                    <span
+                                        class="badge badge-product-flash on-sale bg-primary"
+                                        >-26%</span
+                                    >
+                                </div>
+                                <div
+                                    class="position-absolute d-flex z-index-2 product-actions vertical"
+                                >
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Quick View"
+                                    >
+                                        <span
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#quickViewModal"
+                                            class="d-flex align-items-center justify-content-center"
+                                        >
+                                            <svg
+                                                class="icon icon-eye-light"
+                                            >
+                                                <use
+                                                    xlink:href="#icon-eye-light"
+                                                ></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Add To Wishlist"
+                                    >
+                                        <svg
+                                            class="icon icon-star-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-star-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare sm"
+                                        href="../shop/compare.html"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Compare"
+                                    >
+                                        <svg
+                                            class="icon icon-arrows-left-right-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-arrows-left-right-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <a
+                                    href="#"
+                                    class="btn btn-add-to-cart btn-dark btn-hover-bg-primary btn-hover-border-primary position-absolute z-index-2 text-nowrap btn-sm px-6 py-3 lh-2"
+                                    >Add To Cart</a
+                                >
+                            </figure>
+                            <div class="card-body text-center p-0">
+                                <span
+                                    class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
+                                >
+                                    <del
+                                        class="text-body fw-500 me-4 fs-13px"
+                                        >$39.00</del
+                                    >
+                                    <ins class="text-decoration-none"
+                                        >$29.00</ins
+                                    ></span
+                                >
+
+                                <h4
+                                    class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
+                                >
+                                    <a
+                                        class="text-decoration-none text-reset"
+                                        href="../shop/product-details-v1.html"
+                                        >Enriched Hand Wash</a
+                                    >
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div
+                            class="card card-product grid-2 bg-transparent border-0"
+                            data-animate="fadeInUp"
+                        >
+                            <figure
+                                class="card-img-top position-relative mb-7 overflow-hidden"
+                            >
+                                <a
+                                    href="../shop/product-details-v5.html"
+                                    class="hover-zoom-in d-block"
+                                    title="Enriched Duo"
+                                >
+                                    <img
+                                        src="#"
+                                        data-src="{{ asset('assets/front/images/products/product-06-330x440.jpg') }}"
+                                        class="img-fluid lazy-image w-100"
+                                        alt="Enriched Duo"
+                                        width="330"
+                                        height="440"
+                                    />
+                                </a>
+
+                                <div
+                                    class="position-absolute d-flex z-index-2 product-actions vertical"
+                                >
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Quick View"
+                                    >
+                                        <span
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#quickViewModal"
+                                            class="d-flex align-items-center justify-content-center"
+                                        >
+                                            <svg
+                                                class="icon icon-eye-light"
+                                            >
+                                                <use
+                                                    xlink:href="#icon-eye-light"
+                                                ></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Add To Wishlist"
+                                    >
+                                        <svg
+                                            class="icon icon-star-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-star-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare sm"
+                                        href="../shop/compare.html"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Compare"
+                                    >
+                                        <svg
+                                            class="icon icon-arrows-left-right-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-arrows-left-right-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <a
+                                    href="#"
+                                    class="btn btn-add-to-cart btn-dark btn-hover-bg-primary btn-hover-border-primary position-absolute z-index-2 text-nowrap btn-sm px-6 py-3 lh-2"
+                                    >Add To Cart</a
+                                >
+                            </figure>
+                            <div class="card-body text-center p-0">
+                                <span
+                                    class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
+                                    >$29.00</span
+                                >
+
+                                <h4
+                                    class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
+                                >
+                                    <a
+                                        class="text-decoration-none text-reset"
+                                        href="../shop/product-details-v1.html"
+                                        >Enriched Duo</a
+                                    >
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div
+                            class="card card-product grid-2 bg-transparent border-0"
+                            data-animate="fadeInUp"
+                        >
+                            <figure
+                                class="card-img-top position-relative mb-7 overflow-hidden"
+                            >
+                                <a
+                                    href="../shop/product-details-v5.html"
+                                    class="hover-zoom-in d-block"
+                                    title="Shield Spray"
+                                >
+                                    <img
+                                        src="#"
+                                        data-src="{{ asset('assets/front/images/products/product-07-330x440.jpg') }}"
+                                        class="img-fluid lazy-image w-100"
+                                        alt="Shield Spray"
+                                        width="330"
+                                        height="440"
+                                    />
+                                </a>
+
+                                <div
+                                    class="position-absolute d-flex z-index-2 product-actions vertical"
+                                >
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Quick View"
+                                    >
+                                        <span
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#quickViewModal"
+                                            class="d-flex align-items-center justify-content-center"
+                                        >
+                                            <svg
+                                                class="icon icon-eye-light"
+                                            >
+                                                <use
+                                                    xlink:href="#icon-eye-light"
+                                                ></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Add To Wishlist"
+                                    >
+                                        <svg
+                                            class="icon icon-star-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-star-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare sm"
+                                        href="../shop/compare.html"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Compare"
+                                    >
+                                        <svg
+                                            class="icon icon-arrows-left-right-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-arrows-left-right-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <a
+                                    href="#"
+                                    class="btn btn-add-to-cart btn-dark btn-hover-bg-primary btn-hover-border-primary position-absolute z-index-2 text-nowrap btn-sm px-6 py-3 lh-2"
+                                    >Add To Cart</a
+                                >
+                            </figure>
+                            <div class="card-body text-center p-0">
+                                <span
+                                    class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
+                                    >$29.00</span
+                                >
+
+                                <h4
+                                    class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
+                                >
+                                    <a
+                                        class="text-decoration-none text-reset"
+                                        href="../shop/product-details-v1.html"
+                                        >Shield Spray</a
+                                    >
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div
+                            class="card card-product grid-2 bg-transparent border-0"
+                            data-animate="fadeInUp"
+                        >
+                            <figure
+                                class="card-img-top position-relative mb-7 overflow-hidden"
+                            >
+                                <a
+                                    href="../shop/product-details-v5.html"
+                                    class="hover-zoom-in d-block"
+                                    title="Vital Eye Cream"
+                                >
+                                    <img
+                                        src="#"
+                                        data-src="{{ asset('assets/front/images/products/product-08-330x440.jpg') }}"
+                                        class="img-fluid lazy-image w-100"
+                                        alt="Vital Eye Cream"
+                                        width="330"
+                                        height="440"
+                                    />
+                                </a>
+
+                                <div
+                                    class="position-absolute product-flash z-index-2"
+                                >
+                                    <span
+                                        class="badge badge-product-flash on-sale bg-primary"
+                                        >-26%</span
+                                    >
+                                </div>
+                                <div
+                                    class="position-absolute d-flex z-index-2 product-actions vertical"
+                                >
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Quick View"
+                                    >
+                                        <span
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#quickViewModal"
+                                            class="d-flex align-items-center justify-content-center"
+                                        >
+                                            <svg
+                                                class="icon icon-eye-light"
+                                            >
+                                                <use
+                                                    xlink:href="#icon-eye-light"
+                                                ></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Add To Wishlist"
+                                    >
+                                        <svg
+                                            class="icon icon-star-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-star-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare sm"
+                                        href="../shop/compare.html"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Compare"
+                                    >
+                                        <svg
+                                            class="icon icon-arrows-left-right-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-arrows-left-right-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <a
+                                    href="#"
+                                    class="btn btn-add-to-cart btn-dark btn-hover-bg-primary btn-hover-border-primary position-absolute z-index-2 text-nowrap btn-sm px-6 py-3 lh-2"
+                                    >Add To Cart</a
+                                >
+                            </figure>
+                            <div class="card-body text-center p-0">
+                                <span
+                                    class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
+                                >
+                                    <del
+                                        class="text-body fw-500 me-4 fs-13px"
+                                        >$39.00</del
+                                    >
+                                    <ins class="text-decoration-none"
+                                        >$29.00</ins
+                                    ></span
+                                >
+
+                                <h4
+                                    class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
+                                >
+                                    <a
+                                        class="text-decoration-none text-reset"
+                                        href="../shop/product-details-v1.html"
+                                        >Vital Eye Cream</a
+                                    >
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div
+                            class="card card-product grid-2 bg-transparent border-0"
+                            data-animate="fadeInUp"
+                        >
+                            <figure
+                                class="card-img-top position-relative mb-7 overflow-hidden"
+                            >
+                                <a
+                                    href="../shop/product-details-v5.html"
+                                    class="hover-zoom-in d-block"
+                                    title="Supreme Moisture Mask"
+                                >
+                                    <img
+                                        src="#"
+                                        data-src="{{ asset('assets/front/images/products/product-09-330x440.jpg') }}"
+                                        class="img-fluid lazy-image w-100"
+                                        alt="Supreme Moisture Mask"
+                                        width="330"
+                                        height="440"
+                                    />
+                                </a>
+
+                                <div
+                                    class="position-absolute product-flash z-index-2"
+                                >
+                                    <span
+                                        class="badge badge-product-flash on-sale bg-primary"
+                                        >-26%</span
+                                    >
+                                </div>
+                                <div
+                                    class="position-absolute d-flex z-index-2 product-actions vertical"
+                                >
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Quick View"
+                                    >
+                                        <span
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#quickViewModal"
+                                            class="d-flex align-items-center justify-content-center"
+                                        >
+                                            <svg
+                                                class="icon icon-eye-light"
+                                            >
+                                                <use
+                                                    xlink:href="#icon-eye-light"
+                                                ></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Add To Wishlist"
+                                    >
+                                        <svg
+                                            class="icon icon-star-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-star-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare sm"
+                                        href="../shop/compare.html"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Compare"
+                                    >
+                                        <svg
+                                            class="icon icon-arrows-left-right-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-arrows-left-right-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <a
+                                    href="#"
+                                    class="btn btn-add-to-cart btn-dark btn-hover-bg-primary btn-hover-border-primary position-absolute z-index-2 text-nowrap btn-sm px-6 py-3 lh-2"
+                                    >Add To Cart</a
+                                >
+                            </figure>
+                            <div class="card-body text-center p-0">
+                                <span
+                                    class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
+                                >
+                                    <del
+                                        class="text-body fw-500 me-4 fs-13px"
+                                        >$39.00</del
+                                    >
+                                    <ins class="text-decoration-none"
+                                        >$29.00</ins
+                                    ></span
+                                >
+
+                                <h4
+                                    class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
+                                >
+                                    <a
+                                        class="text-decoration-none text-reset"
+                                        href="../shop/product-details-v1.html"
+                                        >Supreme Moisture Mask</a
+                                    >
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div
+                            class="card card-product grid-2 bg-transparent border-0"
+                            data-animate="fadeInUp"
+                        >
+                            <figure
+                                class="card-img-top position-relative mb-7 overflow-hidden"
+                            >
+                                <a
+                                    href="../shop/product-details-v5.html"
+                                    class="hover-zoom-in d-block"
+                                    title="Supreme Polishing Treatment"
+                                >
+                                    <img
+                                        src="#"
+                                        data-src="{{ asset('assets/front/images/products/product-10-330x440.jpg') }}"
+                                        class="img-fluid lazy-image w-100"
+                                        alt="Supreme Polishing Treatment"
+                                        width="330"
+                                        height="440"
+                                    />
+                                </a>
+
+                                <div
+                                    class="position-absolute d-flex z-index-2 product-actions vertical"
+                                >
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Quick View"
+                                    >
+                                        <span
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#quickViewModal"
+                                            class="d-flex align-items-center justify-content-center"
+                                        >
+                                            <svg
+                                                class="icon icon-eye-light"
+                                            >
+                                                <use
+                                                    xlink:href="#icon-eye-light"
+                                                ></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Add To Wishlist"
+                                    >
+                                        <svg
+                                            class="icon icon-star-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-star-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare sm"
+                                        href="../shop/compare.html"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Compare"
+                                    >
+                                        <svg
+                                            class="icon icon-arrows-left-right-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-arrows-left-right-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <a
+                                    href="#"
+                                    class="btn btn-add-to-cart btn-dark btn-hover-bg-primary btn-hover-border-primary position-absolute z-index-2 text-nowrap btn-sm px-6 py-3 lh-2"
+                                    >Add To Cart</a
+                                >
+                            </figure>
+                            <div class="card-body text-center p-0">
+                                <span
+                                    class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
+                                    >$29.00</span
+                                >
+
+                                <h4
+                                    class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
+                                >
+                                    <a
+                                        class="text-decoration-none text-reset"
+                                        href="../shop/product-details-v1.html"
+                                        >Supreme Polishing Treatment</a
+                                    >
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div
+                            class="card card-product grid-2 bg-transparent border-0"
+                            data-animate="fadeInUp"
+                        >
+                            <figure
+                                class="card-img-top position-relative mb-7 overflow-hidden"
+                            >
+                                <a
+                                    href="../shop/product-details-v5.html"
+                                    class="hover-zoom-in d-block"
+                                    title="Scalp Moisturizing Cream"
+                                >
+                                    <img
+                                        src="#"
+                                        data-src="{{ asset('assets/front/images/products/product-11-330x440.jpg') }}"
+                                        class="img-fluid lazy-image w-100"
+                                        alt="Scalp Moisturizing Cream"
+                                        width="330"
+                                        height="440"
+                                    />
+                                </a>
+
+                                <div
+                                    class="position-absolute d-flex z-index-2 product-actions vertical"
+                                >
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Quick View"
+                                    >
+                                        <span
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#quickViewModal"
+                                            class="d-flex align-items-center justify-content-center"
+                                        >
+                                            <svg
+                                                class="icon icon-eye-light"
+                                            >
+                                                <use
+                                                    xlink:href="#icon-eye-light"
+                                                ></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Add To Wishlist"
+                                    >
+                                        <svg
+                                            class="icon icon-star-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-star-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare sm"
+                                        href="../shop/compare.html"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Compare"
+                                    >
+                                        <svg
+                                            class="icon icon-arrows-left-right-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-arrows-left-right-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <a
+                                    href="#"
+                                    class="btn btn-add-to-cart btn-dark btn-hover-bg-primary btn-hover-border-primary position-absolute z-index-2 text-nowrap btn-sm px-6 py-3 lh-2"
+                                    >Add To Cart</a
+                                >
+                            </figure>
+                            <div class="card-body text-center p-0">
+                                <span
+                                    class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
+                                    >$29.00</span
+                                >
+
+                                <h4
+                                    class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
+                                >
+                                    <a
+                                        class="text-decoration-none text-reset"
+                                        href="../shop/product-details-v1.html"
+                                        >Scalp Moisturizing Cream</a
+                                    >
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div
+                            class="card card-product grid-2 bg-transparent border-0"
+                            data-animate="fadeInUp"
+                        >
+                            <figure
+                                class="card-img-top position-relative mb-7 overflow-hidden"
+                            >
+                                <a
+                                    href="../shop/product-details-v5.html"
+                                    class="hover-zoom-in d-block"
+                                    title="Natural Coconut Cleansing Oil"
+                                >
+                                    <img
+                                        src="#"
+                                        data-src="{{ asset('assets/front/images/products/product-12-330x440.jpg') }}"
+                                        class="img-fluid lazy-image w-100"
+                                        alt="Natural Coconut Cleansing Oil"
+                                        width="330"
+                                        height="440"
+                                    />
+                                </a>
+
+                                <div
+                                    class="position-absolute product-flash z-index-2"
+                                >
+                                    <span
+                                        class="badge badge-product-flash on-sale bg-primary"
+                                        >-26%</span
+                                    >
+                                </div>
+                                <div
+                                    class="position-absolute d-flex z-index-2 product-actions vertical"
+                                >
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm quick-view sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Quick View"
+                                    >
+                                        <span
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#quickViewModal"
+                                            class="d-flex align-items-center justify-content-center"
+                                        >
+                                            <svg
+                                                class="icon icon-eye-light"
+                                            >
+                                                <use
+                                                    xlink:href="#icon-eye-light"
+                                                ></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm wishlist sm"
+                                        href="#"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Add To Wishlist"
+                                    >
+                                        <svg
+                                            class="icon icon-star-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-star-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm compare sm"
+                                        href="../shop/compare.html"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        data-bs-title="Compare"
+                                    >
+                                        <svg
+                                            class="icon icon-arrows-left-right-light"
+                                        >
+                                            <use
+                                                xlink:href="#icon-arrows-left-right-light"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <a
+                                    href="#"
+                                    class="btn btn-add-to-cart btn-dark btn-hover-bg-primary btn-hover-border-primary position-absolute z-index-2 text-nowrap btn-sm px-6 py-3 lh-2"
+                                    >Add To Cart</a
+                                >
+                            </figure>
+                            <div class="card-body text-center p-0">
+                                <span
+                                    class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6"
+                                >
+                                    <del
+                                        class="text-body fw-500 me-4 fs-13px"
+                                        >$39.00</del
+                                    >
+                                    <ins class="text-decoration-none"
+                                        >$29.00</ins
+                                    ></span
+                                >
+
+                                <h4
+                                    class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3"
+                                >
+                                    <a
+                                        class="text-decoration-none text-reset"
+                                        href="../shop/product-details-v1.html"
+                                        >Natural Coconut Cleansing
+                                        Oil</a
+                                    >
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav
+                    class="d-flex mt-13 pt-3 justify-content-center"
+                    aria-label="pagination"
+                    data-animate="fadeInUp"
+                >
+                    <ul class="pagination m-0">
+                        <li class="page-item">
+                            <a
+                                class="page-link rounded-circle d-flex align-items-center justify-content-center"
+                                href="#"
+                                aria-label="Previous"
+                            >
+                                <svg class="icon">
+                                    <use
+                                        xlink:href="#icon-angle-double-left"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">...</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">6</a>
+                        </li>
+                        <li class="page-item">
+                            <a
+                                class="page-link rounded-circle d-flex align-items-center justify-content-center"
+                                href="#"
+                                aria-label="Next"
+                            >
+                                <svg class="icon">
+                                    <use
+                                        xlink:href="#icon-angle-double-right"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-3 d-lg-block d-none">
+                <div class="position-sticky top-0">
+                    <aside
+                        class="primary-sidebar pe-xl-9 me-xl-2 mt-12 pt-2 mt-lg-0 pt-lg-0"
+                    >
+                        <div class="widget widget-product-category">
+                            <h4 class="widget-title fs-5 mb-6">
+                                Category
+                            </h4>
+                            <ul
+                                class="navbar-nav navbar-nav-cate"
+                                id="widget_product_category"
+                            >
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="Body Care"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center text-uppercase fs-14px fw-semibold letter-spacing-5"
+                                        ><span
+                                            class="text-hover-underline"
+                                            >Body Care</span
+                                        ></a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="Skin care"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center text-uppercase fs-14px fw-semibold letter-spacing-5 active"
+                                    >
+                                        <span
+                                            class="text-hover-underline me-2"
+                                            >Skin care
+                                        </span>
+                                        <span
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#cat_skin-care"
+                                            class="caret flex-grow-1 d-flex align-items-center justify-content-end collapsed"
+                                            ><svg class="icon">
+                                                <use
+                                                    xlink:href="#icon-plus"
+                                                ></use></svg>
+                                        ></span>
+                                    </a>
+                                    <div
+                                        id="cat_skin-care"
+                                        class="collapse show"
+                                        data-bs-parent="#widget_product_category"
+                                    >
+                                        <ul
+                                            class="navbar-nav nav-submenu ps-8"
+                                        >
+                                            <li class="nav-item">
+                                                <a
+                                                    class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                                    href="#"
+                                                    ><span
+                                                        class="text-hover-underline"
+                                                        >Cleanser</span
+                                                    ></a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                                    href="#"
+                                                    ><span
+                                                        class="text-hover-underline"
+                                                        >Toner</span
+                                                    ></a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                                    href="#"
+                                                    ><span
+                                                        class="text-hover-underline"
+                                                        >Scrubs &amp;
+                                                        Masks</span
+                                                    ></a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                                    href="#"
+                                                    ><span
+                                                        class="text-hover-underline"
+                                                        >Serum</span
+                                                    ></a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                                    href="#"
+                                                    ><span
+                                                        class="text-hover-underline"
+                                                        >Face Oils</span
+                                                    ></a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                                    href="#"
+                                                    ><span
+                                                        class="text-hover-underline"
+                                                        >Moisturizer</span
+                                                    ></a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                                    href="#"
+                                                    ><span
+                                                        class="text-hover-underline"
+                                                        >Eye Cream</span
+                                                    ></a
+                                                >
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="Hair Care"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center text-uppercase fs-14px fw-semibold letter-spacing-5"
+                                        ><span
+                                            class="text-hover-underline"
+                                            >Hair Care</span
+                                        ></a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="Accessories"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center text-uppercase fs-14px fw-semibold letter-spacing-5"
+                                        ><span
+                                            class="text-hover-underline"
+                                            >Accessories</span
+                                        ></a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="widget widget-product-hightlight">
+                            <h4 class="widget-title fs-5 mb-6">
+                                Hightlight
+                            </h4>
+                            <ul
+                                class="navbar-nav navbar-nav-cate"
+                                id="widget_product_hightlight"
+                            >
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="Best Seller"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                        ><span
+                                            class="text-hover-underline"
+                                            >Best Seller</span
+                                        ></a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="New Arrivals"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                        ><span
+                                            class="text-hover-underline"
+                                            >New Arrivals</span
+                                        ></a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="Sale"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                        ><span
+                                            class="text-hover-underline"
+                                            >Sale</span
+                                        ></a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="Hot Items"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                        ><span
+                                            class="text-hover-underline"
+                                            >Hot Items</span
+                                        ></a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="widget widget-product-price">
+                            <h4 class="widget-title fs-5 mb-6">
+                                Price
+                            </h4>
+                            <ul
+                                class="navbar-nav navbar-nav-cate"
+                                id="widget_product_price"
+                            >
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="All"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                        ><span
+                                            class="text-hover-underline"
+                                            >All</span
+                                        ></a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="$10 - $50"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                        ><span
+                                            class="text-hover-underline"
+                                            >$10 - $50</span
+                                        ></a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="$50 - $100"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                        ><span
+                                            class="text-hover-underline"
+                                            >$50 - $100</span
+                                        ></a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="$100 - $200"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                        ><span
+                                            class="text-hover-underline"
+                                            >$100 - $200</span
+                                        ></a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="widget widget-product-size">
+                            <h4 class="widget-title fs-5 mb-6">Size</h4>
+                            <ul
+                                class="navbar-nav navbar-nav-cate"
+                                id="widget_product_size"
+                            >
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="Single"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                        ><span
+                                            class="text-hover-underline"
+                                            >Single</span
+                                        ></a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="5 Pack"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                        ><span
+                                            class="text-hover-underline"
+                                            >5 Pack</span
+                                        ></a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="Full size"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                        ><span
+                                            class="text-hover-underline"
+                                            >Full size</span
+                                        ></a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="Mini size"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                        ><span
+                                            class="text-hover-underline"
+                                            >Mini size</span
+                                        ></a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="widget widget-product_colors">
+                            <h4 class="widget-title fs-5 mb-6">
+                                Colors
+                            </h4>
+                            <ul
+                                class="navbar-nav navbar-nav-cate"
+                                id="widget_product_colors"
+                            >
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="Black"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                        ><span
+                                            class="square rounded-circle me-4"
+                                            style="
+                                                background-color: #000000;
+                                            "
+                                        ></span>
+                                        <span
+                                            class="text-hover-underline"
+                                            >Black</span
+                                        ></a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="White"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                        ><span
+                                            class="square rounded-circle me-4"
+                                            style="
+                                                background-color: #ffffff;
+                                            "
+                                        ></span>
+                                        <span
+                                            class="text-hover-underline"
+                                            >White</span
+                                        ></a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="Pink"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                        ><span
+                                            class="square rounded-circle me-4"
+                                            style="
+                                                background-color: #0e328e;
+                                            "
+                                        ></span>
+                                        <span
+                                            class="text-hover-underline"
+                                            >Pink</span
+                                        ></a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="Maroon"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                        ><span
+                                            class="square rounded-circle me-4"
+                                            style="
+                                                background-color: #672612;
+                                            "
+                                        ></span>
+                                        <span
+                                            class="text-hover-underline"
+                                            >Maroon</span
+                                        ></a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="Red"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                        ><span
+                                            class="square rounded-circle me-4"
+                                            style="
+                                                background-color: #c71818;
+                                            "
+                                        ></span>
+                                        <span
+                                            class="text-hover-underline"
+                                            >Red</span
+                                        ></a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        href="#"
+                                        title="Dark Heathe"
+                                        class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                        ><span
+                                            class="square rounded-circle me-4"
+                                            style="
+                                                background-color: #5e5e5e;
+                                            "
+                                        ></span>
+                                        <span
+                                            class="text-hover-underline"
+                                            >Dark Heathe</span
+                                        ></a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="widget widget-tags">
+                            <h4 class="widget-title fs-5 mb-6">Tags</h4>
+                            <ul
+                                class="w-100 mt-n4 list-unstyled d-flex flex-wrap mb-0"
+                            >
+                                <li class="me-6 mt-4">
+                                    <a
+                                        href="#"
+                                        title="Cleansing"
+                                        class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                        >Cleansing</a
+                                    >
+                                </li>
+                                <li class="me-6 mt-4">
+                                    <a
+                                        href="#"
+                                        title="Make up"
+                                        class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                        >Make up</a
+                                    >
+                                </li>
+                                <li class="me-6 mt-4">
+                                    <a
+                                        href="#"
+                                        title="eye cream"
+                                        class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                        >eye cream</a
+                                    >
+                                </li>
+                                <li class="me-6 mt-4">
+                                    <a
+                                        href="#"
+                                        title="nail"
+                                        class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                        >nail</a
+                                    >
+                                </li>
+                                <li class="me-6 mt-4">
+                                    <a
+                                        href="#"
+                                        title="shampoo"
+                                        class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                        >shampoo</a
+                                    >
+                                </li>
+                                <li class="me-6 mt-4">
+                                    <a
+                                        href="#"
+                                        title="coffee bean"
+                                        class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                        >coffee bean</a
+                                    >
+                                </li>
+                                <li class="me-6 mt-4">
+                                    <a
+                                        href="#"
+                                        title="healthy"
+                                        class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                        >healthy</a
+                                    >
+                                </li>
+                                <li class="me-6 mt-4">
+                                    <a
+                                        href="#"
+                                        title="skin care"
+                                        class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                        >skin care</a
+                                    >
+                                </li>
+                                <li class="me-6 mt-4">
+                                    <a
+                                        href="#"
+                                        title="sale"
+                                        class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                        >sale</a
+                                    >
+                                </li>
+                                <li class="me-6 mt-4">
+                                    <a
+                                        href="#"
+                                        title="Cosmetics"
+                                        class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                        >Cosmetics</a
+                                    >
+                                </li>
+                                <li class="me-6 mt-4">
+                                    <a
+                                        href="#"
+                                        title="Natural cleansers"
+                                        class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                        >Natural cleansers</a
+                                    >
+                                </li>
+                                <li class="me-6 mt-4">
+                                    <a
+                                        href="#"
+                                        title="Organic"
+                                        class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                        >Organic</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 @endsection
 
@@ -1532,7 +3273,7 @@
                 class="col-xl-3 d-flex justify-content-center justify-content-xl-start"
             >
                 <a
-                    href="./"
+                    href="../"
                     class="navbar-brand py-4 d-lg-inline-block"
                 >
                     <img
@@ -1607,7 +3348,7 @@
                 <div class="px-5 d-none d-xl-inline-block">
                     <a
                         class="position-relative lh-1 color-inherit text-decoration-none"
-                        href="./shop/wishlist.html"
+                        href="../shop/wishlist.html"
                     >
                         <svg class="icon icon-star-light">
                             <use xlink:href="#icon-star-light"></use>
@@ -2155,7 +3896,7 @@
                                         </svg>
                                     </a>
                                     <a
-                                        href="./shop/compare.html"
+                                        href="../shop/compare.html"
                                         class="d-flex align-items-center justify-content-center mt-5 product-gallery-action rounded-circle"
                                         data-bs-toggle="tooltip"
                                         data-bs-placement="left"
@@ -2277,119 +4018,12 @@
                         </p>
                         <h1 class="mb-4 pb-2 fs-4">
                             <a
-                                href="./shop/product-details-v1.html"
+                                href="../shop/product-details-v1.html"
                                 title="Natural Coconut Cleansing Oil"
                             >
                                 Natural Coconut Cleansing Oil
                             </a>
                         </h1>
-                        <div
-                            class="d-flex align-items-center fs-15px mb-6"
-                        >
-                            <p
-                                class="mb-0 fw-semibold text-body-emphasis"
-                            >
-                                4.86
-                            </p>
-                            <div
-                                class="d-flex align-items-center fs-12px justify-content-center mb-0 px-6 rating-result"
-                            >
-                                <div class="rating">
-                                    <div class="empty-stars">
-                                        <span class="star">
-                                            <svg class="icon star-o">
-                                                <use
-                                                    xlink:href="#star-o"
-                                                ></use>
-                                            </svg>
-                                        </span>
-                                        <span class="star">
-                                            <svg class="icon star-o">
-                                                <use
-                                                    xlink:href="#star-o"
-                                                ></use>
-                                            </svg>
-                                        </span>
-                                        <span class="star">
-                                            <svg class="icon star-o">
-                                                <use
-                                                    xlink:href="#star-o"
-                                                ></use>
-                                            </svg>
-                                        </span>
-                                        <span class="star">
-                                            <svg class="icon star-o">
-                                                <use
-                                                    xlink:href="#star-o"
-                                                ></use>
-                                            </svg>
-                                        </span>
-                                        <span class="star">
-                                            <svg class="icon star-o">
-                                                <use
-                                                    xlink:href="#star-o"
-                                                ></use>
-                                            </svg>
-                                        </span>
-                                    </div>
-                                    <div
-                                        class="filled-stars"
-                                        style="width: 100%"
-                                    >
-                                        <span class="star">
-                                            <svg
-                                                class="icon star text-primary"
-                                            >
-                                                <use
-                                                    xlink:href="#star"
-                                                ></use>
-                                            </svg>
-                                        </span>
-                                        <span class="star">
-                                            <svg
-                                                class="icon star text-primary"
-                                            >
-                                                <use
-                                                    xlink:href="#star"
-                                                ></use>
-                                            </svg>
-                                        </span>
-                                        <span class="star">
-                                            <svg
-                                                class="icon star text-primary"
-                                            >
-                                                <use
-                                                    xlink:href="#star"
-                                                ></use>
-                                            </svg>
-                                        </span>
-                                        <span class="star">
-                                            <svg
-                                                class="icon star text-primary"
-                                            >
-                                                <use
-                                                    xlink:href="#star"
-                                                ></use>
-                                            </svg>
-                                        </span>
-                                        <span class="star">
-                                            <svg
-                                                class="icon star text-primary"
-                                            >
-                                                <use
-                                                    xlink:href="#star"
-                                                ></use>
-                                            </svg>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <a
-                                href="#"
-                                class="border-start ps-6 text-body"
-                                >Read 2947 reviews</a
-                            >
-                        </div>
                         <p class="fs-15px">
                             Niacinamide and Vitamin C are two anti-aging
                             superstars but not usually formulated
@@ -2609,7 +4243,7 @@
                     <div class="px-5">
                         <a
                             class="position-relative lh-1 color-inherit text-decoration-none"
-                            href="./shop/wishlist.html"
+                            href="../shop/wishlist.html"
                         >
                             <svg class="icon icon-star-light">
                                 <use
@@ -2648,7 +4282,7 @@
                     <div class="px-5">
                         <a
                             class="lh-1 color-inherit text-decoration-none"
-                            href="./shop/compare.html"
+                            href="../shop/compare.html"
                         >
                             <svg
                                 class="icon icon-arrows-left-right-light"
@@ -2665,7 +4299,7 @@
                 >
                     <a
                         class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
-                        href="./index.html"
+                        href="../index.html"
                         id="menu-item-home-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"
@@ -2677,7 +4311,7 @@
                 >
                     <a
                         class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
-                        href="./shop/shop-layout-v2.html"
+                        href="../shop/shop-layout-v2.html"
                         id="menu-item-shop-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"
@@ -2689,7 +4323,7 @@
                 >
                     <a
                         class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
-                        href="./blog/list.html"
+                        href="../blog/list.html"
                         id="menu-item-pages-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"
@@ -2701,7 +4335,7 @@
                 >
                     <a
                         class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
-                        href="./about-us-02.html"
+                        href="../about-us-02.html"
                         id="menu-item-blocks-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"
@@ -2713,7 +4347,7 @@
                 >
                     <a
                         class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
-                        href="./contact-us-01.html"
+                        href="../contact-us-01.html"
                         id="menu-item-docs-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"

@@ -1,12 +1,12 @@
 @extends('front.layouts.app')
 
 @section('title')
-    Contact Us 01 - Glowing - Bootstrap 5 HTML Templates
+Frequently Asked Questions - Glowing - Bootstrap 5 HTML Templates
 @endsection
 
 @section('content-primary')
 <main id="content" class="wrapper layout-page">
-    <section>
+    <section class="pb-16 pb-lg-18">
         <div class="bg-body-secondary py-5">
             <nav aria-label="breadcrumb">
                 <ol
@@ -15,7 +15,7 @@
                     <li class="breadcrumb-item">
                         <a
                             class="text-decoration-none text-body"
-                            href="#"
+                            href="./index.html"
                             >Home</a
                         >
                     </li>
@@ -23,213 +23,769 @@
                         class="breadcrumb-item active pl-0 d-flex align-items-center"
                         aria-current="page"
                     >
-                        Contact Us
+                        Frequently Asked Questions
                     </li>
                 </ol>
             </nav>
         </div>
-        <div class="container pt-13">
-            <div class="text-center">
-                <div class="text-center">
-                    <h2 class="fs-36px mb-9">Keep In Touch with Us</h2>
-                    <p
-                        class="fs-18px mb-14 w-lg-60 w-xl-50 mx-md-12 mx-lg-auto"
-                    >
-                        We’re talking about clean beauty gift sets, of
-                        course – and we’ve got a bouquet of beauties for
-                        yourself or someone you love.
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 mb-12 mb-md-0">
-                    <div class="d-flex align-items-start">
-                        <div class="pe-lg-9 pe-8 text-primary">
-                            <svg class="icon fs-2">
-                                <use xlink:href="#icon-box-07"></use>
-                            </svg>
-                        </div>
-                        <div>
-                            <h3 class="fs-5 mb-6">Address</h3>
-                            <div class="fs-6">
-                                <p class="mb-2 pb-4 fs-6">
-                                    3245 Abbot Kinney BLVD – <br />
-                                    PH Venice, CA 124
-                                </p>
-                                <p>
-                                    76 East Houston Street <br />
-                                    PH Venice, CA 124
-                                </p>
-                            </div>
-                            <a
-                                href="#"
-                                class="text-decoration-none border-bottom border-currentColor fw-semibold fs-6"
-                                >Get Direction</a
-                            >
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-12 mb-md-0">
-                    <div class="d-flex align-items-start">
-                        <div class="pe-lg-9 pe-8 text-primary">
-                            <svg class="icon fs-2">
-                                <use xlink:href="#icon-box-05"></use>
-                            </svg>
-                        </div>
-                        <div>
-                            <h3 class="fs-5 mb-6">Contact</h3>
-                            <div class="fs-6">
-                                <p class="mb-3 fs-6">
-                                    Mobile:<span
-                                        class="text-body-emphasis"
-                                    >
-                                        068 26589 996</span
-                                    >
-                                </p>
-                                <p class="mb-3 fs-6">
-                                    Hotline:<span
-                                        class="text-body-emphasis"
-                                    >
-                                        1900 26886</span
-                                    >
-                                </p>
-                                <p class="mb-0 fs-6">
-                                    E-mail: hello@grace.com
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-12 mb-md-0">
-                    <div class="d-flex align-items-start">
-                        <div class="pe-lg-9 pe-8 text-primary">
-                            <svg class="icon fs-2">
-                                <use xlink:href="#icon-box-06"></use>
-                            </svg>
-                        </div>
-                        <div>
-                            <h3 class="fs-5 mb-6">Hour of operation</h3>
-                            <div class="fs-6">
-                                <dl class="d-flex mb-0">
-                                    <dt
-                                        class="pe-3 fs-6 text-body-emphasis fw-500"
-                                        style="width: 110px"
-                                    >
-                                        Mon – Fri:
-                                    </dt>
-                                    <dd class="mb-0">08:30 – 20:00</dd>
-                                </dl>
-                                <dl class="d-flex mb-0">
-                                    <dt
-                                        class="pe-3 fs-6 text-body-emphasis fw-500"
-                                        style="width: 110px"
-                                    >
-                                        Sat & Sun:
-                                    </dt>
-                                    <dd class="mb-0">09:30 – 21:30</dd>
-                                </dl>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="pt-9 pt-md-16 pt-lg-18">
         <div class="container">
-            <div
-                id="map"
-                class="mapbox-gl map-point-animate map-box-has-effect"
-                style="height: 530px"
-                data-mapbox-access-token="pk.eyJ1IjoiZzVvbmxpbmUiLCJhIjoiY2t1bWY4NzBiMWNycDMzbzZwMnI5ZThpaiJ9.ZifefVtp4anluFUbAMxAXg"
-                data-mapbox-options="{&#34;center&#34;:[-106.53671888774004,35.12362056187368],&#34;setLngLat&#34;:[-106.53671888774004,35.12362056187368],&#34;style&#34;:&#34;mapbox://styles/mapbox/light-v10&#34;,&#34;zoom&#34;:5}"
-                data-mapbox-marker="[{&#34;backgroundImage&#34;:&#34;/assets/images/others/marker.png') }}&#34;,&#34;backgroundRepeat&#34;:&#34;no-repeat&#34;,&#34;className&#34;:&#34;marker&#34;,&#34;height&#34;:&#34;70px&#34;,&#34;position&#34;:[-102.53671888774004,38.12362056187368],&#34;width&#34;:&#34;70px&#34;},{&#34;backgroundImage&#34;:&#34;/assets/images/others/marker.png') }}&#34;,&#34;backgroundRepeat&#34;:&#34;no-repeat&#34;,&#34;className&#34;:&#34;marker&#34;,&#34;height&#34;:&#34;70px&#34;,&#34;position&#34;:[-109.03671888774004,33.02362056187368],&#34;width&#34;:&#34;70px&#34;}]"
-            ></div>
-        </div>
-    </section>
+            <div class="text-center pt-13 mb-12 mb-lg-15">
+                <div class="text-center">
+                    <h2 class="fs-36px mb-11 mb-lg-14">
+                        Frequently Asked Questions
+                    </h2>
+                </div>
 
-    <section
-        class="pt-15 pb-16 pt-lg-17 pb-lg-18 mx-auto"
-        style="max-width: 750px"
-    >
-        <div class="container text-center">
-            <h2 class="mb-10 fs-3">Sent A Message</h2>
-            <form class="contact-form" method="post" action="#">
-                <div class="row mb-8 mb-md-10">
-                    <div class="col-md-6 col-12 mb-8 mb-md-0">
-                        <input
-                            type="text"
-                            class="form-control input-focus"
-                            placeholder="Name"
-                        />
-                    </div>
-                    <div class="col-md-6 col-12">
-                        <input
-                            type="email"
-                            class="form-control input-focus"
-                            placeholder="Email"
-                        />
-                    </div>
-                </div>
-                <textarea
-                    class="form-control mb-6 input-focus"
-                    placeholder="Messenger"
-                    rows="7"
-                ></textarea>
-                <div class="form-check mb-9 text-start">
-                    <input
-                        class="form-check-input rounded-0"
-                        type="checkbox"
-                        value=""
-                        id="flexCheckDefault"
-                    />
-                    <label
-                        class="form-check-label"
-                        for="flexCheckDefault"
-                    >
-                        Save my name, email in this browse for the next
-                        time I comment
-                    </label>
-                </div>
-                <a
-                    href="#"
-                    data-bs-toggle="modal"
-                    data-bs-target="#submitMessageModal"
-                    type="submit"
-                    class="btn btn-dark btn-hover-bg-primary btn-hover-border-primary px-11"
+                <form
+                    method="post"
+                    action="#"
+                    style="max-width: 770px"
+                    class="mx-auto"
                 >
-                    Submit
-                </a>
-            </form>
-        </div>
-        <div
-            class="modal"
-            id="submitMessageModal"
-            tabindex="-1"
-            aria-labelledby="submitMessageModal"
-            aria-hidden="true"
-        >
-            <div
-                class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-            >
-                <div class="modal-content">
-                    <div class="p-5 text-center border-0">
+                    <div class="input-group">
                         <button
-                            type="button"
-                            class="btn-close position-absolute end-5 top-5"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                        ></button>
-                        <h5
-                            class="modal-title w-100 d-flex justify-content-center align-items-center gap-5"
-                            id="signInModalLabel"
+                            type="submit"
+                            class="input-group-text bg-transparent px-6 border-0 position-absolute z-index-4 text-body-emphasis fs-5 start-0 top-0 bottom-0 m-auto"
                         >
-                            <i class="fa-solid fa-check"></i>
-                            <span
-                                >The message is successfully sent!</span
+                            <svg
+                                class="icon icon-magnifying-glass-light"
                             >
-                        </h5>
+                                <use
+                                    xlink:href="#icon-magnifying-glass-light"
+                                ></use>
+                            </svg>
+                        </button>
+                        <input
+                            type="search"
+                            name="search"
+                            class="input-focus form-control ps-12"
+                            placeholder="What are you looking for?"
+                        />
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card border-0 hover-zoom-in">
+                <div class="image-box-4">
+                    <img
+                        data-src="./assets/images/banner/banner-35.jpg"
+                        class="img-fluid lazy-image"
+                        alt=""
+                        src="#"
+                    />
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="pt-15 pt-lg-18">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h2 class="fs-3">Orders <br />& Shipping</h2>
+                    </div>
+                    <div class="col-md-9">
+                        <div
+                            class="accordion accordion-flush"
+                            id="accordionFlushExample"
+                        >
+                            <div
+                                class="accordion-item pb-5 pt-11 pt-md-0"
+                            >
+                                <h2
+                                    class="accordion-header"
+                                    id="flush-headingOne"
+                                >
+                                    <a
+                                        class="product-info-accordion text-decoration-none"
+                                        href="#"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne"
+                                        aria-expanded="false"
+                                        aria-controls="flush-collapseOne"
+                                    >
+                                        <span class="fs-18px"
+                                            >How did my package
+                                            ship?</span
+                                        >
+                                    </a>
+                                </h2>
+                            </div>
+                            <div
+                                id="flush-collapseOne"
+                                class="accordion-collapse collapse show"
+                                aria-labelledby="flush-headingOne"
+                                data-bs-parent="#accordionFlushExample"
+                            >
+                                <div class="py-8">
+                                    <p>
+                                        Complexion-perfecting natural
+                                        foundation enriched with
+                                        antioxidant-packed superfruits,
+                                        vitamins, and other
+                                        skin-nourishing nutrients.
+                                        Creamy liquid formula sets with
+                                        a pristine matte finish for
+                                        soft, velvety smooth skin.
+                                    </p>
+                                    <p class="mb-0">
+                                        Say hello to flawless,
+                                        long-lasting foundation that
+                                        comes in 7 melt-into-your-skin
+                                        shades. This lightweight,
+                                        innovative formula creates a
+                                        smooth, natural matte finish
+                                        that won’t settle into lines.
+                                        It’s the perfect fit for your
+                                        skin. 1 fl. oz.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item pb-4 pt-11">
+                                <h2
+                                    class="accordion-header"
+                                    id="flush-headingTwo"
+                                >
+                                    <a
+                                        class="product-info-accordion collapsed text-decoration-none"
+                                        href="#"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="flush-collapseTwo"
+                                    >
+                                        <span class="fs-18px"
+                                            >Why does my USPS tracking
+                                            number state 1-Day, 2-Day,
+                                            3-Day Delivery?</span
+                                        >
+                                    </a>
+                                </h2>
+                            </div>
+                            <div
+                                id="flush-collapseTwo"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo"
+                                data-bs-parent="#accordionFlushExample"
+                            >
+                                <div class="py-8">
+                                    <p>
+                                        Complexion-perfecting natural
+                                        foundation enriched with
+                                        antioxidant-packed superfruits,
+                                        vitamins, and other
+                                        skin-nourishing nutrients.
+                                        Creamy liquid formula sets with
+                                        a pristine matte finish for
+                                        soft, velvety smooth skin.
+                                    </p>
+                                    <p class="mb-0">
+                                        Say hello to flawless,
+                                        long-lasting foundation that
+                                        comes in 7 melt-into-your-skin
+                                        shades. This lightweight,
+                                        innovative formula creates a
+                                        smooth, natural matte finish
+                                        that won’t settle into lines.
+                                        It’s the perfect fit for your
+                                        skin. 1 fl. oz.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item pb-4 pt-11">
+                                <h2
+                                    class="accordion-header"
+                                    id="flush-headingThree"
+                                >
+                                    <a
+                                        class="product-info-accordion collapsed text-decoration-none"
+                                        href="#"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree"
+                                        aria-expanded="false"
+                                        aria-controls="flush-collapseThree"
+                                    >
+                                        <span class="fs-18px"
+                                            >How long will my package
+                                            take to arrive?</span
+                                        >
+                                    </a>
+                                </h2>
+                            </div>
+                            <div
+                                id="flush-collapseThree"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree"
+                                data-bs-parent="#accordionFlushExample"
+                            >
+                                <div class="py-8">
+                                    <p>
+                                        Complexion-perfecting natural
+                                        foundation enriched with
+                                        antioxidant-packed superfruits,
+                                        vitamins, and other
+                                        skin-nourishing nutrients.
+                                        Creamy liquid formula sets with
+                                        a pristine matte finish for
+                                        soft, velvety smooth skin.
+                                    </p>
+                                    <p class="mb-0">
+                                        Say hello to flawless,
+                                        long-lasting foundation that
+                                        comes in 7 melt-into-your-skin
+                                        shades. This lightweight,
+                                        innovative formula creates a
+                                        smooth, natural matte finish
+                                        that won’t settle into lines.
+                                        It’s the perfect fit for your
+                                        skin. 1 fl. oz.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item pb-4 pt-11">
+                                <h2
+                                    class="accordion-header"
+                                    id="flush-headingfor"
+                                >
+                                    <a
+                                        class="product-info-accordion collapsed text-decoration-none"
+                                        href="#"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseFor"
+                                        aria-expanded="false"
+                                        aria-controls="flush-collapseFor"
+                                    >
+                                        <span class="fs-18px"
+                                            >What are business
+                                            days?</span
+                                        >
+                                    </a>
+                                </h2>
+                            </div>
+                            <div
+                                id="flush-collapseFor"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingfor"
+                                data-bs-parent="#accordionFlushExample"
+                            >
+                                <div class="py-8">
+                                    <p>
+                                        Complexion-perfecting natural
+                                        foundation enriched with
+                                        antioxidant-packed superfruits,
+                                        vitamins, and other
+                                        skin-nourishing nutrients.
+                                        Creamy liquid formula sets with
+                                        a pristine matte finish for
+                                        soft, velvety smooth skin.
+                                    </p>
+                                    <p class="mb-0">
+                                        Say hello to flawless,
+                                        long-lasting foundation that
+                                        comes in 7 melt-into-your-skin
+                                        shades. This lightweight,
+                                        innovative formula creates a
+                                        smooth, natural matte finish
+                                        that won’t settle into lines.
+                                        It’s the perfect fit for your
+                                        skin. 1 fl. oz.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item pb-4 pt-11">
+                                <h2
+                                    class="accordion-header"
+                                    id="flush-headingFive"
+                                >
+                                    <a
+                                        class="product-info-accordion collapsed text-decoration-none"
+                                        href="#"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseFive"
+                                        aria-expanded="false"
+                                        aria-controls="flush-collapseFive"
+                                    >
+                                        <span class="fs-18px"
+                                            >How do I know my package
+                                            has shipped?</span
+                                        >
+                                    </a>
+                                </h2>
+                            </div>
+                            <div
+                                id="flush-collapseFive"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFive"
+                                data-bs-parent="#accordionFlushExample"
+                            >
+                                <div class="py-8">
+                                    <p>
+                                        Complexion-perfecting natural
+                                        foundation enriched with
+                                        antioxidant-packed superfruits,
+                                        vitamins, and other
+                                        skin-nourishing nutrients.
+                                        Creamy liquid formula sets with
+                                        a pristine matte finish for
+                                        soft, velvety smooth skin.
+                                    </p>
+                                    <p class="mb-0">
+                                        Say hello to flawless,
+                                        long-lasting foundation that
+                                        comes in 7 melt-into-your-skin
+                                        shades. This lightweight,
+                                        innovative formula creates a
+                                        smooth, natural matte finish
+                                        that won’t settle into lines.
+                                        It’s the perfect fit for your
+                                        skin. 1 fl. oz.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item pb-4 pt-11">
+                                <h2
+                                    class="accordion-header"
+                                    id="flush-headingSix"
+                                >
+                                    <a
+                                        class="product-info-accordion collapsed text-decoration-none"
+                                        href="#"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseSix"
+                                        aria-expanded="false"
+                                        aria-controls="flush-collapseSix"
+                                    >
+                                        <span class="fs-18px"
+                                            >Why are certain products
+                                            unavailable to ship to
+                                            Internationally?</span
+                                        >
+                                    </a>
+                                </h2>
+                            </div>
+                            <div
+                                id="flush-collapseSix"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingSix"
+                                data-bs-parent="#accordionFlushExample"
+                            >
+                                <div class="py-8">
+                                    <p>
+                                        Complexion-perfecting natural
+                                        foundation enriched with
+                                        antioxidant-packed superfruits,
+                                        vitamins, and other
+                                        skin-nourishing nutrients.
+                                        Creamy liquid formula sets with
+                                        a pristine matte finish for
+                                        soft, velvety smooth skin.
+                                    </p>
+                                    <p class="mb-0">
+                                        Say hello to flawless,
+                                        long-lasting foundation that
+                                        comes in 7 melt-into-your-skin
+                                        shades. This lightweight,
+                                        innovative formula creates a
+                                        smooth, natural matte finish
+                                        that won’t settle into lines.
+                                        It’s the perfect fit for your
+                                        skin. 1 fl. oz.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item pb-4 pt-11">
+                                <h2
+                                    class="accordion-header"
+                                    id="flush-headingSeven"
+                                >
+                                    <a
+                                        class="product-info-accordion collapsed text-decoration-none"
+                                        href="#"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseSeven"
+                                        aria-expanded="false"
+                                        aria-controls="flush-collapseSeven"
+                                    >
+                                        <span class="fs-18px"
+                                            >Why is my tracking number
+                                            not updating?</span
+                                        >
+                                    </a>
+                                </h2>
+                            </div>
+                            <div
+                                id="flush-collapseSeven"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingSeven"
+                                data-bs-parent="#accordionFlushExample"
+                            >
+                                <div class="py-8">
+                                    <p>
+                                        Complexion-perfecting natural
+                                        foundation enriched with
+                                        antioxidant-packed superfruits,
+                                        vitamins, and other
+                                        skin-nourishing nutrients.
+                                        Creamy liquid formula sets with
+                                        a pristine matte finish for
+                                        soft, velvety smooth skin.
+                                    </p>
+                                    <p class="mb-0">
+                                        Say hello to flawless,
+                                        long-lasting foundation that
+                                        comes in 7 melt-into-your-skin
+                                        shades. This lightweight,
+                                        innovative formula creates a
+                                        smooth, natural matte finish
+                                        that won’t settle into lines.
+                                        It’s the perfect fit for your
+                                        skin. 1 fl. oz.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row py-15 py-lg-17">
+                    <div class="col-md-3">
+                        <h2 class="fs-3">
+                            Returns & <br />
+                            Exchanges
+                        </h2>
+                    </div>
+                    <div class="col-md-9">
+                        <div
+                            class="accordion accordion-flush"
+                            id="accordionFlushExample2"
+                        >
+                            <div
+                                class="accordion-item pb-5 pt-11 pt-md-0"
+                            >
+                                <h2
+                                    class="accordion-header"
+                                    id="flush-headingReturnsOne"
+                                >
+                                    <a
+                                        class="product-info-accordion collapsed text-decoration-none"
+                                        href="#"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseReturnsOne"
+                                        aria-expanded="false"
+                                        aria-controls="flush-collapseReturnsOne"
+                                    >
+                                        <span class="fs-18px"
+                                            >How do I know my package
+                                            has shipped?</span
+                                        >
+                                    </a>
+                                </h2>
+                            </div>
+                            <div
+                                id="flush-collapseReturnsOne"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingReturnsOne"
+                                data-bs-parent="#accordionFlushExample2"
+                            >
+                                <div class="py-8">
+                                    <p>
+                                        Complexion-perfecting natural
+                                        foundation enriched with
+                                        antioxidant-packed superfruits,
+                                        vitamins, and other
+                                        skin-nourishing nutrients.
+                                        Creamy liquid formula sets with
+                                        a pristine matte finish for
+                                        soft, velvety smooth skin.
+                                    </p>
+                                    <p class="mb-0">
+                                        Say hello to flawless,
+                                        long-lasting foundation that
+                                        comes in 7 melt-into-your-skin
+                                        shades. This lightweight,
+                                        innovative formula creates a
+                                        smooth, natural matte finish
+                                        that won’t settle into lines.
+                                        It’s the perfect fit for your
+                                        skin. 1 fl. oz.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item pb-4 pt-11">
+                                <h2
+                                    class="accordion-header"
+                                    id="flush-headingReturnsTwo"
+                                >
+                                    <a
+                                        class="product-info-accordion collapsed text-decoration-none"
+                                        href="#"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseReturnsTwo"
+                                        aria-expanded="false"
+                                        aria-controls="flush-collapseReturnsTwo"
+                                    >
+                                        <span class="fs-18px"
+                                            >Why are certain products
+                                            unavailable to ship to
+                                            Internationally?</span
+                                        >
+                                    </a>
+                                </h2>
+                            </div>
+                            <div
+                                id="flush-collapseReturnsTwo"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo"
+                                data-bs-parent="#accordionFlushExample2"
+                            >
+                                <div class="py-8">
+                                    <p>
+                                        Complexion-perfecting natural
+                                        foundation enriched with
+                                        antioxidant-packed superfruits,
+                                        vitamins, and other
+                                        skin-nourishing nutrients.
+                                        Creamy liquid formula sets with
+                                        a pristine matte finish for
+                                        soft, velvety smooth skin.
+                                    </p>
+                                    <p class="mb-0">
+                                        Say hello to flawless,
+                                        long-lasting foundation that
+                                        comes in 7 melt-into-your-skin
+                                        shades. This lightweight,
+                                        innovative formula creates a
+                                        smooth, natural matte finish
+                                        that won’t settle into lines.
+                                        It’s the perfect fit for your
+                                        skin. 1 fl. oz.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item pb-4 pt-11">
+                                <h2
+                                    class="accordion-header"
+                                    id="flush-headingReturnsThree"
+                                >
+                                    <a
+                                        class="product-info-accordion collapsed text-decoration-none"
+                                        href="#"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseReturnsThree"
+                                        aria-expanded="false"
+                                        aria-controls="flush-collapseReturnsThree"
+                                    >
+                                        <span class="fs-18px"
+                                            >Why is my tracking number
+                                            not updating?</span
+                                        >
+                                    </a>
+                                </h2>
+                            </div>
+                            <div
+                                id="flush-collapseReturnsThree"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree"
+                                data-bs-parent="#accordionFlushExample2"
+                            >
+                                <div class="py-8">
+                                    <p>
+                                        Complexion-perfecting natural
+                                        foundation enriched with
+                                        antioxidant-packed superfruits,
+                                        vitamins, and other
+                                        skin-nourishing nutrients.
+                                        Creamy liquid formula sets with
+                                        a pristine matte finish for
+                                        soft, velvety smooth skin.
+                                    </p>
+                                    <p class="mb-0">
+                                        Say hello to flawless,
+                                        long-lasting foundation that
+                                        comes in 7 melt-into-your-skin
+                                        shades. This lightweight,
+                                        innovative formula creates a
+                                        smooth, natural matte finish
+                                        that won’t settle into lines.
+                                        It’s the perfect fit for your
+                                        skin. 1 fl. oz.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <h2 class="fs-3">Discounts</h2>
+                    </div>
+                    <div class="col-md-9">
+                        <div
+                            class="accordion accordion-flush"
+                            id="accordionFlushExample3"
+                        >
+                            <div
+                                class="accordion-item pb-5 pt-11 pt-md-0"
+                            >
+                                <h2
+                                    class="accordion-header"
+                                    id="flush-headingDiscountsOne"
+                                >
+                                    <a
+                                        class="product-info-accordion collapsed text-decoration-none"
+                                        href="#"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseDiscountsOne"
+                                        aria-expanded="false"
+                                        aria-controls="flush-collapseOne"
+                                    >
+                                        <span class="fs-18px"
+                                            >How do I know my package
+                                            has shipped?</span
+                                        >
+                                    </a>
+                                </h2>
+                            </div>
+                            <div
+                                id="flush-collapseDiscountsOne"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne"
+                                data-bs-parent="#accordionFlushExample3"
+                            >
+                                <div class="py-8">
+                                    <p>
+                                        Complexion-perfecting natural
+                                        foundation enriched with
+                                        antioxidant-packed superfruits,
+                                        vitamins, and other
+                                        skin-nourishing nutrients.
+                                        Creamy liquid formula sets with
+                                        a pristine matte finish for
+                                        soft, velvety smooth skin.
+                                    </p>
+                                    <p class="mb-0">
+                                        Say hello to flawless,
+                                        long-lasting foundation that
+                                        comes in 7 melt-into-your-skin
+                                        shades. This lightweight,
+                                        innovative formula creates a
+                                        smooth, natural matte finish
+                                        that won’t settle into lines.
+                                        It’s the perfect fit for your
+                                        skin. 1 fl. oz.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item pb-4 pt-11">
+                                <h2
+                                    class="accordion-header"
+                                    id="flush-headingDiscountsTwo"
+                                >
+                                    <a
+                                        class="product-info-accordion collapsed text-decoration-none"
+                                        href="#"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseDiscountsTwo"
+                                        aria-expanded="false"
+                                        aria-controls="flush-collapseTwo"
+                                    >
+                                        <span class="fs-18px"
+                                            >Why are certain products
+                                            unavailable to ship to
+                                            Internationally?</span
+                                        >
+                                    </a>
+                                </h2>
+                            </div>
+                            <div
+                                id="flush-collapseDiscountsTwo"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo"
+                                data-bs-parent="#accordionFlushExample3"
+                            >
+                                <div class="py-8">
+                                    <p>
+                                        Complexion-perfecting natural
+                                        foundation enriched with
+                                        antioxidant-packed superfruits,
+                                        vitamins, and other
+                                        skin-nourishing nutrients.
+                                        Creamy liquid formula sets with
+                                        a pristine matte finish for
+                                        soft, velvety smooth skin.
+                                    </p>
+                                    <p class="mb-0">
+                                        Say hello to flawless,
+                                        long-lasting foundation that
+                                        comes in 7 melt-into-your-skin
+                                        shades. This lightweight,
+                                        innovative formula creates a
+                                        smooth, natural matte finish
+                                        that won’t settle into lines.
+                                        It’s the perfect fit for your
+                                        skin. 1 fl. oz.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item pb-4 pt-11">
+                                <h2
+                                    class="accordion-header"
+                                    id="flush-headingDiscountsThree"
+                                >
+                                    <a
+                                        class="product-info-accordion collapsed text-decoration-none"
+                                        href="#"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseDiscountsThree"
+                                        aria-expanded="false"
+                                        aria-controls="flush-collapseThree"
+                                    >
+                                        <span class="fs-18px"
+                                            >Why is my tracking number
+                                            not updating?</span
+                                        >
+                                    </a>
+                                </h2>
+                            </div>
+                            <div
+                                id="flush-collapseDiscountsThree"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree"
+                                data-bs-parent="#accordionFlushExample3"
+                            >
+                                <div class="py-8">
+                                    <p>
+                                        Complexion-perfecting natural
+                                        foundation enriched with
+                                        antioxidant-packed superfruits,
+                                        vitamins, and other
+                                        skin-nourishing nutrients.
+                                        Creamy liquid formula sets with
+                                        a pristine matte finish for
+                                        soft, velvety smooth skin.
+                                    </p>
+                                    <p class="mb-0">
+                                        Say hello to flawless,
+                                        long-lasting foundation that
+                                        comes in 7 melt-into-your-skin
+                                        shades. This lightweight,
+                                        innovative formula creates a
+                                        smooth, natural matte finish
+                                        that won’t settle into lines.
+                                        It’s the perfect fit for your
+                                        skin. 1 fl. oz.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1536,7 +2092,7 @@
                     class="navbar-brand py-4 d-lg-inline-block"
                 >
                     <img
-                        src="{{ asset('assets/front/images/others/logo.png') }}"
+                        src="./assets/images/others/logo.png"
                         height="26"
                         alt="Glowing - Bootstrap 5 HTML Templates"
                     />
@@ -1687,7 +2243,7 @@
                             <div class="d-flex align-items-center">
                                 <div class="me-6">
                                     <img
-                                        src="{{ asset('assets/front/images/products/product-03-75x100.jpg') }}"
+                                        src="./assets/images/products/product-03-75x100.jpg"
                                         width="60"
                                         height="80"
                                         alt="natural coconut cleansing oil"
@@ -1746,7 +2302,7 @@
                             <div class="d-flex align-items-center">
                                 <div class="me-6">
                                     <img
-                                        src="{{ asset('assets/front/images/products/product-06-75x100.jpg') }}"
+                                        src="./assets/images/products/product-06-75x100.jpg"
                                         width="60"
                                         height="80"
                                         alt="natural coconut cleansing oil"
@@ -1805,7 +2361,7 @@
                             <div class="d-flex align-items-center">
                                 <div class="me-6">
                                     <img
-                                        src="{{ asset('assets/front/images/products/product-09-75x100.jpg') }}"
+                                        src="./assets/images/products/product-09-75x100.jpg"
                                         width="60"
                                         height="80"
                                         alt="natural coconut cleansing oil"
@@ -2175,44 +2731,44 @@
                                 data-slick-options="{&#34;arrows&#34;:false,&#34;asNavFor&#34;:&#34;#slider-thumb&#34;,&#34;dots&#34;:false,&#34;slidesToShow&#34;:1}"
                             >
                                 <a
-                                    href="{{ asset('assets/front/images/shop/product-gallery-05.jpg') }}"
+                                    href="./assets/images/shop/product-gallery-05.jpg"
                                     data-gallery="gallery1"
                                     ><img
                                         src="#"
-                                        data-src="{{ asset('assets/front/images/shop/product-gallery-05.jpg') }}"
+                                        data-src="./assets/images/shop/product-gallery-05.jpg"
                                         class="h-auto lazy-image"
                                         width="540"
                                         height="720"
                                         alt=""
                                 /></a>
                                 <a
-                                    href="{{ asset('assets/front/images/shop/product-gallery-06.jpg') }}"
+                                    href="./assets/images/shop/product-gallery-06.jpg"
                                     data-gallery="gallery1"
                                     ><img
                                         src="#"
-                                        data-src="{{ asset('assets/front/images/shop/product-gallery-06.jpg') }}"
+                                        data-src="./assets/images/shop/product-gallery-06.jpg"
                                         class="h-auto lazy-image"
                                         width="540"
                                         height="720"
                                         alt=""
                                 /></a>
                                 <a
-                                    href="{{ asset('assets/front/images/shop/product-gallery-07.jpg') }}"
+                                    href="./assets/images/shop/product-gallery-07.jpg"
                                     data-gallery="gallery1"
                                     ><img
                                         src="#"
-                                        data-src="{{ asset('assets/front/images/shop/product-gallery-07.jpg') }}"
+                                        data-src="./assets/images/shop/product-gallery-07.jpg"
                                         class="h-auto lazy-image"
                                         width="540"
                                         height="720"
                                         alt=""
                                 /></a>
                                 <a
-                                    href="{{ asset('assets/front/images/shop/product-gallery-08.jpg') }}"
+                                    href="./assets/images/shop/product-gallery-08.jpg"
                                     data-gallery="gallery1"
                                     ><img
                                         src="#"
-                                        data-src="{{ asset('assets/front/images/shop/product-gallery-08.jpg') }}"
+                                        data-src="./assets/images/shop/product-gallery-08.jpg"
                                         class="h-auto lazy-image"
                                         width="540"
                                         height="720"
@@ -2228,7 +2784,7 @@
                             >
                                 <img
                                     src="#"
-                                    data-src="{{ asset('assets/front/images/shop/product-gallery-05-154x205.jpg') }}"
+                                    data-src="./assets/images/shop/product-gallery-05-154x205.jpg"
                                     class="mx-3 px-0 h-auto cursor-pointer lazy-image"
                                     width="75"
                                     height="100"
@@ -2236,7 +2792,7 @@
                                 />
                                 <img
                                     src="#"
-                                    data-src="{{ asset('assets/front/images/shop/product-gallery-06-154x205.jpg') }}"
+                                    data-src="./assets/images/shop/product-gallery-06-154x205.jpg"
                                     class="mx-3 px-0 h-auto cursor-pointer lazy-image"
                                     width="75"
                                     height="100"
@@ -2244,7 +2800,7 @@
                                 />
                                 <img
                                     src="#"
-                                    data-src="{{ asset('assets/front/images/shop/product-gallery-07-154x205.jpg') }}"
+                                    data-src="./assets/images/shop/product-gallery-07-154x205.jpg"
                                     class="mx-3 px-0 h-auto cursor-pointer lazy-image"
                                     width="75"
                                     height="100"
@@ -2252,7 +2808,7 @@
                                 />
                                 <img
                                     src="#"
-                                    data-src="{{ asset('assets/front/images/shop/product-gallery-08-154x205.jpg') }}"
+                                    data-src="./assets/images/shop/product-gallery-08-154x205.jpg"
                                     class="mx-3 px-0 h-auto cursor-pointer lazy-image"
                                     width="75"
                                     height="100"
@@ -2496,7 +3052,7 @@
                             <div class="pt-8 px-5">
                                 <img
                                     class="img-fluid"
-                                    src="{{ asset('assets/front/images/shop/product-info-2.png') }}"
+                                    src="./assets/images/shop/product-info-2.png"
                                     alt="pay"
                                     width="357"
                                     height="28"
@@ -2589,136 +3145,1218 @@
         <hr class="mt-0" />
         <div class="offcanvas-body pt-0 mb-2">
             <ul class="navbar-nav">
-                <div
-                    class="icons-actions d-flex justify-content-end w-xl-50 fs-28px text-body-emphasis border-bottom"
-                >
-                    <div class="px-5">
-                        <a
-                            class="lh-1 color-inherit text-decoration-none"
-                            href="#"
-                            data-bs-toggle="modal"
-                            data-bs-target="#signInModal"
-                        >
-                            <svg class="icon icon-user-light">
-                                <use
-                                    xlink:href="#icon-user-light"
-                                ></use>
-                            </svg>
-                        </a>
-                    </div>
-                    <div class="px-5">
-                        <a
-                            class="position-relative lh-1 color-inherit text-decoration-none"
-                            href="./shop/wishlist.html"
-                        >
-                            <svg class="icon icon-star-light">
-                                <use
-                                    xlink:href="#icon-star-light"
-                                ></use>
-                            </svg>
-                            <span
-                                class="badge bg-dark text-white position-absolute top-0 start-100 translate-middle mt-4 rounded-circle fs-13px p-0 square"
-                                style="--square-size: 18px"
-                                >3</span
-                            >
-                        </a>
-                    </div>
-                    <div class="px-5">
-                        <a
-                            class="position-relative lh-1 color-inherit text-decoration-none"
-                            href="#"
-                            data-bs-toggle="offcanvas"
-                            data-bs-target="#shoppingCart"
-                            aria-controls="shoppingCart"
-                            aria-expanded="false"
-                        >
-                            <svg class="icon icon-star-light">
-                                <use
-                                    xlink:href="#icon-shopping-bag-open-light"
-                                ></use>
-                            </svg>
-                            <span
-                                class="badge bg-dark text-white position-absolute top-0 start-100 translate-middle mt-4 rounded-circle fs-13px p-0 square"
-                                style="--square-size: 18px"
-                                >3</span
-                            >
-                        </a>
-                    </div>
-
-                    <div class="px-5">
-                        <a
-                            class="lh-1 color-inherit text-decoration-none"
-                            href="./shop/compare.html"
-                        >
-                            <svg
-                                class="icon icon-arrows-left-right-light"
-                            >
-                                <use
-                                    xlink:href="#icon-arrows-left-right-light"
-                                ></use>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
                 <li
-                    class="nav-item transition-all-xl-1 py-0 dropdown dropdown-fullwidth border-bottom"
+                    class="nav-item transition-all-xl-1 py-0 dropdown dropdown-fullwidth"
                 >
                     <a
-                        class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
+                        class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px dropdown-toggle"
                         href="./index.html"
+                        data-bs-toggle="dropdown"
                         id="menu-item-home-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"
-                        >Ana Səhifə</a
+                        >Home</a
                     >
+                    <div
+                        class="dropdown-menu mega-menu start-0 py-6"
+                        aria-labelledby="menu-item-home-canvas"
+                        style="width: 320px"
+                    >
+                        <div class="megamenu-home container py-8 px-12">
+                            <div class="row">
+                                <div class="col">
+                                    <h6 class="fs-18px">Group 1</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a
+                                                href="./home-01.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Home 01</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./home-02.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Home 02</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./home-03.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Home 03</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./home-04.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Home 04</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./home-05.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Home 05</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./home-06.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Home 06</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./home-07.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Home 07</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./home-08.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Home 08</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./home-09.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Home 09</span
+                                                ></a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <h6 class="fs-18px">Group 2</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a
+                                                href="./home-10.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Home 10</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./home-11.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Home 11</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./home-12.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Home 12</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./home-13.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Home 13</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./home-14.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Home 14</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./home-15.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Home 15</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./home-16.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Home 16</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./home-17.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Home 17</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./home-18.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Home 18</span
+                                                ></a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </li>
                 <li
-                    class="nav-item transition-all-xl-1 py-0 dropdown dropdown-fullwidth position-static border-bottom"
+                    class="nav-item transition-all-xl-1 py-0 dropdown dropdown-fullwidth position-static"
                 >
                     <a
-                        class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
-                        href="./shop/shop-layout-v2.html"
+                        class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px dropdown-toggle"
+                        href="./store.html"
+                        data-bs-toggle="dropdown"
                         id="menu-item-shop-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"
-                        >Məhsullar</a
+                        >Shop</a
                     >
+                    <div
+                        class="dropdown-menu mega-menu start-0 py-6 w-100"
+                        aria-labelledby="menu-item-shop-canvas"
+                    >
+                        <div
+                            class="megamenu-shop container-wide py-8 px-12"
+                        >
+                            <div class="row">
+                                <div class="col">
+                                    <h6 class="fs-18px">Shop Pages</h6>
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <a
+                                                href="./shop/shop-layout-v1.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Shop Layout
+                                                    <sup>v1</sup></span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./shop/shop-layout-v2.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Shop Layout
+                                                    <sup>v2</sup></span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./shop/shop-layout-v3.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Shop Layout
+                                                    <sup>v3</sup></span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./shop/shop-layout-v4.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Shop Layout
+                                                    <sup>v4</sup></span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./shop/shop-layout-v5.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Shop Layout
+                                                    <sup>v5</sup></span
+                                                ></a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <h6 class="fs-18px">
+                                        Product Pages
+                                    </h6>
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <a
+                                                href="./shop/product-details-v1.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Product Detail
+                                                    <sup>v1</sup></span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./shop/product-details-v2.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Product Detail
+                                                    <sup>v2</sup></span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./shop/product-details-v3.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Product Detail
+                                                    <sup>v3</sup></span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./shop/product-details-v4.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Product Detail
+                                                    <sup>v4</sup></span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./shop/product-details-v5.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Product Detail
+                                                    <sup>v5</sup></span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./shop/product-details-v6.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Product Detail
+                                                    <sup>v6</sup></span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./shop/product-details-v7.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Product Detail
+                                                    <sup>v7</sup></span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./shop/product-details-v8.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Product Detail
+                                                    <sup>v8</sup></span
+                                                ></a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <h6 class="fs-18px">
+                                        Product Types
+                                    </h6>
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <a
+                                                href="./shop/product-simple.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Product
+                                                    Simple</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./shop/product-variable.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Product
+                                                    Variable</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./shop/product-time-limit.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Product Time
+                                                    Limit</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./shop/product-grouped.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Product
+                                                    Grouped</span
+                                                ></a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <h6 class="fs-18px">Other Pages</h6>
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <a
+                                                href="./shop/shopping-cart.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Shopping Cart</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./shop/compare.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Compare</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./shop/wishlist.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Wishlist</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./shop/checkout.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Checkout</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./user-registration.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Register</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./user-login.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Login</span
+                                                ></a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div
+                                    class="col d-xxl-block d-none megamenu-shop-banner"
+                                    data-bs-theme="light"
+                                >
+                                    <div class="card border-0 mt-4">
+                                        <img
+                                            src="./assets/images/background/bg-mega-menu-shop.jpg"
+                                            alt="bg mega menu"
+                                            class="card-img"
+                                        />
+                                        <div
+                                            class="card-img-overlay d-flex flex-column mx-2 px-9 py-6"
+                                        >
+                                            <p
+                                                class="text-body-emphasis ls-1 fw-semibold mb-4 mt-6 text-uppercase"
+                                            >
+                                                new collection
+                                            </p>
+                                            <h3 class="fs-3">
+                                                Special <br />
+                                                Offer
+                                            </h3>
+                                            <div class="mt-auto">
+                                                <a
+                                                    href="#"
+                                                    class="btn btn-white"
+                                                    >Shop Sale</a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </li>
-                <li
-                    class="nav-item transition-all-xl-1 py-0 dropdown border-bottom"
-                >
+                <li class="nav-item transition-all-xl-1 py-0 dropdown">
                     <a
-                        class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
-                        href="./blog/list.html"
+                        class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px dropdown-toggle"
+                        href="#"
+                        data-bs-toggle="dropdown"
                         id="menu-item-pages-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"
-                        >Blog</a
+                        >Pages</a
                     >
+                    <ul
+                        class="dropdown-menu py-6"
+                        aria-labelledby="menu-item-pages-canvas"
+                    >
+                        <li
+                            class="dropend"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >
+                            <a
+                                class="dropdown-item pe-6 dropdown-toggle d-flex justify-content-between border-hover"
+                                href="#"
+                                data-bs-toggle="dropdown"
+                                id="menu-item-blog-canvas"
+                            >
+                                <span class="border-hover-target">
+                                    Blog
+                                </span>
+                            </a>
+                            <ul
+                                class="dropdown-menu py-6"
+                                aria-labelledby="menu-item-blog-canvas"
+                                data-bs-popper="none"
+                            >
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./blog/grid.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >Blog Grid</span
+                                        >
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./blog/grid-sidebar.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >Blog Grid Sidebar</span
+                                        >
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./blog/masonry.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >Blog Masonry</span
+                                        >
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./blog/list.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >Blog List</span
+                                        >
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./blog/classic.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >Blog Classic</span
+                                        >
+                                    </a>
+                                </li>
+                                <li class="dropdown-divider"></li>
+
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./blog/details-01.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >Blog Details 01</span
+                                        >
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./blog/details-02.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >Blog Details 02</span
+                                        >
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li
+                            class="dropend"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >
+                            <a
+                                class="dropdown-item pe-6 dropdown-toggle d-flex justify-content-between border-hover"
+                                href="#"
+                                data-bs-toggle="dropdown"
+                                id="menu-item-about-us-canvas"
+                            >
+                                <span class="border-hover-target">
+                                    About Us
+                                </span>
+                            </a>
+                            <ul
+                                class="dropdown-menu py-6"
+                                aria-labelledby="menu-item-about-us-canvas"
+                                data-bs-popper="none"
+                            >
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./about-us-01.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >About Us 01</span
+                                        >
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./about-us-02.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >About Us 02</span
+                                        >
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li
+                            class="dropend"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >
+                            <a
+                                class="dropdown-item pe-6 dropdown-toggle d-flex justify-content-between border-hover"
+                                href="#"
+                                data-bs-toggle="dropdown"
+                                id="menu-item-contact-us-canvas"
+                            >
+                                <span class="border-hover-target">
+                                    Contact us
+                                </span>
+                            </a>
+                            <ul
+                                class="dropdown-menu py-6"
+                                aria-labelledby="menu-item-contact-us-canvas"
+                                data-bs-popper="none"
+                            >
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./contact-us-01.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >Contact Us 01</span
+                                        >
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./contact-us-02.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >Contact Us 02</span
+                                        >
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li
+                            class="dropend"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >
+                            <a
+                                class="dropdown-item pe-6 dropdown-toggle d-flex justify-content-between border-hover"
+                                href="./dashboard/dashboard.html"
+                                data-bs-toggle="dropdown"
+                                id="menu-item-dashboard-canvas"
+                            >
+                                <span class="border-hover-target">
+                                    Dashboard
+                                </span>
+                            </a>
+                            <ul
+                                class="dropdown-menu py-6"
+                                aria-labelledby="menu-item-dashboard-canvas"
+                                data-bs-popper="none"
+                            >
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./dashboard/dashboard.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >Dashboard</span
+                                        >
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./dashboard/product-grid.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >Products</span
+                                        >
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./dashboard/order-list.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >Orders</span
+                                        >
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./dashboard/sellers-cards.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >Sellers</span
+                                        >
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./dashboard/add-product-1.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >Add Product</span
+                                        >
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./dashboard/transactions-1.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >Transaction</span
+                                        >
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./dashboard/reviews.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >Reviews</span
+                                        >
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./dashboard/brands.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >Brands</span
+                                        >
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item border-hover"
+                                        href="./dashboard/profile-settings.html"
+                                    >
+                                        <span
+                                            class="border-hover-target"
+                                            >Settings</span
+                                        >
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a
+                                class="dropdown-item pe-6 border-hover"
+                                href="./faqs.html"
+                            >
+                                <span class="border-hover-target">
+                                    FAQs
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="dropdown-item pe-6 border-hover"
+                                href="./find-a-store.html"
+                            >
+                                <span class="border-hover-target">
+                                    Store
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="dropdown-item pe-6 border-hover"
+                                href="./404.html"
+                            >
+                                <span class="border-hover-target">
+                                    404
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
                 <li
-                    class="nav-item transition-all-xl-1 py-0 dropdown dropdown-fullwidth border-bottom"
+                    class="nav-item transition-all-xl-1 py-0 dropdown dropdown-fullwidth"
                 >
                     <a
-                        class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
-                        href="./about-us-02.html"
+                        class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px dropdown-toggle"
+                        href="#"
+                        data-bs-toggle="dropdown"
                         id="menu-item-blocks-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"
-                        >Haqqımızda</a
+                        >Blocks</a
                     >
+                    <div
+                        class="dropdown-menu mega-menu start-0 py-6"
+                        aria-labelledby="menu-item-blocks-canvas"
+                        style="width: 800px"
+                    >
+                        <div class="megamenu-home container py-8 px-12">
+                            <div class="row">
+                                <div class="col">
+                                    <h6 class="fs-18px">Group 1</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a
+                                                href="./blocks/blog.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Blog</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./blocks/banner.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Banner</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./blocks/call-to-action.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Call To
+                                                    Action</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./blocks/hero.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Hero</span
+                                                ></a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <h6 class="fs-18px">Group 2</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a
+                                                href="./blocks/products.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Products</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./blocks/products-slide.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Products
+                                                    Slide</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./blocks/product-tabs.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Product Tabs</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./blocks/news-letter.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >News Letter</span
+                                                ></a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <h6 class="fs-18px">Group 3</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a
+                                                href="./blocks/features.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Features</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./blocks/info.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Info</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./blocks/instagram.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Instagram</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./blocks/video.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Video</span
+                                                ></a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <h6 class="fs-18px">Group 4</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a
+                                                href="./blocks/team.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Team</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./blocks/testimonials.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Testimonials</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./blocks/header.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Header</span
+                                                ></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="./blocks/footer.html"
+                                                class="border-hover text-decoration-none py-3 d-block"
+                                                ><span
+                                                    class="border-hover-target"
+                                                    >Footer</span
+                                                ></a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </li>
                 <li
-                    class="nav-item transition-all-xl-1 py-0 dropdown dropdown-fullwidth border-bottom"
+                    class="nav-item transition-all-xl-1 py-0 dropdown dropdown-fullwidth"
                 >
                     <a
-                        class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
-                        href="./contact-us-01.html"
+                        class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px dropdown-toggle"
+                        href="#"
+                        data-bs-toggle="dropdown"
                         id="menu-item-docs-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"
-                        >Əlaqə</a
+                        >Docs</a
                     >
+                    <div
+                        class="dropdown-menu mega-menu start-0 py-6"
+                        aria-labelledby="menu-item-docs-canvas"
+                    >
+                        <div
+                            class="menumega-docs px-8"
+                            style="min-width: 250px"
+                        >
+                            <a
+                                href="./docs/usage/getting-started.html"
+                                class="d-flex text-decoration-none mb-4 mb-lg-0"
+                                title="Documentation"
+                            >
+                                <div
+                                    class="flex-shrink-0 fs-5 lh-1 text-muted pt-2"
+                                >
+                                    <svg class="icon">
+                                        <use xlink:href="#book"></use>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 ps-6">
+                                    <h6 class="mb-2">Documentation</h6>
+                                    <small
+                                        >Kick-start customization</small
+                                    >
+                                </div>
+                            </a>
+
+                            <hr class="dropdown-divider mx-n8" />
+
+                            <a
+                                href="./docs/components/accordion.html"
+                                class="d-flex text-decoration-none mb-4 mb-lg-0"
+                                title="UI Kit"
+                            >
+                                <div
+                                    class="flex-shrink-0 fs-5 lh-1 text-muted pt-2"
+                                >
+                                    <svg class="icon">
+                                        <use
+                                            xlink:href="#layer-group"
+                                        ></use>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 ps-6">
+                                    <h6 class="mb-2">UI Kit</h6>
+                                    <small>Flexible components</small>
+                                </div>
+                            </a>
+
+                            <hr class="dropdown-divider mx-n8" />
+
+                            <a
+                                href="./docs/usage/changelog.html"
+                                class="d-flex text-decoration-none mb-4 mb-lg-0"
+                                title="Changelog"
+                            >
+                                <div
+                                    class="flex-shrink-0 fs-5 lh-1 text-muted pt-2"
+                                >
+                                    <svg class="icon">
+                                        <use
+                                            xlink:href="#pen-to-square"
+                                        ></use>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 ps-6">
+                                    <h6 class="mb-2">Changelog</h6>
+                                    <small>Regular updates</small>
+                                </div>
+                            </a>
+
+                            <hr class="dropdown-divider mx-n8" />
+
+                            <a
+                                href="https://sp.g5plus.net/"
+                                class="d-flex text-decoration-none mb-4 mb-lg-0"
+                                title="Support"
+                                target="_blank"
+                            >
+                                <div
+                                    class="flex-shrink-0 fs-5 lh-1 text-muted pt-2"
+                                >
+                                    <svg class="icon">
+                                        <use
+                                            xlink:href="#headset"
+                                        ></use>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 ps-6">
+                                    <h6 class="mb-2">Support</h6>
+                                    <small
+                                        >https://sp.g5plus.net/</small
+                                    >
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -2739,4 +4377,3 @@
     ></a>
 </div>
 @endsection
-

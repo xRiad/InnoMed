@@ -1,235 +1,1022 @@
 @extends('front.layouts.app')
 
 @section('title')
-    Contact Us 01 - Glowing - Bootstrap 5 HTML Templates
+Blog Detail 01 - Glowing - Bootstrap 5 HTML Templates
 @endsection
 
 @section('content-primary')
 <main id="content" class="wrapper layout-page">
-    <section>
-        <div class="bg-body-secondary py-5">
-            <nav aria-label="breadcrumb">
-                <ol
-                    class="breadcrumb breadcrumb-site py-0 d-flex justify-content-center"
-                >
-                    <li class="breadcrumb-item">
-                        <a
-                            class="text-decoration-none text-body"
-                            href="#"
-                            >Home</a
-                        >
-                    </li>
-                    <li
-                        class="breadcrumb-item active pl-0 d-flex align-items-center"
-                        aria-current="page"
+    <section class="z-index-2 position-relative pb-2 mb-12">
+        <div class="bg-body-secondary mb-3">
+            <div class="container">
+                <nav class="py-4 lh-30px" aria-label="breadcrumb">
+                    <ol
+                        class="breadcrumb justify-content-center py-1 mb-0"
                     >
-                        Contact Us
-                    </li>
-                </ol>
-            </nav>
-        </div>
-        <div class="container pt-13">
-            <div class="text-center">
-                <div class="text-center">
-                    <h2 class="fs-36px mb-9">Keep In Touch with Us</h2>
-                    <p
-                        class="fs-18px mb-14 w-lg-60 w-xl-50 mx-md-12 mx-lg-auto"
-                    >
-                        We’re talking about clean beauty gift sets, of
-                        course – and we’ve got a bouquet of beauties for
-                        yourself or someone you love.
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 mb-12 mb-md-0">
-                    <div class="d-flex align-items-start">
-                        <div class="pe-lg-9 pe-8 text-primary">
-                            <svg class="icon fs-2">
-                                <use xlink:href="#icon-box-07"></use>
-                            </svg>
-                        </div>
-                        <div>
-                            <h3 class="fs-5 mb-6">Address</h3>
-                            <div class="fs-6">
-                                <p class="mb-2 pb-4 fs-6">
-                                    3245 Abbot Kinney BLVD – <br />
-                                    PH Venice, CA 124
-                                </p>
-                                <p>
-                                    76 East Houston Street <br />
-                                    PH Venice, CA 124
-                                </p>
-                            </div>
-                            <a
-                                href="#"
-                                class="text-decoration-none border-bottom border-currentColor fw-semibold fs-6"
-                                >Get Direction</a
+                        <li class="breadcrumb-item">
+                            <a title="Home" href="../index.html"
+                                >Home</a
                             >
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-12 mb-md-0">
-                    <div class="d-flex align-items-start">
-                        <div class="pe-lg-9 pe-8 text-primary">
-                            <svg class="icon fs-2">
-                                <use xlink:href="#icon-box-05"></use>
-                            </svg>
-                        </div>
-                        <div>
-                            <h3 class="fs-5 mb-6">Contact</h3>
-                            <div class="fs-6">
-                                <p class="mb-3 fs-6">
-                                    Mobile:<span
-                                        class="text-body-emphasis"
-                                    >
-                                        068 26589 996</span
-                                    >
-                                </p>
-                                <p class="mb-3 fs-6">
-                                    Hotline:<span
-                                        class="text-body-emphasis"
-                                    >
-                                        1900 26886</span
-                                    >
-                                </p>
-                                <p class="mb-0 fs-6">
-                                    E-mail: hello@grace.com
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-12 mb-md-0">
-                    <div class="d-flex align-items-start">
-                        <div class="pe-lg-9 pe-8 text-primary">
-                            <svg class="icon fs-2">
-                                <use xlink:href="#icon-box-06"></use>
-                            </svg>
-                        </div>
-                        <div>
-                            <h3 class="fs-5 mb-6">Hour of operation</h3>
-                            <div class="fs-6">
-                                <dl class="d-flex mb-0">
-                                    <dt
-                                        class="pe-3 fs-6 text-body-emphasis fw-500"
-                                        style="width: 110px"
-                                    >
-                                        Mon – Fri:
-                                    </dt>
-                                    <dd class="mb-0">08:30 – 20:00</dd>
-                                </dl>
-                                <dl class="d-flex mb-0">
-                                    <dt
-                                        class="pe-3 fs-6 text-body-emphasis fw-500"
-                                        style="width: 110px"
-                                    >
-                                        Sat & Sun:
-                                    </dt>
-                                    <dd class="mb-0">09:30 – 21:30</dd>
-                                </dl>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                        </li>
+                        <li
+                            class="breadcrumb-item active"
+                            aria-current="page"
+                        >
+                            Blog Update
+                        </li>
+                    </ol>
+                </nav>
             </div>
         </div>
     </section>
 
-    <section class="pt-9 pt-md-16 pt-lg-18">
+    <section class="pt-10 pb-16 pb-lg-18">
         <div class="container">
-            <div
-                id="map"
-                class="mapbox-gl map-point-animate map-box-has-effect"
-                style="height: 530px"
-                data-mapbox-access-token="pk.eyJ1IjoiZzVvbmxpbmUiLCJhIjoiY2t1bWY4NzBiMWNycDMzbzZwMnI5ZThpaiJ9.ZifefVtp4anluFUbAMxAXg"
-                data-mapbox-options="{&#34;center&#34;:[-106.53671888774004,35.12362056187368],&#34;setLngLat&#34;:[-106.53671888774004,35.12362056187368],&#34;style&#34;:&#34;mapbox://styles/mapbox/light-v10&#34;,&#34;zoom&#34;:5}"
-                data-mapbox-marker="[{&#34;backgroundImage&#34;:&#34;/assets/images/others/marker.png') }}&#34;,&#34;backgroundRepeat&#34;:&#34;no-repeat&#34;,&#34;className&#34;:&#34;marker&#34;,&#34;height&#34;:&#34;70px&#34;,&#34;position&#34;:[-102.53671888774004,38.12362056187368],&#34;width&#34;:&#34;70px&#34;},{&#34;backgroundImage&#34;:&#34;/assets/images/others/marker.png') }}&#34;,&#34;backgroundRepeat&#34;:&#34;no-repeat&#34;,&#34;className&#34;:&#34;marker&#34;,&#34;height&#34;:&#34;70px&#34;,&#34;position&#34;:[-109.03671888774004,33.02362056187368],&#34;width&#34;:&#34;70px&#34;}]"
-            ></div>
-        </div>
-    </section>
-
-    <section
-        class="pt-15 pb-16 pt-lg-17 pb-lg-18 mx-auto"
-        style="max-width: 750px"
-    >
-        <div class="container text-center">
-            <h2 class="mb-10 fs-3">Sent A Message</h2>
-            <form class="contact-form" method="post" action="#">
-                <div class="row mb-8 mb-md-10">
-                    <div class="col-md-6 col-12 mb-8 mb-md-0">
-                        <input
-                            type="text"
-                            class="form-control input-focus"
-                            placeholder="Name"
-                        />
-                    </div>
-                    <div class="col-md-6 col-12">
-                        <input
-                            type="email"
-                            class="form-control input-focus"
-                            placeholder="Email"
-                        />
-                    </div>
-                </div>
-                <textarea
-                    class="form-control mb-6 input-focus"
-                    placeholder="Messenger"
-                    rows="7"
-                ></textarea>
-                <div class="form-check mb-9 text-start">
-                    <input
-                        class="form-check-input rounded-0"
-                        type="checkbox"
-                        value=""
-                        id="flexCheckDefault"
-                    />
-                    <label
-                        class="form-check-label"
-                        for="flexCheckDefault"
-                    >
-                        Save my name, email in this browse for the next
-                        time I comment
-                    </label>
-                </div>
-                <a
-                    href="#"
-                    data-bs-toggle="modal"
-                    data-bs-target="#submitMessageModal"
-                    type="submit"
-                    class="btn btn-dark btn-hover-bg-primary btn-hover-border-primary px-11"
-                >
-                    Submit
-                </a>
-            </form>
-        </div>
-        <div
-            class="modal"
-            id="submitMessageModal"
-            tabindex="-1"
-            aria-labelledby="submitMessageModal"
-            aria-hidden="true"
-        >
-            <div
-                class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-            >
-                <div class="modal-content">
-                    <div class="p-5 text-center border-0">
-                        <button
-                            type="button"
-                            class="btn-close position-absolute end-5 top-5"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                        ></button>
-                        <h5
-                            class="modal-title w-100 d-flex justify-content-center align-items-center gap-5"
-                            id="signInModalLabel"
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="position-sticky top-0">
+                        <aside
+                            class="primary-sidebar mt-12 pt-2 mt-lg-0 pt-lg-0 pe-xl-9 me-xl-2"
                         >
-                            <i class="fa-solid fa-check"></i>
-                            <span
-                                >The message is successfully sent!</span
+                            <div class="widget widget-search">
+                                <h4 class="widget-title fs-5 mb-6">
+                                    Search
+                                </h4>
+                                <form action="#">
+                                    <div class="input-group">
+                                        <button
+                                            type="submit"
+                                            class="input-group-text bg-transparent px-4 border-0 position-absolute z-index-4 text-body-emphasis fs-5 start-0 top-0 bottom-0 m-auto"
+                                        >
+                                            <svg
+                                                class="icon icon-magnifying-glass-light"
+                                            >
+                                                <use
+                                                    xlink:href="#icon-magnifying-glass-light"
+                                                ></use>
+                                            </svg>
+                                        </button>
+                                        <input
+                                            type="search"
+                                            name="search"
+                                            class="form-control ps-11"
+                                            placeholder="Search"
+                                        />
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="widget widget-category">
+                                <h4 class="widget-title fs-5 mb-6">
+                                    Category
+                                </h4>
+                                <ul
+                                    class="navbar-nav navbar-nav-cate"
+                                    id="widget_category"
+                                >
+                                    <li class="nav-item">
+                                        <a
+                                            href="#"
+                                            title="Make up"
+                                            class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                            ><span
+                                                class="text-hover-underline"
+                                                >Make up</span
+                                            ></a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            href="#"
+                                            title="Skin care"
+                                            class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center active"
+                                            ><span
+                                                class="text-hover-underline"
+                                                >Skin care</span
+                                            ></a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            href="#"
+                                            title="How to’s"
+                                            class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                            ><span
+                                                class="text-hover-underline"
+                                                >How to’s</span
+                                            ></a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            href="#"
+                                            title="Tips"
+                                            class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                            ><span
+                                                class="text-hover-underline"
+                                                >Tips</span
+                                            ></a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            href="#"
+                                            title="Hair &amp; body"
+                                            class="text-reset position-relative d-block text-decoration-none text-body-emphasis-hover d-flex align-items-center"
+                                            ><span
+                                                class="text-hover-underline"
+                                                >Hair &amp; body</span
+                                            ></a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="widget widget-post">
+                                <h4 class="widget-title fs-5 mb-6">
+                                    Recent posts
+                                </h4>
+                                <ul
+                                    class="list-unstyled mb-0 row gy-7 gx-0"
+                                >
+                                    <li class="col-12">
+                                        <div
+                                            class="card border-0 flex-row"
+                                        >
+                                            <figure
+                                                class="flex-shrink-0 mb-0 me-7"
+                                            >
+                                                <a
+                                                    href="#"
+                                                    class="d-block"
+                                                    title="Why You Should Try an Overnight Balm"
+                                                >
+                                                    <img
+                                                        data-src="../assets/images/blog/post-12-60x80.jpg"
+                                                        class="img-fluid lazy-image"
+                                                        alt="Why You Should Try an Overnight Balm"
+                                                        width="60"
+                                                        height="80"
+                                                        src="#"
+                                                    />
+                                                </a>
+                                            </figure>
+                                            <div class="card-body p-0">
+                                                <h5
+                                                    class="card-text fw-semibold ls-1 text-uppercase fs-13px mb-3 text-body text-primary-hover"
+                                                >
+                                                    <a
+                                                        class="text-decoration-none text-reset"
+                                                        href="#"
+                                                        title="Skin care"
+                                                        >Skin care</a
+                                                    >
+                                                </h5>
+                                                <h4
+                                                    class="card-title mb-0 text-body-emphasis fs-15px lh-base text-primary-hover"
+                                                >
+                                                    <a
+                                                        class="text-decoration-none text-reset"
+                                                        href="../blog/details-01.html"
+                                                        title="Why You Should Try an Overnight Balm"
+                                                        >Why You Should
+                                                        Try an Overnight
+                                                        Balm</a
+                                                    >
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-12">
+                                        <div
+                                            class="card border-0 flex-row"
+                                        >
+                                            <figure
+                                                class="flex-shrink-0 mb-0 me-7"
+                                            >
+                                                <a
+                                                    href="#"
+                                                    class="d-block"
+                                                    title="How to Plop Hair for Bouncy, Beautiful Curls"
+                                                >
+                                                    <img
+                                                        data-src="../assets/images/blog/post-14-60x80.jpg"
+                                                        class="img-fluid lazy-image"
+                                                        alt="How to Plop Hair for Bouncy, Beautiful Curls"
+                                                        width="60"
+                                                        height="80"
+                                                        src="#"
+                                                    />
+                                                </a>
+                                            </figure>
+                                            <div class="card-body p-0">
+                                                <h5
+                                                    class="card-text fw-semibold ls-1 text-uppercase fs-13px mb-3 text-body text-primary-hover"
+                                                >
+                                                    <a
+                                                        class="text-decoration-none text-reset"
+                                                        href="#"
+                                                        title="Skin care"
+                                                        >Skin care</a
+                                                    >
+                                                </h5>
+                                                <h4
+                                                    class="card-title mb-0 text-body-emphasis fs-15px lh-base text-primary-hover"
+                                                >
+                                                    <a
+                                                        class="text-decoration-none text-reset"
+                                                        href="../blog/details-01.html"
+                                                        title="How to Plop Hair for Bouncy, Beautiful Curls"
+                                                        >How to Plop
+                                                        Hair for Bouncy,
+                                                        Beautiful
+                                                        Curls</a
+                                                    >
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-12">
+                                        <div
+                                            class="card border-0 flex-row"
+                                        >
+                                            <figure
+                                                class="flex-shrink-0 mb-0 me-7"
+                                            >
+                                                <a
+                                                    href="#"
+                                                    class="d-block"
+                                                    title="Which foundation formula is right for your skin?"
+                                                >
+                                                    <img
+                                                        data-src="../assets/images/blog/post-11-60x80.jpg"
+                                                        class="img-fluid lazy-image"
+                                                        alt="Which foundation formula is right for your skin?"
+                                                        width="60"
+                                                        height="80"
+                                                        src="#"
+                                                    />
+                                                </a>
+                                            </figure>
+                                            <div class="card-body p-0">
+                                                <h5
+                                                    class="card-text fw-semibold ls-1 text-uppercase fs-13px mb-3 text-body text-primary-hover"
+                                                >
+                                                    <a
+                                                        class="text-decoration-none text-reset"
+                                                        href="#"
+                                                        title="Skin care"
+                                                        >Skin care</a
+                                                    >
+                                                </h5>
+                                                <h4
+                                                    class="card-title mb-0 text-body-emphasis fs-15px lh-base text-primary-hover"
+                                                >
+                                                    <a
+                                                        class="text-decoration-none text-reset"
+                                                        href="../blog/details-01.html"
+                                                        title="Which foundation formula is right for your skin?"
+                                                        >Which
+                                                        foundation
+                                                        formula is right
+                                                        for your
+                                                        skin?</a
+                                                    >
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-12">
+                                        <div
+                                            class="card border-0 flex-row"
+                                        >
+                                            <figure
+                                                class="flex-shrink-0 mb-0 me-7"
+                                            >
+                                                <a
+                                                    href="#"
+                                                    class="d-block"
+                                                    title="A User-Friendly Guide to Natural Cleansers"
+                                                >
+                                                    <img
+                                                        data-src="../assets/images/blog/post-15-60x80.jpg"
+                                                        class="img-fluid lazy-image"
+                                                        alt="A User-Friendly Guide to Natural Cleansers"
+                                                        width="60"
+                                                        height="80"
+                                                        src="#"
+                                                    />
+                                                </a>
+                                            </figure>
+                                            <div class="card-body p-0">
+                                                <h5
+                                                    class="card-text fw-semibold ls-1 text-uppercase fs-13px mb-3 text-body text-primary-hover"
+                                                >
+                                                    <a
+                                                        class="text-decoration-none text-reset"
+                                                        href="#"
+                                                        title="Skin care"
+                                                        >Skin care</a
+                                                    >
+                                                </h5>
+                                                <h4
+                                                    class="card-title mb-0 text-body-emphasis fs-15px lh-base text-primary-hover"
+                                                >
+                                                    <a
+                                                        class="text-decoration-none text-reset"
+                                                        href="../blog/details-01.html"
+                                                        title="A User-Friendly Guide to Natural Cleansers"
+                                                        >A User-Friendly
+                                                        Guide to Natural
+                                                        Cleansers</a
+                                                    >
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="widget widget-banner">
+                                <div class="card border-0">
+                                    <img
+                                        class="card-img img-fluid lazy-image"
+                                        data-src="../assets/images/blog/widget-banner-img.jpg"
+                                        alt="Be your kind of beauty"
+                                        width="340"
+                                        height="343"
+                                        src="#"
+                                    />
+                                    <div
+                                        class="card-img-overlay pt-8 pb-7 px-xl-14 d-flex flex-column align-items-center justify-content-between"
+                                    >
+                                        <h2
+                                            class="fw-semibold text-uppercase fs-30px lh-12 text-white text-center"
+                                        >
+                                            Be your kind of beauty
+                                        </h2>
+                                        <a
+                                            href=""
+                                            target="_blank"
+                                            class="btn btn-white shadow-none"
+                                        >
+                                            Explore More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="widget widget-tags">
+                                <h4 class="widget-title fs-5 mb-6">
+                                    Tags
+                                </h4>
+                                <ul
+                                    class="w-100 mt-n4 list-unstyled d-flex flex-wrap mb-0"
+                                >
+                                    <li class="me-6 mt-4">
+                                        <a
+                                            href="#"
+                                            title="Cleansing"
+                                            class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                            >Cleansing</a
+                                        >
+                                    </li>
+                                    <li class="me-6 mt-4">
+                                        <a
+                                            href="#"
+                                            title="Make up"
+                                            class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                            >Make up</a
+                                        >
+                                    </li>
+                                    <li class="me-6 mt-4">
+                                        <a
+                                            href="#"
+                                            title="eye cream"
+                                            class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                            >eye cream</a
+                                        >
+                                    </li>
+                                    <li class="me-6 mt-4">
+                                        <a
+                                            href="#"
+                                            title="nail"
+                                            class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                            >nail</a
+                                        >
+                                    </li>
+                                    <li class="me-6 mt-4">
+                                        <a
+                                            href="#"
+                                            title="shampoo"
+                                            class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                            >shampoo</a
+                                        >
+                                    </li>
+                                    <li class="me-6 mt-4">
+                                        <a
+                                            href="#"
+                                            title="coffee bean"
+                                            class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                            >coffee bean</a
+                                        >
+                                    </li>
+                                    <li class="me-6 mt-4">
+                                        <a
+                                            href="#"
+                                            title="healthy"
+                                            class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                            >healthy</a
+                                        >
+                                    </li>
+                                    <li class="me-6 mt-4">
+                                        <a
+                                            href="#"
+                                            title="skin care"
+                                            class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                            >skin care</a
+                                        >
+                                    </li>
+                                    <li class="me-6 mt-4">
+                                        <a
+                                            href="#"
+                                            title="sale"
+                                            class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                            >sale</a
+                                        >
+                                    </li>
+                                    <li class="me-6 mt-4">
+                                        <a
+                                            href="#"
+                                            title="Cosmetics"
+                                            class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                            >Cosmetics</a
+                                        >
+                                    </li>
+                                    <li class="me-6 mt-4">
+                                        <a
+                                            href="#"
+                                            title="Natural cleansers"
+                                            class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                            >Natural cleansers</a
+                                        >
+                                    </li>
+                                    <li class="me-6 mt-4">
+                                        <a
+                                            href="#"
+                                            title="Organic"
+                                            class="text-reset d-block text-decoration-none text-body-emphasis-hover text-hover-underline"
+                                            >Organic</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="widget widget-instagram">
+                                <div
+                                    class="d-flex align-items-baseline justify-content-between"
+                                >
+                                    <h4 class="widget-title fs-5 mb-6">
+                                        Follow us
+                                    </h4>
+                                    <a
+                                        href="#"
+                                        class="text-primary text-hover-underline"
+                                        >@GRACE</a
+                                    >
+                                </div>
+                                <div class="row g-10px">
+                                    <div class="col-4">
+                                        <a
+                                            class="card-img-overlay-hover hover-zoom-in d-block"
+                                            href="../assets/images/instagram/instagram-01.jpg"
+                                            title="instagram-01"
+                                            data-gallery="widget_instagram"
+                                        >
+                                            <img
+                                                class="lazy-image img-fluid w-100"
+                                                width="106"
+                                                height="106"
+                                                data-src="../assets/images/instagram/instagram-01-106x106.jpg"
+                                                alt="instagram-01"
+                                                src="#"
+                                            />
+                                            <span
+                                                class="card-img-overlay bg-dark bg-opacity-30"
+                                            ></span>
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a
+                                            class="card-img-overlay-hover hover-zoom-in d-block"
+                                            href="../assets/images/instagram/instagram-02.jpg"
+                                            title="instagram-02"
+                                            data-gallery="widget_instagram"
+                                        >
+                                            <img
+                                                class="lazy-image img-fluid w-100"
+                                                width="106"
+                                                height="106"
+                                                data-src="../assets/images/instagram/instagram-02-106x106.jpg"
+                                                alt="instagram-02"
+                                                src="#"
+                                            />
+                                            <span
+                                                class="card-img-overlay bg-dark bg-opacity-30"
+                                            ></span>
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a
+                                            class="card-img-overlay-hover hover-zoom-in d-block"
+                                            href="../assets/images/instagram/instagram-03.jpg"
+                                            title="instagram-03"
+                                            data-gallery="widget_instagram"
+                                        >
+                                            <img
+                                                class="lazy-image img-fluid w-100"
+                                                width="106"
+                                                height="106"
+                                                data-src="../assets/images/instagram/instagram-03-106x106.jpg"
+                                                alt="instagram-03"
+                                                src="#"
+                                            />
+                                            <span
+                                                class="card-img-overlay bg-dark bg-opacity-30"
+                                            ></span>
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a
+                                            class="card-img-overlay-hover hover-zoom-in d-block"
+                                            href="../assets/images/instagram/instagram-04.jpg"
+                                            title="instagram-04"
+                                            data-gallery="widget_instagram"
+                                        >
+                                            <img
+                                                class="lazy-image img-fluid w-100"
+                                                width="106"
+                                                height="106"
+                                                data-src="../assets/images/instagram/instagram-04-106x106.jpg"
+                                                alt="instagram-04"
+                                                src="#"
+                                            />
+                                            <span
+                                                class="card-img-overlay bg-dark bg-opacity-30"
+                                            ></span>
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a
+                                            class="card-img-overlay-hover hover-zoom-in d-block"
+                                            href="../assets/images/instagram/instagram-05.jpg"
+                                            title="instagram-05"
+                                            data-gallery="widget_instagram"
+                                        >
+                                            <img
+                                                class="lazy-image img-fluid w-100"
+                                                width="106"
+                                                height="106"
+                                                data-src="../assets/images/instagram/instagram-05-106x106.jpg"
+                                                alt="instagram-05"
+                                                src="#"
+                                            />
+                                            <span
+                                                class="card-img-overlay bg-dark bg-opacity-30"
+                                            ></span>
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a
+                                            class="card-img-overlay-hover hover-zoom-in d-block"
+                                            href="../assets/images/instagram/instagram-06.jpg"
+                                            title="instagram-06"
+                                            data-gallery="widget_instagram"
+                                        >
+                                            <img
+                                                class="lazy-image img-fluid w-100"
+                                                width="106"
+                                                height="106"
+                                                data-src="../assets/images/instagram/instagram-06-106x106.jpg"
+                                                alt="instagram-06"
+                                                src="#"
+                                            />
+                                            <span
+                                                class="card-img-overlay bg-dark bg-opacity-30"
+                                            ></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="text-center mb-13">
+                        <a
+                            href="#"
+                            class="btn btn-light btn-hover-bg-dark btn-hover-border-dark btn-hover-text-light shadow-none py-0 px-6 mb-6"
+                        >
+                            Life Style
+                        </a>
+                        <h2
+                            class="px-6 text-body-emphasis border-0 fw-500 mb-4 fs-3"
+                        >
+                            Are You Washing Your Face Properly?
+                        </h2>
+                        <ul
+                            class="list-inline fs-15px fw-semibold letter-spacing-01 d-flex justify-content-center align-items-center"
+                        >
+                            <li class="list-inline-item px-6">
+                                Jan 19, 2021
+                            </li>
+                            <li class="ms-5 list-style-disc">
+                                134 views
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="post-content">
+                        <img
+                            data-src="../assets/images/blog/post-style-4-img-1.jpg"
+                            width="770"
+                            height="470"
+                            alt=""
+                            class="lazy-image mb-12 img-fluid"
+                            src="#"
+                        />
+                        <p class="mb-6">
+                            Awkwardness gives me great comfort. I’ve
+                            never been cool, but I’ve felt cool. I’ve
+                            been in the cool place, but I wasn’t really
+                            cool – I was trying to pass for hip or cool.
+                            It’s the awkwardness that’s nice. We look
+                            our best in subdued colors, sophisticated
+                            cuts, and a general air of sleek
+                            understatement. I like the body. I like to
+                            design everything to do with the body.
+                        </p>
+                        <h4
+                            class="text-center pb-11 ps-lg-10 pe-lg-13 px-0 pt-9"
+                        >
+                            "I try as much as possible to give you a
+                            great basic product and what comes out, I
+                            feel, is really amazing."
+                        </h4>
+                        <p>
+                            If I fell in love with a woman for an
+                            artistic reason, or from the point of view
+                            of my work, I think it would rob her of
+                            something. We live in an era of
+                            globalization and the era of the woman.
+                            Never in the history of the world have women
+                            <span class="text-body-emphasis"
+                                >been more in control of their
+                                destiny.</span
                             >
-                        </h5>
+                        </p>
+                        <p
+                            class="fs-18px text-body-emphasis mt-5 mb-4 fw-500"
+                        >
+                            Your imagination, our creation
+                        </p>
+                        <p class="mb-12 mb-6">
+                            Complexion-perfecting natural foundation
+                            enriched with antioxidant-packed
+                            superfruits, vitamins, and other
+                            skin-nourishing nutrients. Creamy liquid
+                            formula sets with a pristine matte finish
+                            for soft, velvety smooth skin. Made using
+                            clean, non-toxic ingredients, our products
+                            are designed for everyone...
+                        </p>
+                        <div class="text-center">
+                            <img
+                                class="img-fluid mx-auto lazy-image"
+                                src="#"
+                                data-src="../assets/images/blog/post-content-img-2.jpg"
+                                alt=""
+                                width="570"
+                                height="350"
+                            />
+                        </div>
+                        <p class="fs-14px text-center mt-7">
+                            Producing the highest quality products
+                        </p>
+                        <p class="mt-lg-12 mt-8">
+                            Awkwardness gives me great comfort. I’ve
+                            never been cool, but I’ve felt cool. I’ve
+                            been in the cool place, but I wasn’t really
+                            cool – I was trying to pass for hip or cool.
+                            It’s the awkwardness that’s nice. We look
+                            our best in subdued colors, sophisticated
+                            cuts, and a general air of sleek
+                            understatement. I like the body. I like to
+                            design everything to do with the body.
+                        </p>
+                    </div>
+
+                    <div
+                        class="row no-gutters pt-11 justify-content-sm-between"
+                    >
+                        <div class="col-sm-6 mb-4 mb-sm-0">
+                            <ul class="list-inline fw-semibold">
+                                <li class="list-inline-item me-3">
+                                    <a
+                                        href=""
+                                        class="text-body text-body-emphasis-hover text-decoration-none"
+                                        >#happy</a
+                                    >
+                                </li>
+                                <li class="list-inline-item me-3">
+                                    <a
+                                        href=""
+                                        class="text-body text-body-emphasis-hover text-decoration-none"
+                                        >#lifestyle</a
+                                    >
+                                </li>
+                                <li class="list-inline-item me-3">
+                                    <a
+                                        href=""
+                                        class="text-body text-body-emphasis-hover text-decoration-none"
+                                        >#gifts</a
+                                    >
+                                </li>
+                                <li class="list-inline-item me-3">
+                                    <a
+                                        href=""
+                                        class="text-body text-body-emphasis-hover text-decoration-none"
+                                        >#watercolor</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div
+                            class="col-sm-6 d-flex justify-content-sm-end"
+                        >
+                            <label
+                                class="text-secondary fw-semibold me-7 mb-0"
+                                >Share:</label
+                            >
+                            <ul class="list-inline mb-0 lh-1">
+                                <li class="list-inline-item me-7">
+                                    <a
+                                        href=""
+                                        class="fs-18px lh-14 fw-normal"
+                                    >
+                                        <i
+                                            class="fa-brands fa-twitter"
+                                        ></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item me-7">
+                                    <a
+                                        href=""
+                                        class="fs-18px lh-14 fw-normal"
+                                    >
+                                        <i
+                                            class="fa-brands fa-facebook-f"
+                                        ></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item me-7">
+                                    <a
+                                        href=""
+                                        class="fs-18px lh-14 fw-normal"
+                                    >
+                                        <i
+                                            class="fa-brands fa-instagram"
+                                        ></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item me-7">
+                                    <a
+                                        href=""
+                                        class="fs-18px lh-14 fw-normal"
+                                    >
+                                        <i
+                                            class="fa-brands fa-youtube"
+                                        ></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 mt-5 mb-7">
+                            <div class="border-bottom"></div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="ml-8">
+                                <p
+                                    class="fs-13px ls-1 text-uppercase mb-5 fw-semibold px-8"
+                                >
+                                    Videos
+                                </p>
+                                <a
+                                    href="#"
+                                    class="fs-15px fw-semibold position-relative px-8"
+                                >
+                                    <i
+                                        class="far fa-chevron-left mt-2 position-absolute start-0 top-0"
+                                    ></i
+                                    >How to Plop Hair for Bouncy,
+                                    Beautiful Curls
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="col-sm-6 d-flex justify-content-sm-end"
+                        >
+                            <div class="mr-8 text-right">
+                                <p
+                                    class="fs-13px text-start text-sm-end ls-1 text-uppercase mb-5 fw-semibold px-8"
+                                >
+                                    Life style
+                                </p>
+                                <a
+                                    href="#"
+                                    class="fs-15px text-start text-sm-end fw-semibold position-relative px-8"
+                                >
+                                    <i
+                                        class="far fa-chevron-right mt-2 position-absolute end-0 top-0"
+                                    ></i
+                                    >Our Favorite Multitasking Products
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="pt-14 pb-13 pb-lg-15 pt-lg-18 mx-n5"
+                        id="post_related"
+                    >
+                        <div class="container">
+                            <div class="text-center">
+                                <h2 class="mb-6 fs-3">Related Posts</h2>
+                            </div>
+                        </div>
+                        <div class="container container-xxl mt-10 pt-3">
+                            <div
+                                class="slick-slider"
+                                data-slick-options="{&#34;arrows&#34;:false,&#34;dots&#34;:false,&#34;responsive&#34;:[{&#34;breakpoint&#34;:1200,&#34;settings&#34;:{&#34;slidesToShow&#34;:3}},{&#34;breakpoint&#34;:992,&#34;settings&#34;:{&#34;dots&#34;:true,&#34;slidesToShow&#34;:2}},{&#34;breakpoint&#34;:768,&#34;settings&#34;:{&#34;dots&#34;:true,&#34;slidesToShow&#34;:1}}],&#34;slidesToShow&#34;:3}"
+                            >
+                                <div>
+                                    <article
+                                        class="card card-post-grid-3 bg-transparent border-0"
+                                        data-animate="fadeInUp"
+                                    >
+                                        <figure
+                                            class="card-img-top mb-8 position-relative"
+                                        >
+                                            <a
+                                                href="#"
+                                                class="hover-shine hover-zoom-in d-block"
+                                                title="Our Favorite Multitasking Products"
+                                            >
+                                                <img
+                                                    data-src="../assets/images/blog/post-12-237x288.jpg"
+                                                    class="img-fluid lazy-image w-100"
+                                                    alt="Our Favorite Multitasking Products"
+                                                    width="237"
+                                                    height="288"
+                                                    src="#"
+                                                />
+                                            </a>
+                                        </figure>
+                                        <div class="card-body p-0">
+                                            <ul
+                                                class="post-meta list-inline lh-1 d-flex flex-wrap fs-13px text-uppercase ls-1 fw-semibold m-0"
+                                            >
+                                                <li
+                                                    class="list-inline-item"
+                                                >
+                                                    <a
+                                                        class="text-reset text-decoration-none text-primary-hover"
+                                                        href="#"
+                                                        title="Videos"
+                                                        >Videos</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                            <h4
+                                                class="card-title fs-6 lh-base mt-5 pt-2 mb-0"
+                                            >
+                                                <a
+                                                    class="text-decoration-none"
+                                                    href="../blog/details-01.html"
+                                                    title="Our Favorite Multitasking Products"
+                                                    >Our Favorite
+                                                    Multitasking
+                                                    Products</a
+                                                >
+                                            </h4>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div>
+                                    <article
+                                        class="card card-post-grid-3 bg-transparent border-0"
+                                        data-animate="fadeInUp"
+                                    >
+                                        <figure
+                                            class="card-img-top mb-8 position-relative"
+                                        >
+                                            <a
+                                                href="#"
+                                                class="hover-shine hover-zoom-in d-block"
+                                                title="How to Plop Hair for Bouncy, Beautiful Curls"
+                                            >
+                                                <img
+                                                    data-src="../assets/images/blog/post-05-237x288.jpg"
+                                                    class="img-fluid lazy-image w-100"
+                                                    alt="How to Plop Hair for Bouncy, Beautiful Curls"
+                                                    width="237"
+                                                    height="288"
+                                                    src="#"
+                                                />
+                                            </a>
+                                        </figure>
+                                        <div class="card-body p-0">
+                                            <ul
+                                                class="post-meta list-inline lh-1 d-flex flex-wrap fs-13px text-uppercase ls-1 fw-semibold m-0"
+                                            >
+                                                <li
+                                                    class="list-inline-item"
+                                                >
+                                                    <a
+                                                        class="text-reset text-decoration-none text-primary-hover"
+                                                        href="#"
+                                                        title="Videos"
+                                                        >Videos</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                            <h4
+                                                class="card-title fs-6 lh-base mt-5 pt-2 mb-0"
+                                            >
+                                                <a
+                                                    class="text-decoration-none"
+                                                    href="../blog/details-01.html"
+                                                    title="How to Plop Hair for Bouncy, Beautiful Curls"
+                                                    >How to Plop Hair
+                                                    for Bouncy,
+                                                    Beautiful Curls</a
+                                                >
+                                            </h4>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div>
+                                    <article
+                                        class="card card-post-grid-3 bg-transparent border-0"
+                                        data-animate="fadeInUp"
+                                    >
+                                        <figure
+                                            class="card-img-top mb-8 position-relative"
+                                        >
+                                            <a
+                                                href="#"
+                                                class="hover-shine hover-zoom-in d-block"
+                                                title="Are You Washing Your Face Properly?"
+                                            >
+                                                <img
+                                                    data-src="../assets/images/blog/post-03-237x288.jpg"
+                                                    class="img-fluid lazy-image w-100"
+                                                    alt="Are You Washing Your Face Properly?"
+                                                    width="237"
+                                                    height="288"
+                                                    src="#"
+                                                />
+                                            </a>
+                                        </figure>
+                                        <div class="card-body p-0">
+                                            <ul
+                                                class="post-meta list-inline lh-1 d-flex flex-wrap fs-13px text-uppercase ls-1 fw-semibold m-0"
+                                            >
+                                                <li
+                                                    class="list-inline-item"
+                                                >
+                                                    <a
+                                                        class="text-reset text-decoration-none text-primary-hover"
+                                                        href="#"
+                                                        title="Videos"
+                                                        >Videos</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                            <h4
+                                                class="card-title fs-6 lh-base mt-5 pt-2 mb-0"
+                                            >
+                                                <a
+                                                    class="text-decoration-none"
+                                                    href="../blog/details-01.html"
+                                                    title="Are You Washing Your Face Properly?"
+                                                    >Are You Washing
+                                                    Your Face
+                                                    Properly?</a
+                                                >
+                                            </h4>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-5 mb-7">
+                        <div class="border-bottom"></div>
                     </div>
                 </div>
             </div>
@@ -1532,11 +2319,11 @@
                 class="col-xl-3 d-flex justify-content-center justify-content-xl-start"
             >
                 <a
-                    href="./"
+                    href="../"
                     class="navbar-brand py-4 d-lg-inline-block"
                 >
                     <img
-                        src="{{ asset('assets/front/images/others/logo.png') }}"
+                        src="../assets/images/others/logo.png"
                         height="26"
                         alt="Glowing - Bootstrap 5 HTML Templates"
                     />
@@ -1607,7 +2394,7 @@
                 <div class="px-5 d-none d-xl-inline-block">
                     <a
                         class="position-relative lh-1 color-inherit text-decoration-none"
-                        href="./shop/wishlist.html"
+                        href="../shop/wishlist.html"
                     >
                         <svg class="icon icon-star-light">
                             <use xlink:href="#icon-star-light"></use>
@@ -1687,7 +2474,7 @@
                             <div class="d-flex align-items-center">
                                 <div class="me-6">
                                     <img
-                                        src="{{ asset('assets/front/images/products/product-03-75x100.jpg') }}"
+                                        src="../assets/images/products/product-03-75x100.jpg"
                                         width="60"
                                         height="80"
                                         alt="natural coconut cleansing oil"
@@ -1746,7 +2533,7 @@
                             <div class="d-flex align-items-center">
                                 <div class="me-6">
                                     <img
-                                        src="{{ asset('assets/front/images/products/product-06-75x100.jpg') }}"
+                                        src="../assets/images/products/product-06-75x100.jpg"
                                         width="60"
                                         height="80"
                                         alt="natural coconut cleansing oil"
@@ -1805,7 +2592,7 @@
                             <div class="d-flex align-items-center">
                                 <div class="me-6">
                                     <img
-                                        src="{{ asset('assets/front/images/products/product-09-75x100.jpg') }}"
+                                        src="../assets/images/products/product-09-75x100.jpg"
                                         width="60"
                                         height="80"
                                         alt="natural coconut cleansing oil"
@@ -2155,7 +2942,7 @@
                                         </svg>
                                     </a>
                                     <a
-                                        href="./shop/compare.html"
+                                        href="../shop/compare.html"
                                         class="d-flex align-items-center justify-content-center mt-5 product-gallery-action rounded-circle"
                                         data-bs-toggle="tooltip"
                                         data-bs-placement="left"
@@ -2175,44 +2962,44 @@
                                 data-slick-options="{&#34;arrows&#34;:false,&#34;asNavFor&#34;:&#34;#slider-thumb&#34;,&#34;dots&#34;:false,&#34;slidesToShow&#34;:1}"
                             >
                                 <a
-                                    href="{{ asset('assets/front/images/shop/product-gallery-05.jpg') }}"
+                                    href="../assets/images/shop/product-gallery-05.jpg"
                                     data-gallery="gallery1"
                                     ><img
                                         src="#"
-                                        data-src="{{ asset('assets/front/images/shop/product-gallery-05.jpg') }}"
+                                        data-src="../assets/images/shop/product-gallery-05.jpg"
                                         class="h-auto lazy-image"
                                         width="540"
                                         height="720"
                                         alt=""
                                 /></a>
                                 <a
-                                    href="{{ asset('assets/front/images/shop/product-gallery-06.jpg') }}"
+                                    href="../assets/images/shop/product-gallery-06.jpg"
                                     data-gallery="gallery1"
                                     ><img
                                         src="#"
-                                        data-src="{{ asset('assets/front/images/shop/product-gallery-06.jpg') }}"
+                                        data-src="../assets/images/shop/product-gallery-06.jpg"
                                         class="h-auto lazy-image"
                                         width="540"
                                         height="720"
                                         alt=""
                                 /></a>
                                 <a
-                                    href="{{ asset('assets/front/images/shop/product-gallery-07.jpg') }}"
+                                    href="../assets/images/shop/product-gallery-07.jpg"
                                     data-gallery="gallery1"
                                     ><img
                                         src="#"
-                                        data-src="{{ asset('assets/front/images/shop/product-gallery-07.jpg') }}"
+                                        data-src="../assets/images/shop/product-gallery-07.jpg"
                                         class="h-auto lazy-image"
                                         width="540"
                                         height="720"
                                         alt=""
                                 /></a>
                                 <a
-                                    href="{{ asset('assets/front/images/shop/product-gallery-08.jpg') }}"
+                                    href="../assets/images/shop/product-gallery-08.jpg"
                                     data-gallery="gallery1"
                                     ><img
                                         src="#"
-                                        data-src="{{ asset('assets/front/images/shop/product-gallery-08.jpg') }}"
+                                        data-src="../assets/images/shop/product-gallery-08.jpg"
                                         class="h-auto lazy-image"
                                         width="540"
                                         height="720"
@@ -2228,7 +3015,7 @@
                             >
                                 <img
                                     src="#"
-                                    data-src="{{ asset('assets/front/images/shop/product-gallery-05-154x205.jpg') }}"
+                                    data-src="../assets/images/shop/product-gallery-05-154x205.jpg"
                                     class="mx-3 px-0 h-auto cursor-pointer lazy-image"
                                     width="75"
                                     height="100"
@@ -2236,7 +3023,7 @@
                                 />
                                 <img
                                     src="#"
-                                    data-src="{{ asset('assets/front/images/shop/product-gallery-06-154x205.jpg') }}"
+                                    data-src="../assets/images/shop/product-gallery-06-154x205.jpg"
                                     class="mx-3 px-0 h-auto cursor-pointer lazy-image"
                                     width="75"
                                     height="100"
@@ -2244,7 +3031,7 @@
                                 />
                                 <img
                                     src="#"
-                                    data-src="{{ asset('assets/front/images/shop/product-gallery-07-154x205.jpg') }}"
+                                    data-src="../assets/images/shop/product-gallery-07-154x205.jpg"
                                     class="mx-3 px-0 h-auto cursor-pointer lazy-image"
                                     width="75"
                                     height="100"
@@ -2252,7 +3039,7 @@
                                 />
                                 <img
                                     src="#"
-                                    data-src="{{ asset('assets/front/images/shop/product-gallery-08-154x205.jpg') }}"
+                                    data-src="../assets/images/shop/product-gallery-08-154x205.jpg"
                                     class="mx-3 px-0 h-auto cursor-pointer lazy-image"
                                     width="75"
                                     height="100"
@@ -2277,7 +3064,7 @@
                         </p>
                         <h1 class="mb-4 pb-2 fs-4">
                             <a
-                                href="./shop/product-details-v1.html"
+                                href="../shop/product-details-v1.html"
                                 title="Natural Coconut Cleansing Oil"
                             >
                                 Natural Coconut Cleansing Oil
@@ -2496,7 +3283,7 @@
                             <div class="pt-8 px-5">
                                 <img
                                     class="img-fluid"
-                                    src="{{ asset('assets/front/images/shop/product-info-2.png') }}"
+                                    src="../assets/images/shop/product-info-2.png"
                                     alt="pay"
                                     width="357"
                                     height="28"
@@ -2609,7 +3396,7 @@
                     <div class="px-5">
                         <a
                             class="position-relative lh-1 color-inherit text-decoration-none"
-                            href="./shop/wishlist.html"
+                            href="../shop/wishlist.html"
                         >
                             <svg class="icon icon-star-light">
                                 <use
@@ -2648,7 +3435,7 @@
                     <div class="px-5">
                         <a
                             class="lh-1 color-inherit text-decoration-none"
-                            href="./shop/compare.html"
+                            href="../shop/compare.html"
                         >
                             <svg
                                 class="icon icon-arrows-left-right-light"
@@ -2665,7 +3452,7 @@
                 >
                     <a
                         class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
-                        href="./index.html"
+                        href="../index.html"
                         id="menu-item-home-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"
@@ -2677,7 +3464,7 @@
                 >
                     <a
                         class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
-                        href="./shop/shop-layout-v2.html"
+                        href="../shop/shop-layout-v2.html"
                         id="menu-item-shop-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"
@@ -2689,7 +3476,7 @@
                 >
                     <a
                         class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
-                        href="./blog/list.html"
+                        href="../blog/list.html"
                         id="menu-item-pages-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"
@@ -2701,7 +3488,7 @@
                 >
                     <a
                         class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
-                        href="./about-us-02.html"
+                        href="../about-us-02.html"
                         id="menu-item-blocks-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"
@@ -2713,7 +3500,7 @@
                 >
                     <a
                         class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
-                        href="./contact-us-01.html"
+                        href="../contact-us-01.html"
                         id="menu-item-docs-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"
@@ -2739,4 +3526,3 @@
     ></a>
 </div>
 @endsection
-

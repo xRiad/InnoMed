@@ -1,238 +1,313 @@
 @extends('front.layouts.app')
 
 @section('title')
-    Contact Us 01 - Glowing - Bootstrap 5 HTML Templates
+Compare - Glowing - Bootstrap 5 HTML Templates
 @endsection
 
 @section('content-primary')
 <main id="content" class="wrapper layout-page">
-    <section>
-        <div class="bg-body-secondary py-5">
-            <nav aria-label="breadcrumb">
-                <ol
-                    class="breadcrumb breadcrumb-site py-0 d-flex justify-content-center"
-                >
-                    <li class="breadcrumb-item">
-                        <a
-                            class="text-decoration-none text-body"
-                            href="#"
-                            >Home</a
+    <section class="z-index-2 position-relative pb-2 mb-12">
+        <div class="bg-body-secondary mb-3">
+            <div class="container">
+                <nav class="py-4 lh-30px" aria-label="breadcrumb">
+                    <ol
+                        class="breadcrumb justify-content-center py-1 mb-0"
+                    >
+                        <li class="breadcrumb-item">
+                            <a title="Home" href="../index.html"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a
+                                title="Shop"
+                                href="../shop/shop-layout-v2.html"
+                                >Shop</a
+                            >
+                        </li>
+                        <li
+                            class="breadcrumb-item active"
+                            aria-current="page"
                         >
-                    </li>
-                    <li
-                        class="breadcrumb-item active pl-0 d-flex align-items-center"
-                        aria-current="page"
-                    >
-                        Contact Us
-                    </li>
-                </ol>
-            </nav>
-        </div>
-        <div class="container pt-13">
-            <div class="text-center">
-                <div class="text-center">
-                    <h2 class="fs-36px mb-9">Keep In Touch with Us</h2>
-                    <p
-                        class="fs-18px mb-14 w-lg-60 w-xl-50 mx-md-12 mx-lg-auto"
-                    >
-                        We’re talking about clean beauty gift sets, of
-                        course – and we’ve got a bouquet of beauties for
-                        yourself or someone you love.
-                    </p>
-                </div>
+                            Compare
+                        </li>
+                    </ol>
+                </nav>
             </div>
-            <div class="row">
-                <div class="col-md-4 mb-12 mb-md-0">
-                    <div class="d-flex align-items-start">
-                        <div class="pe-lg-9 pe-8 text-primary">
-                            <svg class="icon fs-2">
-                                <use xlink:href="#icon-box-07"></use>
-                            </svg>
-                        </div>
-                        <div>
-                            <h3 class="fs-5 mb-6">Address</h3>
-                            <div class="fs-6">
-                                <p class="mb-2 pb-4 fs-6">
-                                    3245 Abbot Kinney BLVD – <br />
-                                    PH Venice, CA 124
-                                </p>
-                                <p>
-                                    76 East Houston Street <br />
-                                    PH Venice, CA 124
-                                </p>
-                            </div>
+        </div>
+    </section>
+    <section class="container container-xxl pb-15 pb-lg-17">
+        <div class="text-center"><h2 class="my-12">Compare</h2></div>
+
+        <div class="table-responsive-xl">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th
+                            scope="col"
+                            class="text-center align-middle bg-body-tertiary p-5"
+                        >
+                            <span class="fs-6 text-body-emphasis fw-500"
+                                >Products</span
+                            >
+                        </th>
+
+                        <th scope="col" class="pb-9">
+                            <p
+                                class="fs-18px text-center mt-4 mb-6 text-body-emphasis fw-semibold"
+                            >
+                                Priming Moisturize
+                            </p>
+                            <a href="#" class="text-center d-block">
+                                <img
+                                    src="#"
+                                    data-src="../assets/images/products/product-01-210x280.jpg"
+                                    class="lazy-image"
+                                    alt="Priming Moisturize"
+                                    style="max-width: 210px"
+                                    width="210"
+                                    height="280"
+                                />
+                            </a>
+                        </th>
+
+                        <th scope="col" class="pb-9">
+                            <p
+                                class="fs-18px text-center mt-4 mb-6 text-body-emphasis fw-semibold"
+                            >
+                                Priming Moisturizer Rich
+                            </p>
+                            <a href="#" class="text-center d-block">
+                                <img
+                                    src="#"
+                                    data-src="../assets/images/products/product-03-210x280.jpg"
+                                    class="lazy-image"
+                                    alt="Priming Moisturize"
+                                    style="max-width: 210px"
+                                    width="210"
+                                    height="280"
+                                />
+                            </a>
+                        </th>
+
+                        <th scope="col" class="pb-9">
+                            <p
+                                class="fs-18px text-center mt-4 mb-6 text-body-emphasis fw-semibold"
+                            >
+                                Priming Moisturizer Balance
+                            </p>
+                            <a href="#" class="text-center d-block">
+                                <img
+                                    src="#"
+                                    data-src="../assets/images/products/product-10-210x280.jpg"
+                                    class="lazy-image"
+                                    alt="Priming Moisturize"
+                                    style="max-width: 210px"
+                                    width="210"
+                                    height="280"
+                                />
+                            </a>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th
+                            scope="col"
+                            class="text-center align-middle bg-body-tertiary p-5"
+                        >
+                            <span class="fs-6 text-body-emphasis fw-500"
+                                >Price</span
+                            >
+                        </th>
+
+                        <th
+                            scope="col"
+                            class="px-6 px-lg-9 align-middle"
+                        >
+                            <span
+                                class="pe-3 fs-18px font-weight-bold text-body-emphasis"
+                                >$29.00</span
+                            >
+                            <span
+                                class="fs-15px fw-500 text-decoration-line-through text-body"
+                                >$39.00</span
+                            >
+                            <span class="badge bg-primary ms-4 fs-6"
+                                >-20%</span
+                            >
+                        </th>
+
+                        <th
+                            scope="col"
+                            class="px-6 px-lg-9 align-middle"
+                        >
+                            <span
+                                class="pe-3 fs-18px font-weight-bold text-body-emphasis"
+                                >$24.00</span
+                            >
+                            <span
+                                class="fs-15px fw-500 text-decoration-line-through text-body"
+                                >$39.00</span
+                            >
+                            <span class="badge bg-primary ms-4 fs-6"
+                                >-25%</span
+                            >
+                        </th>
+
+                        <th
+                            scope="col"
+                            class="px-6 px-lg-9 align-middle"
+                        >
+                            <span
+                                class="pe-3 fs-18px font-weight-bold text-body-emphasis"
+                                >$27.00</span
+                            >
+                        </th>
+                    </tr>
+                    <tr>
+                        <th
+                            scope="col"
+                            class="text-center align-middle bg-body-tertiary p-5"
+                        >
+                            <span class="fs-6 text-body-emphasis fw-500"
+                                >Stock Status</span
+                            >
+                        </th>
+
+                        <th
+                            scope="col"
+                            class="px-6 px-lg-9 align-middle"
+                        >
+                            <i
+                                class="fas fa-check fs-12px px-2 py-1 rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center"
+                            ></i>
+                            <span class="fs-15px fw-500 ms-3"
+                                >In stock</span
+                            >
+                        </th>
+
+                        <th
+                            scope="col"
+                            class="px-6 px-lg-9 align-middle"
+                        >
+                            <i
+                                class="fas fa-check fs-12px px-2 py-1 rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center"
+                            ></i>
+                            <span class="fs-15px fw-500 ms-3"
+                                >In stock</span
+                            >
+                        </th>
+
+                        <th
+                            scope="col"
+                            class="px-6 px-lg-9 align-middle"
+                        >
+                            <i
+                                class="fas fa-check fs-12px px-2 py-1 rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center"
+                            ></i>
+                            <span class="fs-15px fw-500 ms-3"
+                                >In stock</span
+                            >
+                        </th>
+                    </tr>
+                    <tr>
+                        <th
+                            scope="col"
+                            class="text-center align-middle bg-body-tertiary p-5"
+                        >
+                            <span class="fs-6 text-body-emphasis fw-500"
+                                >Shipping</span
+                            >
+                        </th>
+
+                        <th
+                            scope="col"
+                            class="px-6 px-lg-9 align-middle fs-15px fw-500"
+                        >
+                            Free shipping
+                        </th>
+
+                        <th
+                            scope="col"
+                            class="px-6 px-lg-9 align-middle fs-15px fw-500"
+                        >
+                            Free shipping
+                        </th>
+
+                        <th
+                            scope="col"
+                            class="px-6 px-lg-9 align-middle fs-15px fw-500"
+                        >
+                            Free shipping
+                        </th>
+                    </tr>
+                    <tr>
+                        <th
+                            scope="col"
+                            class="text-center align-middle bg-body-tertiary p-5"
+                        >
+                            <span class="fs-6 text-body-emphasis fw-500"
+                                >Sold</span
+                            >
+                        </th>
+
+                        <th
+                            scope="col"
+                            class="px-6 px-lg-9 align-middle fs-15px fw-500"
+                        >
+                            12546
+                        </th>
+
+                        <th
+                            scope="col"
+                            class="px-6 px-lg-9 align-middle fs-15px fw-500"
+                        >
+                            3489
+                        </th>
+
+                        <th
+                            scope="col"
+                            class="px-6 px-lg-9 align-middle fs-15px fw-500"
+                        >
+                            2643
+                        </th>
+                    </tr>
+                    <tr>
+                        <th scope="col" class="bg-body-tertiary"></th>
+                        <th
+                            scope="col"
+                            class="px-6 text-center align-middle py-7"
+                        >
                             <a
                                 href="#"
-                                class="text-decoration-none border-bottom border-currentColor fw-semibold fs-6"
-                                >Get Direction</a
+                                class="btn btn-dark btn-hover-bg-primary border-0 py-4"
+                                >Add To Cart</a
                             >
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-12 mb-md-0">
-                    <div class="d-flex align-items-start">
-                        <div class="pe-lg-9 pe-8 text-primary">
-                            <svg class="icon fs-2">
-                                <use xlink:href="#icon-box-05"></use>
-                            </svg>
-                        </div>
-                        <div>
-                            <h3 class="fs-5 mb-6">Contact</h3>
-                            <div class="fs-6">
-                                <p class="mb-3 fs-6">
-                                    Mobile:<span
-                                        class="text-body-emphasis"
-                                    >
-                                        068 26589 996</span
-                                    >
-                                </p>
-                                <p class="mb-3 fs-6">
-                                    Hotline:<span
-                                        class="text-body-emphasis"
-                                    >
-                                        1900 26886</span
-                                    >
-                                </p>
-                                <p class="mb-0 fs-6">
-                                    E-mail: hello@grace.com
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-12 mb-md-0">
-                    <div class="d-flex align-items-start">
-                        <div class="pe-lg-9 pe-8 text-primary">
-                            <svg class="icon fs-2">
-                                <use xlink:href="#icon-box-06"></use>
-                            </svg>
-                        </div>
-                        <div>
-                            <h3 class="fs-5 mb-6">Hour of operation</h3>
-                            <div class="fs-6">
-                                <dl class="d-flex mb-0">
-                                    <dt
-                                        class="pe-3 fs-6 text-body-emphasis fw-500"
-                                        style="width: 110px"
-                                    >
-                                        Mon – Fri:
-                                    </dt>
-                                    <dd class="mb-0">08:30 – 20:00</dd>
-                                </dl>
-                                <dl class="d-flex mb-0">
-                                    <dt
-                                        class="pe-3 fs-6 text-body-emphasis fw-500"
-                                        style="width: 110px"
-                                    >
-                                        Sat & Sun:
-                                    </dt>
-                                    <dd class="mb-0">09:30 – 21:30</dd>
-                                </dl>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="pt-9 pt-md-16 pt-lg-18">
-        <div class="container">
-            <div
-                id="map"
-                class="mapbox-gl map-point-animate map-box-has-effect"
-                style="height: 530px"
-                data-mapbox-access-token="pk.eyJ1IjoiZzVvbmxpbmUiLCJhIjoiY2t1bWY4NzBiMWNycDMzbzZwMnI5ZThpaiJ9.ZifefVtp4anluFUbAMxAXg"
-                data-mapbox-options="{&#34;center&#34;:[-106.53671888774004,35.12362056187368],&#34;setLngLat&#34;:[-106.53671888774004,35.12362056187368],&#34;style&#34;:&#34;mapbox://styles/mapbox/light-v10&#34;,&#34;zoom&#34;:5}"
-                data-mapbox-marker="[{&#34;backgroundImage&#34;:&#34;/assets/images/others/marker.png') }}&#34;,&#34;backgroundRepeat&#34;:&#34;no-repeat&#34;,&#34;className&#34;:&#34;marker&#34;,&#34;height&#34;:&#34;70px&#34;,&#34;position&#34;:[-102.53671888774004,38.12362056187368],&#34;width&#34;:&#34;70px&#34;},{&#34;backgroundImage&#34;:&#34;/assets/images/others/marker.png') }}&#34;,&#34;backgroundRepeat&#34;:&#34;no-repeat&#34;,&#34;className&#34;:&#34;marker&#34;,&#34;height&#34;:&#34;70px&#34;,&#34;position&#34;:[-109.03671888774004,33.02362056187368],&#34;width&#34;:&#34;70px&#34;}]"
-            ></div>
-        </div>
-    </section>
-
-    <section
-        class="pt-15 pb-16 pt-lg-17 pb-lg-18 mx-auto"
-        style="max-width: 750px"
-    >
-        <div class="container text-center">
-            <h2 class="mb-10 fs-3">Sent A Message</h2>
-            <form class="contact-form" method="post" action="#">
-                <div class="row mb-8 mb-md-10">
-                    <div class="col-md-6 col-12 mb-8 mb-md-0">
-                        <input
-                            type="text"
-                            class="form-control input-focus"
-                            placeholder="Name"
-                        />
-                    </div>
-                    <div class="col-md-6 col-12">
-                        <input
-                            type="email"
-                            class="form-control input-focus"
-                            placeholder="Email"
-                        />
-                    </div>
-                </div>
-                <textarea
-                    class="form-control mb-6 input-focus"
-                    placeholder="Messenger"
-                    rows="7"
-                ></textarea>
-                <div class="form-check mb-9 text-start">
-                    <input
-                        class="form-check-input rounded-0"
-                        type="checkbox"
-                        value=""
-                        id="flexCheckDefault"
-                    />
-                    <label
-                        class="form-check-label"
-                        for="flexCheckDefault"
-                    >
-                        Save my name, email in this browse for the next
-                        time I comment
-                    </label>
-                </div>
-                <a
-                    href="#"
-                    data-bs-toggle="modal"
-                    data-bs-target="#submitMessageModal"
-                    type="submit"
-                    class="btn btn-dark btn-hover-bg-primary btn-hover-border-primary px-11"
-                >
-                    Submit
-                </a>
-            </form>
-        </div>
-        <div
-            class="modal"
-            id="submitMessageModal"
-            tabindex="-1"
-            aria-labelledby="submitMessageModal"
-            aria-hidden="true"
-        >
-            <div
-                class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-            >
-                <div class="modal-content">
-                    <div class="p-5 text-center border-0">
-                        <button
-                            type="button"
-                            class="btn-close position-absolute end-5 top-5"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                        ></button>
-                        <h5
-                            class="modal-title w-100 d-flex justify-content-center align-items-center gap-5"
-                            id="signInModalLabel"
+                        </th>
+                        <th
+                            scope="col"
+                            class="px-6 text-center align-middle py-7"
                         >
-                            <i class="fa-solid fa-check"></i>
-                            <span
-                                >The message is successfully sent!</span
+                            <a
+                                href="#"
+                                class="btn btn-dark btn-hover-bg-primary border-0 py-4"
+                                >Add To Cart</a
                             >
-                        </h5>
-                    </div>
-                </div>
-            </div>
+                        </th>
+                        <th
+                            scope="col"
+                            class="px-6 text-center align-middle py-7"
+                        >
+                            <a
+                                href="#"
+                                class="btn btn-dark btn-hover-bg-primary border-0 py-4"
+                                >Add To Cart</a
+                            >
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </section>
 </main>
@@ -1532,11 +1607,11 @@
                 class="col-xl-3 d-flex justify-content-center justify-content-xl-start"
             >
                 <a
-                    href="./"
+                    href="../"
                     class="navbar-brand py-4 d-lg-inline-block"
                 >
                     <img
-                        src="{{ asset('assets/front/images/others/logo.png') }}"
+                        src="../assets/images/others/logo.png"
                         height="26"
                         alt="Glowing - Bootstrap 5 HTML Templates"
                     />
@@ -1607,7 +1682,7 @@
                 <div class="px-5 d-none d-xl-inline-block">
                     <a
                         class="position-relative lh-1 color-inherit text-decoration-none"
-                        href="./shop/wishlist.html"
+                        href="../shop/wishlist.html"
                     >
                         <svg class="icon icon-star-light">
                             <use xlink:href="#icon-star-light"></use>
@@ -1687,7 +1762,7 @@
                             <div class="d-flex align-items-center">
                                 <div class="me-6">
                                     <img
-                                        src="{{ asset('assets/front/images/products/product-03-75x100.jpg') }}"
+                                        src="../assets/images/products/product-03-75x100.jpg"
                                         width="60"
                                         height="80"
                                         alt="natural coconut cleansing oil"
@@ -1746,7 +1821,7 @@
                             <div class="d-flex align-items-center">
                                 <div class="me-6">
                                     <img
-                                        src="{{ asset('assets/front/images/products/product-06-75x100.jpg') }}"
+                                        src="../assets/images/products/product-06-75x100.jpg"
                                         width="60"
                                         height="80"
                                         alt="natural coconut cleansing oil"
@@ -1805,7 +1880,7 @@
                             <div class="d-flex align-items-center">
                                 <div class="me-6">
                                     <img
-                                        src="{{ asset('assets/front/images/products/product-09-75x100.jpg') }}"
+                                        src="../assets/images/products/product-09-75x100.jpg"
                                         width="60"
                                         height="80"
                                         alt="natural coconut cleansing oil"
@@ -2155,7 +2230,7 @@
                                         </svg>
                                     </a>
                                     <a
-                                        href="./shop/compare.html"
+                                        href="../shop/compare.html"
                                         class="d-flex align-items-center justify-content-center mt-5 product-gallery-action rounded-circle"
                                         data-bs-toggle="tooltip"
                                         data-bs-placement="left"
@@ -2175,44 +2250,44 @@
                                 data-slick-options="{&#34;arrows&#34;:false,&#34;asNavFor&#34;:&#34;#slider-thumb&#34;,&#34;dots&#34;:false,&#34;slidesToShow&#34;:1}"
                             >
                                 <a
-                                    href="{{ asset('assets/front/images/shop/product-gallery-05.jpg') }}"
+                                    href="../assets/images/shop/product-gallery-05.jpg"
                                     data-gallery="gallery1"
                                     ><img
                                         src="#"
-                                        data-src="{{ asset('assets/front/images/shop/product-gallery-05.jpg') }}"
+                                        data-src="../assets/images/shop/product-gallery-05.jpg"
                                         class="h-auto lazy-image"
                                         width="540"
                                         height="720"
                                         alt=""
                                 /></a>
                                 <a
-                                    href="{{ asset('assets/front/images/shop/product-gallery-06.jpg') }}"
+                                    href="../assets/images/shop/product-gallery-06.jpg"
                                     data-gallery="gallery1"
                                     ><img
                                         src="#"
-                                        data-src="{{ asset('assets/front/images/shop/product-gallery-06.jpg') }}"
+                                        data-src="../assets/images/shop/product-gallery-06.jpg"
                                         class="h-auto lazy-image"
                                         width="540"
                                         height="720"
                                         alt=""
                                 /></a>
                                 <a
-                                    href="{{ asset('assets/front/images/shop/product-gallery-07.jpg') }}"
+                                    href="../assets/images/shop/product-gallery-07.jpg"
                                     data-gallery="gallery1"
                                     ><img
                                         src="#"
-                                        data-src="{{ asset('assets/front/images/shop/product-gallery-07.jpg') }}"
+                                        data-src="../assets/images/shop/product-gallery-07.jpg"
                                         class="h-auto lazy-image"
                                         width="540"
                                         height="720"
                                         alt=""
                                 /></a>
                                 <a
-                                    href="{{ asset('assets/front/images/shop/product-gallery-08.jpg') }}"
+                                    href="../assets/images/shop/product-gallery-08.jpg"
                                     data-gallery="gallery1"
                                     ><img
                                         src="#"
-                                        data-src="{{ asset('assets/front/images/shop/product-gallery-08.jpg') }}"
+                                        data-src="../assets/images/shop/product-gallery-08.jpg"
                                         class="h-auto lazy-image"
                                         width="540"
                                         height="720"
@@ -2228,7 +2303,7 @@
                             >
                                 <img
                                     src="#"
-                                    data-src="{{ asset('assets/front/images/shop/product-gallery-05-154x205.jpg') }}"
+                                    data-src="../assets/images/shop/product-gallery-05-154x205.jpg"
                                     class="mx-3 px-0 h-auto cursor-pointer lazy-image"
                                     width="75"
                                     height="100"
@@ -2236,7 +2311,7 @@
                                 />
                                 <img
                                     src="#"
-                                    data-src="{{ asset('assets/front/images/shop/product-gallery-06-154x205.jpg') }}"
+                                    data-src="../assets/images/shop/product-gallery-06-154x205.jpg"
                                     class="mx-3 px-0 h-auto cursor-pointer lazy-image"
                                     width="75"
                                     height="100"
@@ -2244,7 +2319,7 @@
                                 />
                                 <img
                                     src="#"
-                                    data-src="{{ asset('assets/front/images/shop/product-gallery-07-154x205.jpg') }}"
+                                    data-src="../assets/images/shop/product-gallery-07-154x205.jpg"
                                     class="mx-3 px-0 h-auto cursor-pointer lazy-image"
                                     width="75"
                                     height="100"
@@ -2252,7 +2327,7 @@
                                 />
                                 <img
                                     src="#"
-                                    data-src="{{ asset('assets/front/images/shop/product-gallery-08-154x205.jpg') }}"
+                                    data-src="../assets/images/shop/product-gallery-08-154x205.jpg"
                                     class="mx-3 px-0 h-auto cursor-pointer lazy-image"
                                     width="75"
                                     height="100"
@@ -2277,7 +2352,7 @@
                         </p>
                         <h1 class="mb-4 pb-2 fs-4">
                             <a
-                                href="./shop/product-details-v1.html"
+                                href="../shop/product-details-v1.html"
                                 title="Natural Coconut Cleansing Oil"
                             >
                                 Natural Coconut Cleansing Oil
@@ -2496,7 +2571,7 @@
                             <div class="pt-8 px-5">
                                 <img
                                     class="img-fluid"
-                                    src="{{ asset('assets/front/images/shop/product-info-2.png') }}"
+                                    src="../assets/images/shop/product-info-2.png"
                                     alt="pay"
                                     width="357"
                                     height="28"
@@ -2609,7 +2684,7 @@
                     <div class="px-5">
                         <a
                             class="position-relative lh-1 color-inherit text-decoration-none"
-                            href="./shop/wishlist.html"
+                            href="../shop/wishlist.html"
                         >
                             <svg class="icon icon-star-light">
                                 <use
@@ -2648,7 +2723,7 @@
                     <div class="px-5">
                         <a
                             class="lh-1 color-inherit text-decoration-none"
-                            href="./shop/compare.html"
+                            href="../shop/compare.html"
                         >
                             <svg
                                 class="icon icon-arrows-left-right-light"
@@ -2665,7 +2740,7 @@
                 >
                     <a
                         class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
-                        href="./index.html"
+                        href="../index.html"
                         id="menu-item-home-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"
@@ -2677,7 +2752,7 @@
                 >
                     <a
                         class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
-                        href="./shop/shop-layout-v2.html"
+                        href="../shop/shop-layout-v2.html"
                         id="menu-item-shop-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"
@@ -2689,7 +2764,7 @@
                 >
                     <a
                         class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
-                        href="./blog/list.html"
+                        href="../blog/list.html"
                         id="menu-item-pages-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"
@@ -2701,7 +2776,7 @@
                 >
                     <a
                         class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
-                        href="./about-us-02.html"
+                        href="../about-us-02.html"
                         id="menu-item-blocks-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"
@@ -2713,7 +2788,7 @@
                 >
                     <a
                         class="nav-link d-flex justify-content-between position-relative text-uppercase fw-semibold ls-1 fs-15px"
-                        href="./contact-us-01.html"
+                        href="../contact-us-01.html"
                         id="menu-item-docs-canvas"
                         aria-haspopup="true"
                         aria-expanded="false"
@@ -2739,4 +2814,3 @@
     ></a>
 </div>
 @endsection
-

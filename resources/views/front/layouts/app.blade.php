@@ -7,7 +7,7 @@
 			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
 		/>
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>About Us 02 - Glowing - Bootstrap 5 HTML Templates</title>
+		<title>@yield('title')</title>
 		<link rel="icon" href="{{ asset('assets/front/images/others/favicon.ico') }}" />
 
 		<link
@@ -38,6 +38,31 @@
 		<link rel="stylesheet" href="{{ asset('assets/front/css/theme.css') }}" />
 	</head>
 <body>
-    @include('partials.header')
+    <x-front.header/>
+	
+	@yield('content-primary')
+
+	<x-front.footer/>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<script src="{{ asset('assets/front/vendors/bootstrap/js/bootstrap.bundle.js') }}"></script>
+	<script src="{{ asset('assets/front/vendors/clipboard/clipboard.min.js') }}"></script>
+	<script src="{{ asset('assets/front/vendors/vanilla-lazyload/lazyload.min.js') }}"></script>
+	<script src="{{ asset('assets/front/vendors/waypoints/jquery.waypoints.min.js') }}"></script>
+	<script src="{{ asset('assets/front/vendors/lightgallery/lightgallery.min.js') }}"></script>
+	<script src="{{ asset('assets/front/vendors/lightgallery/plugins/zoom/lg-zoom.min.js') }}"></script>
+	<script src="{{ asset('assets/front/vendors/lightgallery/plugins/thumbnail/lg-thumbnail.min.js') }}"></script>
+	<script src="{{ asset('assets/front/vendors/lightgallery/plugins/video/lg-video.min.js') }}"></script>
+	<script src="{{ asset('assets/front/vendors/lightgallery/plugins/vimeoThumbnail/lg-vimeo-thumbnail.min.js') }}"></script>
+	<script src="{{ asset('assets/front/vendors/isotope/isotope.pkgd.min.js') }}"></script>
+	<script src="{{ asset('assets/front/vendors/slick/slick.min.js') }}"></script>
+	<script src="{{ asset('assets/front/vendors/gsap/gsap.min.js') }}"></script>
+	<script src="{{ asset('assets/front/vendors/gsap/ScrollToPlugin.min.js') }}"></script>
+	<script src="{{ asset('assets/front/vendors/gsap/ScrollTrigger.min.js') }}"></script>
+	<script src="{{ asset('assets/front/vendors/mapbox-gl/mapbox-gl.js') }}"></script>
+	<script src="{{ asset('assets/front/js/theme.min.js') }}"></script>
+
+	@yield('content-secondary')
 </body>
 </html>
